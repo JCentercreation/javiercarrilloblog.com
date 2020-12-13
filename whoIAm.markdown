@@ -6,7 +6,7 @@ permalink: /whoIam/
 
 <p style="text-align: justify">Hi erveryone! 🙋‍♂️ My name is Javier Carrillo (you can call me <b><i>Javi</i></b> if you feel like to it). I am a techlover, sportman and also optimistic (but realistic, sorry I'm an engineer) person based in the worldwide. Here you will find some info which let you know me better as a human being.</p>
 <br>
-<h1><b>Youtube Life</b><img src="/assets/img/youtuberedlogo.png" whith="20" height="20"></h1>
+<h1><b>Youtube Life</b><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/youtuberedlogo.png" whith="20" height="20"></h1>
 <p style="text-align: justify">Nowadays it is most important than ever to live around social media, so why don't use it in a productive way?💡 I decided to set up this <a href="https://www.youtube.com/channel/UCYYS01JxUBwsVUYocGZ9lQw/featured?view_as=subscriber"><b>Youtube Channel</b></a> as a modern way to engage with other techlovers and share everything I think it is interesting to know about tech and life. <b>Check out and subscribe</b> to the channel if you like it.</p>
 <!--<img src="/assets/img/photo.png" whith="100" height="100"> -->
 <div align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/b3VcGKv9Cfw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -14,7 +14,7 @@ permalink: /whoIam/
 <br>
 <h1><b>Sport Life🏃‍♂️</b></h1>
 <p style="text-align: justify; background-color: white">Sport is not only a way to keep you healthier but also happier. I practice sport for two main reasons: the first and most important one is because I enjoy it, and the second one is because it triggers my hormones game to keep me in the right emotions. Since my early days I've always been in touch with sport in a semiprofessional way, at the beggining it was just a way to socialize and develope my body, but when I started college I realized how sport matters in my life in terms of happines and achiving my goals.</p>
-<div align="center"><img src="/assets/img/VTTI1266-originalrecort.jpg" whith="560" height="625"></div>
+<div align="center"><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/VTTI1266-originalrecort.jpg" whith="560" height="625"></div>
 <br>
 <br>
 <h1><b>Reading📚</b></h1>
