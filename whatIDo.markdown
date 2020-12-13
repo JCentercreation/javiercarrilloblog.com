@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What I Do
-permalink: https://jcentercreation.github.io/JekyllPersonalWeb/whatIdo/
+permalink: /whatIdo/
 ---
 <h1>Summary</h1>
 
