@@ -9,7 +9,7 @@ permalink: /whoIam
 <h1 style="color: white"><b>Youtube Life</b><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/youtuberedlogo.png" whith="20" height="20"></h1>
 <p style="text-align: justify; color: white">Nowadays it is most important than ever to live around social media, so why don't use it in a productive way?💡 I decided to set up this <a href="https://www.youtube.com/channel/UCYYS01JxUBwsVUYocGZ9lQw/featured?view_as=subscriber"><b>Youtube Channel</b></a> as a modern way to engage with other techlovers and share everything I think it is interesting to know about tech and life. <b>Check out and subscribe</b> to the channel if you like it.</p>
 <!--<img src="/assets/img/photo.png" whith="100" height="100"> -->
-<div align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/b3VcGKv9Cfw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px"></iframe></div>
+<div align="center"><iframe width="560" height="315" src="https://youtu.be/hCP8pXsgTfs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 20px"></iframe></div>
 </header>
 <br>
 <br>
