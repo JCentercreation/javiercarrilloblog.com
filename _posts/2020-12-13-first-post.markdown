@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "First Post"
+title: "Building an StoryBrand"
 date:   2020-12-13 12:02:05 +0100
-categories: technology
+categories: books
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
 published: true
-tags: prueba
+tags: books personal_development 
 ---
 
-Contenido de prueba
+This book a great one. It was written by Donald Muller
