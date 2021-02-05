@@ -9,7 +9,7 @@ published: true
 tags: books personal_development 
 ---
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/book-top.svg"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/book-top.svg"></h1>
 
 <p style="text-align: justify">This book was written by Donald Miller, an american writer and marketing expert who helps companies, business owners and people in general to build a proper marketing strategy which allows them to be much more successfully with their businesses and life.</p>
 
