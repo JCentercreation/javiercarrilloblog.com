@@ -8,7 +8,8 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: books personal_development 
 ---
-<h1><img class="center" src="https://images-na.ssl-images-amazon.com/images/I/41TRnujborL._SX342_SY445_QL70_ML2_.jpg"></h1>
+
+<h1><img style="align= center" src="https://images-na.ssl-images-amazon.com/images/I/41TRnujborL._SX342_SY445_QL70_ML2_.jpg"></h1>
 
 This book was written by Donald Miller, an american writer and marketing expert who helps companies, business owners and people in general to build a proper marketing strategy which allows them to be much more successfully with their business and life.
 
