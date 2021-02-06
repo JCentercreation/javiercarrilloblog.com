@@ -11,7 +11,7 @@ tags: books personal_development
 
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/atomic-habits-book.png"></h1>
 
-<p style="text-align: justify"></p>
+<p style="text-align: justify">James Clear is an entrepreneur, writer, speaker and former athlete who became a best seller author when he published "Atomic Habits" in 2018. Since then, 3 million readers around the world have learnt to empower their lifes by building conscious habits. </p>
 
 <p style="text-align: justify"></p>
 
