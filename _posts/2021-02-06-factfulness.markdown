@@ -9,7 +9,7 @@ published: true
 tags: books personal_development 
 ---
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/factfulness4.jpg"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/factfulness4.png"></h1>
 
 <p style="text-align: justify">Hans Rosling was a swedish doctor and lecturer at Karolisnka Institutet (School of medicine). He gave numerous talks around the world (you should watch a few of them at <a href="https://www.youtube.com/watch?v=YpKbO6O3O3M">Youtube</a> 🍿. He swallows a sword at the end of the talk, not kidding) to many sort of people, from regular ones who attended to a TED Talk to world leaders gathered at the World Economic Forum in Davos. He also cofounded the Gapminder Foundation, heading one goal: bring light to the truth by assessing objetive data.</p>
 
