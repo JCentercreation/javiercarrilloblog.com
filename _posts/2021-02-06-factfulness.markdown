@@ -21,7 +21,7 @@ tags: books personal_development
 <p style="text-align: center">In the las 100 years, the number of deaths by natural desasters has...</p>
 <p style="text-align: center"> a) more than doubled       b) remained roughtly the same      c) decreased to less than half</p>
 <br>
-<p style="text-align: center">Nowadays, around the world, how many childs less than 1 year all recieved at least one vaccine?</p>
+<p style="text-align: center">Nowadays, around the world, how many childs less than 1 year old recieved at least one vaccine?</p>
 <p style="text-align: center"> a) 20%      b) 50%      c) 80%</p>
 </header>
 <br>
