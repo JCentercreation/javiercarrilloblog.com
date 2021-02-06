@@ -14,10 +14,9 @@ tags: books personal_development
 <p style="text-align: justify">Hans Rosling was a swedish doctor and lecturer at Karolisnka Institutet (School of medicine). He gave numerous talks around the world (you should watch a few of them at <a href="https://www.youtube.com/watch?v=YpKbO6O3O3M">Youtube</a> 🍿. He swallows a sword at the end of the talk, not kidding) to many sort of people, from regular ones who attended to a TED Talk to world leaders gathered at the World Economic Forum in Davos. He also cofounded the Gapminder Foundation, heading one goal: bring light to the truth by assessing objetive data.</p>
 
 <p style="text-align: justify">If I ask you this questions:</p>
-<br>
 <header style="background-color: #F7F7F7; border-radius: 20px; padding: 10px">
 <p style="text-align: center"> At poor countries, how many young girls finish primary education?</p>
-<p style="text-align: center"> a) 20%       b) 40%      c) 60%</p>
+<p style="text-align: center; width: 50%"> a) 20%       b) 40%      c) 60%</p>
 <br>
 <p style="text-align: center">In the las 100 years, the number of deaths by natural desasters has...</p>
 <p style="text-align: center"> a) more than doubled       b) remained roughtly the same      c) decreased to less than half</p>
