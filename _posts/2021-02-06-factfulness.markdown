@@ -13,10 +13,10 @@ tags: books personal_development
 
 <p style="text-align: justify">Hans Rosling was a swedish doctor and lecturer at Karolisnka Institutet (School of medicine). He gave numerous talks around the world (you should watch a few of them at <a href="https://www.youtube.com/watch?v=YpKbO6O3O3M">Youtube</a> 🍿. He swallows a sword at the end of the talk, not kidding) to many sort of people, from regular ones who attended to a TED Talk to world leaders gathered at the World Economic Forum in Davos. He also cofounded the Gapminder Foundation, heading one goal: bring light to the truth by assessing objetive data.</p>
 
-<p style="text-align: justify">If I ask you this questions:</p>
+<p style="text-align: justify">Try to answer this questions:</p>
 <header style="background-color: #F7F7F7; border-radius: 20px; padding: 10px">
 <p style="text-align: center"> At poor countries, how many young girls finish primary education?</p>
-<p style="text-align: center; width: 50%"> a) 20%       b) 40%      c) 60%</p>
+<p style="text-align: center"> a) 20%       b) 40%      c) 60%</p>
 <br>
 <p style="text-align: center">In the las 100 years, the number of deaths by natural desasters has...</p>
 <p style="text-align: center"> a) more than doubled       b) remained roughtly the same      c) decreased to less than half</p>
@@ -24,8 +24,10 @@ tags: books personal_development
 <p style="text-align: center">Nowadays, around the world, how many childs less than 1 year all recieved at least one vaccine?</p>
 <p style="text-align: center"> a) 20%      b) 50%      c) 80%</p>
 </header>
-<p style="text-align: justify">I have to admit that the first time I made this test I didn't get any right answer to any of this questions. If you chose the c) for all of them, you are right: the world is not going from bad to worst as we usually tend to think. </p>
+<br>
 
-<p style="text-align: justify">It is surprisingly amazing how humand beings tend to figure out an image of everything around us by a bias thinking</p>
+<p style="text-align: justify">I have to admit that the first time I made this test I didn't get any right answer to any of this questions. If you chose the c) for all of them, you are right: the world is not going from bad to worst as we usually tend to think. But, why we always put ourselfs in the worst scenario? Why we always believe that trends never change? or why we always think in a binary way: good or bad, right or wrong, rich or poor, ....?. Throught this book the author talks about different common topics like deltas between rich and poor countries, health assistance, reteriment funds, education and a bunch of other stuff that matters, and he shows how our primary instincts like fear, negativity, sense of fate or generalization can definy our image of the world.</p>
 
-Thanks for reading.
+<p style="text-align: justify"></p>
+
+<p style="text-align: justify">It is surprisingly amazing how humand beings tend to figure out about everuthing around us by a bias thinking. In this book the author decluters all those bias from our head by showing how assessing the real data is the best way to get the truth. But, does the people really want to know the truth?</p>
