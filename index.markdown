@@ -15,8 +15,6 @@ title:
 </header>
 <br>
 <br>
-<br>
-<br>
 <!--
     <table align="center" bgcolor="#1E679A" style="border: none; border-radius: 20px; width: 50%"> 
         <tr style="border: none"> 
