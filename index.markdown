@@ -5,8 +5,14 @@
 layout: home
 title: 
 ---
+<div style="position: relative; width: 50%">
+  <img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/IMG_0164.jpeg" alt="" style="display: block; width: 100%;height: auto">
+  <div style="position: absolute; bottom: 100%; left: 0; right: 0; background-color: #008CBA; overflow: hidden; width: 100%; height:0; transition: .5s ease;">
+    <div style="white-space: nowrap; color: white; font-size: 20px; position: absolute; overflow: hidden; top: 50%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%);">Mi texto</div>
+  </div>
+</div>
 
-<div><img style="position: relative; display: block; width: 300 px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/IMG_0164.jpeg"><p style="position: absolute; top: 150 px; display: block">Prueba</p></div>
+
 
 
 <h1><b>Welcome!!!</b>👋</h1>
