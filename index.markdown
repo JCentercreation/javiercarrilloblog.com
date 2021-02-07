@@ -11,11 +11,11 @@ title:
 <h3 style="text-align: justify">I am Javier Carrillo, an engineer and sportman. Please chek out <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whoIam"><b>Who I Am</b></a> and <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whatIdo"><b>What I Do</b></a> to know more about me.</h3>
 </header>
 <br>
-<header style="background-color: #EAEAEA; border-radius: 20px; padding: 10px">
+<header style="background-color: #E7EDF3; border-radius: 20px; padding: 10px">
 <h3 style="text-align: justify;">If you are one of those who prefer watching a movie rather than reading a book then you will enjoy more my <a href="https://www.youtube.com/channel/UCYYS01JxUBwsVUYocGZ9lQw/featured?view_as=subscriber"><b>Youtube Channel</b></a>.🎬</h3>
 </header>
 <br>
-<header style="background-color: #DCDCDC; border-radius: 20px; padding: 10px">
+<header style="background-color: #DDE9F5; border-radius: 20px; padding: 10px">
 <h3 style="text-align: justify;">I also like to write about tech, science, personal development and a bunch of other things that I consider interesting so you can check my latest post down below ⬇️</h3>
 </header>
 <br>
