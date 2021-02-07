@@ -18,6 +18,14 @@ title:
 <header style="background-color: #F7F7F7; border-radius: 20px; padding: 10px">
 <h3 style="text-align: justify">I also like to write about tech, science, personal development and a bunch of other things that I consider interesting so you can check my latest post down below ⬇️</h3>
 </header>
+<header style="background-color: #F7F7F7; border-radius: 20px; padding: 10px">
+<h3 style="text-align: justify">Thanks for stopping by and subscribe!!!</h3>
+<form action="https://formspree.io/f/xoqpkyor" method="POST">
+  <input type="text" name="name">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
+</form>
+</header>
 <br>
 <br>
 
