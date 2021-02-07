@@ -9,13 +9,17 @@ title:
 <h1><b>Welcome!!!</b>👋</h1>
 <header style="background-color: #F7F7F7; border-radius: 20px; padding: 10px">
 <h3 style="text-align: justify">I am Javier Carrillo, an engineer and sportman. Please chek out <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whoIam"><b>Who I Am</b></a> and <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whatIdo"><b>What I Do</b></a> to know more about me.</h3>
+</header>
 <br>
+<header style="background-color: #F7F7F7; border-radius: 20px; padding: 10px">
 <h3 style="text-align: justify">If you are one of those who prefer watching a movie rather than reading a book then you will enjoy more my <a href="https://www.youtube.com/channel/UCYYS01JxUBwsVUYocGZ9lQw/featured?view_as=subscriber"><b>Youtube Channel</b></a>.🎬</h3>
 <br>
 <h3 style="text-align: justify">Thanks for stopping by!</h3>
 </header>
 <br>
 <br>
+
+
 <!--
     <table align="center" bgcolor="#1E679A" style="border: none; border-radius: 20px; width: 50%"> 
         <tr style="border: none"> 
