@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What I Do 🛠
+title: What I Do
 permalink: /whatIdo
 ---
 <h1 style="color: #1E1D1F"><b>Summary</b></h1>
