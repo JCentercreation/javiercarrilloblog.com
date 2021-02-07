@@ -21,7 +21,7 @@ title:
 <br>
 <header style="background-color: #C3C3C3; border-radius: 20px; padding: 10px">
 <h3 style="text-align: center">Thanks for stopping by and subscribe!!!</h3>
-<form style="align: center" action="https://formspree.io/f/xoqpkyor" method="POST">
+<form style="form-align: center" action="https://formspree.io/f/xoqpkyor" method="POST">
   <input type="text" name="name">
   <input type="email" name="_replyto">
   <input type="submit" value="Send">
