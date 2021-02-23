@@ -27,7 +27,7 @@ linkedin_username: javiercarrillogallego
 github_username:  JCentercreation
 
 # Build settings
-theme: minima
+theme: jekyll-theme-time-machine
 plugins:
   - jekyll-feed
 
