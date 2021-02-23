@@ -8,7 +8,7 @@ title:
 
 <h1><b>Welcome!!!</b>👋</h1>
 <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
-<h3 style="text-align: justify">I am Javier Carrillo, an engineer and sportman. Please chek out <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whoIam"><b>Who I Am</b></a> and <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whatIdo"><b>What I Do</b></a> to know more about me.</h3>
+<h3 style="text-align: justify">I am Javier Carrillo, an engineer and sportman. Please check out <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whoIam"><b>Who I Am</b></a> and <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whatIdo"><b>What I Do</b></a> to know more about me.</h3>
 </header>
 <br>
 <header style="background-color: #EAF2FB; border-radius: 20px; padding: 10px">
@@ -20,7 +20,7 @@ title:
 </header>
 <br>
 <header style="background-color: #020C2B; border-radius: 20px; padding: 10px">
-<h3 style="text-align: center; color: white">Thanks for stopping by and dont forget to subscribe!!!</h3>
+<h3 style="text-align: center; color: white">Thanks for stopping by and don't forget to subscribe!!!</h3>
 </header>
 <br>
 <br>
