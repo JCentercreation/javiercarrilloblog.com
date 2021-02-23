@@ -8,15 +8,15 @@ title:
 
 <h1><b>Welcome!!!</b>👋</h1>
 <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
-<h3 style="text-align: justify">I am Javier Carrillo, an engineer and sportman. In this website I like to talk about <b>Tech</b> and <b>Science</b>, and sometimes I also sare interesting papers, books, movies I consider coul beuseful for anyone. Please, check out latest post down below</h3>
+<h3 style="text-align: justify">I am Javier Carrillo, an engineer and sportman. In this website I like to talk about <b>Tech</b> and <b>Science</b>, and sometimes I also sare interesting papers, books and movies that I consider could be useful for anyone. Please, check out latest post down below ⬇️</h3>
 </header>
 <br>
 <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
-<h3 style="text-align: justify">Please check out <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whoIam"><b>Who I Am</b></a> and <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whatIdo"><b>What I Do</b></a> to know more about me.</h3>
+<h3 style="text-align: justify">If you are interest about me, please check out <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whoIam"><b>Who I Am</b></a> and <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whatIdo"><b>What I Do</b></a> to know more about my career and personal life.</h3>
 </header>
 <br>
 <header style="background-color: #EAF2FB; border-radius: 20px; padding: 10px">
-<h3 style="text-align: justify;">If you are one of those who prefer watching a movie rather than reading a book then you will enjoy more my <a href="https://www.youtube.com/channel/UCYYS01JxUBwsVUYocGZ9lQw/featured?view_as=subscriber"><b style="color: red">Youtube</b><b> Channel</b></a>.🎬</h3>
+<h3 style="text-align: justify;">And if you are one of those who prefer watching a movie rather than reading a book then you will enjoy more my <a href="https://www.youtube.com/channel/UCYYS01JxUBwsVUYocGZ9lQw/featured?view_as=subscriber"><b style="color: red">Youtube</b><b> Channel</b></a>.🎬</h3>
 </header>
 <br>
 <header style="background-color: #020C2B; border-radius: 20px; padding: 10px">
