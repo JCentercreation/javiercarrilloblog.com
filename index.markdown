@@ -8,7 +8,7 @@ title:
 
 <h1><b>Welcome!!!</b>👋</h1>
 <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
-<h3 style="text-align: justify">I am Javier Carrillo, an engineer and sportman. In this website I like to talk about <b>Tech</b> and <b>Science</b>, and sometimes I also sare interesting papers, books and movies that I consider could be useful for anyone. Please, check out latest post down below ⬇️</h3>
+<h3 style="text-align: justify">I am Javier Carrillo, an engineer and sportman. In this website I like to talk about <b>Tech</b> and <b>Science</b>, and sometimes I also share interesting papers, books and movies that I consider could be useful for anyone. Please, check out latest post down below ⬇️</h3>
 </header>
 <br>
 <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
