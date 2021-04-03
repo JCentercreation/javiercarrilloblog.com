@@ -9,7 +9,7 @@ published: true
 tags: books personal_development 
 ---
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/373-3730336_episode-leaders-eat-last-why-some-teams-pullpng"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/leaders-eat-last.png"></h1>
 
 <p style="text-align: justify">Good personal relationships and a meaningful job are for many psychologists the keys for a happy and purpose life. Unfortunately these days many people is struggling to achieve not only one but the two things, making them feel depressed and with the feeling of not making impact in their life.
 
