@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Atomic Habits (Book Review)"
+title: "Atomic Habits"
 date:   2020-11-15 12:02:05 +0100
 categories: books
 author: Javier Carrillo

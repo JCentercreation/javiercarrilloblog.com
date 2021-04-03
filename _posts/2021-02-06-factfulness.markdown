@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Factfulness (Book Review)"
+title: "Factfulness"
 date:   2020-12-01 12:02:05 +0100
 categories: books
 author: Javier Carrillo

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a StoryBrand (Book Review)"
+title: "Building a StoryBrand"
 date:   2021-01-05 12:02:05 +0100
 categories: books
 author: Javier Carrillo
