@@ -12,19 +12,19 @@ title:
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
 <br>
 <h1 style="text-align: justify"><b>Latest Articles</b></h1>
-<header style="background-color: #F8FAFC"><h3>Articulo 8</h3></header>
+<header style="background-color: #F8FAFC"><h3>Articulo 9</h3></header>
 <br>
 <table class="default">
   <caption></caption>
   <tr>
-    <td background-color= "#F8FAFC">html</td>
+    <td>html</td>
     <td>Es el contenedor para todos los elementos de un documento</td>
   </tr>
-  <tr style="background-color: #F8FAFC">
+  <tr>
     <td style="background-color: #F8FAFC">head</td>
     <td>Contiene el título e información relacional acerca del documento</td>
   </tr>
-  <tr background-color= "#F8FAFC">
+  <tr>
     <td>title</td>
     <td>Provee un título para el documento</td>
   </tr>
