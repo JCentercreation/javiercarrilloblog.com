@@ -11,6 +11,8 @@ title:
 <h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest post down below ⬇️</h3>
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
 <br>
+<h1 style="text-align: justify"><b>Explore</b></h1>
+<hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table style="table-layout: fixed; width: 450px">
   <caption></caption>
   <tr>
