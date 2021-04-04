@@ -15,10 +15,7 @@ title:
 <h1 style="text-align: justify"><b>Latest Articles</b></h1>
 <header style="background-color: #F8FAFC"><h3>Articulo 6</h3></header>
 <br>
-<!--
-<header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
-</header>
--->
+
 <!--
     <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
     <h3 style="text-align: justify">If you are interested about me, please check out <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whoIam"><b>Who I Am</b></a> and <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whatIdo"><b>What I Do</b></a> to know more about my career and personal life.</h3>
