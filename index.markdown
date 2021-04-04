@@ -17,7 +17,7 @@ title:
 <table class="default">
   <caption></caption>
   <tr>
-    <td>html</td>
+    <td background-color= "#F8FAFC">html</td>
     <td>Es el contenedor para todos los elementos de un documento</td>
   </tr>
   <tr>
