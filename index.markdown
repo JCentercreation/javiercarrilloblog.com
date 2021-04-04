@@ -14,7 +14,7 @@ title:
 <table style="table-layout: fixed">
   <caption></caption>
   <tr>
-    <th style="table-layout: fixed; width: 350px; height: 30px; border-style: hidden; background-color: #FDFDFD; margin: 0px; padding: 0px">
+    <th style="table-layout: fixed; width: 350px; height: 30px; border-style: hidden; margin: 0px; padding: 0px">
 <h1 style="text-align: justify"><b>Explore</b></h1>
 <hr style="width: 40%; height: 3px; background-color: #5395CE">
 <table style="table-layout: fixed; width: 350px">
