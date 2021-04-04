@@ -14,6 +14,37 @@ title:
 <h1 style="text-align: justify"><b>Latest Articles</b></h1>
 <header style="background-color: #F8FAFC"><h3>Articulo 7</h3></header>
 <br>
+<table class="default">
+  <caption>Elementos de HTML que he aprendido hasta ahora</caption>
+  <tr>
+    <th>Elemento</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>html</td>
+    <td>Es el contenedor para todos los elementos de un documento</td>
+  </tr>
+  <tr>
+    <td>head</td>
+    <td>Contiene el título e información relacional acerca del documento</td>
+  </tr>
+  <tr>
+    <td>title</td>
+    <td>Provee un título para el documento</td>
+  </tr>
+  <tr>
+    <td>body</td>
+    <td>Es la sección donde se encuentra el contenido del documento</td>
+  </tr>
+  <tr>
+    <td>h1-h6</td>
+    <td>Representa un encabezado</td>
+  </tr>
+  <tr>
+    <td>p</td>
+    <td>Representa un párrafo</td>
+  </tr>
+</table>
 
 <!--
     <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
