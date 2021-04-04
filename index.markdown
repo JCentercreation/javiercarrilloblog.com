@@ -24,8 +24,7 @@ title:
     <td style="font-size: 150%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden"><b>Book Summaries & Notes</b></td>
   </tr>
   <tr>
-    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
-    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"></td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden">Prueba</td>
   </tr>
    <tr>
     <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
