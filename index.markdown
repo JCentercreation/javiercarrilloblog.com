@@ -30,9 +30,9 @@ title:
 <br>
 -->
 
-<h2 style="text-align: left"><b>Latest Articles<b></h2>
+<h2 style="text-align: left"><b>Latest Articles<b>
 <header style="background-color: #F8FAFC; border-radius: 0px; padding: 10px">
-<h3 style="text-align: left"><b>Latest Articles<b></h3>
+<h3 style="text-align: left"><b>Latest Articles<b>
 </header>
 
 <!--
