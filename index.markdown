@@ -18,8 +18,9 @@ title:
 <h1><b>Latest Articles<b></h1>
 <br>
 <header style="background-color: #F8FAFC">
-<h3>Articulo 1</h3>
+<h3>Articulo 2</h3>
 </header>
+<br>
 <!--
 <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
 </header>
