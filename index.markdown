@@ -17,8 +17,8 @@ title:
 <h1 style="text-align: justify"><b>Explore</b></h1>
 <table class="default">
   <caption></caption>
-  <tr>
-    <td style="font-size: 200%; text-align: center; background-color: #5395CE; table-layout: fixed; width: 30px; height: 5px; border-style: hidden"></td>
+  <tr style="width: 30px">
+    <td style="font-size: 200%; text-align: center; background-color: #5395CE; table-layout: fixed; width: 30px; height: 1px; border-style: hidden"></td>
   </tr>
 </table>
 <table class="default">
