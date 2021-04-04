@@ -12,7 +12,7 @@ title:
 <h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Please, check out latest post down below ⬇️</h3>
 <h1><b>Latest Articles<b></h1>
 <br>
-<header style="background-color: #F8FAFC"><h3>Articulo 5</h3></header>
+<header style="background-color: #F8FAFC"><h7>Articulo 5</h7></header>
 <br>
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
 <br>
