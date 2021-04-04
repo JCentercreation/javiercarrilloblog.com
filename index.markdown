@@ -46,9 +46,7 @@ title:
     <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>Know more about me</b></td>
   </tr>
   <tr>
-    <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Discover who I am and what I do</td>
-  </tr>
-</table></th>
+    <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Discover who I am and what I do</th>
     <td style="font-size: 150%; text-align: left; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">
     <table style="table-layout: fixed">
   <caption></caption>
