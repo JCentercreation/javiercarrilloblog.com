@@ -12,11 +12,11 @@ title:
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
 <br>
 <h1 style="text-align: justify"><b>Latest Articles</b></h1>
-<hr style="width: 10%; height: 5px; background-color: #5395CE">
+<hr style="width: 10%; height: 3px; background-color: #5395CE">
 <header style="background-color: #F8FAFC"><h3>Articulo 9</h3></header>
 <br>
 <h1 style="text-align: justify"><b>Explore</b></h1>
-<hr style="width: 10%; height: 5px; background-color: #5395CE">
+<hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table style="width: 500px">
   <caption></caption>
   <tr>
