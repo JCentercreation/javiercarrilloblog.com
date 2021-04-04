@@ -21,10 +21,10 @@ title:
   <caption></caption>
   <tr>
     <th rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden">📚</th>
-    <td style="font-size: 150%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden"><b>Book Summaries & Notes</b></td>
+    <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden"><b>Book Summaries & Notes</b></td>
   </tr>
   <tr>
-    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden">Prueba</td>
+    <td style="font-size: 100%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden">Notes, highlights and reviews of my favourite books, both fiction and non-fiction ones.</td>
   </tr>
    <tr>
     <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
