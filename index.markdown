@@ -6,14 +6,14 @@ layout: home
 title: 
 ---
 
-<h0><b>Welcome!</b>👋</h0>
+<h1><b>Welcome!</b>👋</h1>
 
 <h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
 <h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Please, check out latest post down below ⬇️</h3>
+<script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
+<br>
 <h1 style="text-align: justify"><b>Latest Articles</b></h1>
 <header style="background-color: #F8FAFC"><h3>Articulo 6</h3></header>
-<br>
-<script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
 <br>
 <!--
 <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
