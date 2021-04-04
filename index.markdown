@@ -17,8 +17,8 @@ title:
 <table class="default">
   <caption></caption>
   <tr>
-    <td>html</td>
-    <td>Es el contenedor para todos los elementos de un documento</td>
+    <td style="background-color: #F8FAFC; table-layout: fixed; width: 100px; height: 50px; border-style: hiden">📚</td>
+    <td style="background-color: #F8FAFC; table-layout: fixed; width: 100px; height: 50px; border-style: hiden">Book Summaries & Notes</td>
   </tr>
   <tr>
     <td style="background-color: #F8FAFC">head</td>
