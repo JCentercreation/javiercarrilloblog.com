@@ -5,6 +5,7 @@
 layout: home
 title: 
 ---
+<head>Javier Carrillo Blog</head>
 
 <h1><b>Welcome!</b>👋</h1>
 
@@ -13,7 +14,7 @@ title:
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
 <br>
 <h1 style="text-align: justify"><b>Latest Articles</b></h1>
-<header style="background-color: #F8FAFC"><h3>Articulo 6</h3></header>
+<header style="background-color: #F8FAFC"><h3>Articulo 7</h3></header>
 <br>
 
 <!--
