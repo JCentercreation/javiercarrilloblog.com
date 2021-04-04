@@ -19,7 +19,9 @@ title:
 <h3 style="text-align: justify;">And if you are one of those who prefer watching a movie rather than reading a book then you will enjoy more my <a href="https://www.youtube.com/channel/UCYYS01JxUBwsVUYocGZ9lQw/featured?view_as=subscriber"><b style="color: red">Youtube</b><b> Channel</b></a>.🎬</h3>
 </header>
 <br>
-<header style="display: block; margin-left: auto; margin-right: auto; width: 100%"><script  async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script></header>
+<script style="display: block; margin-left: auto; margin-right: auto; width: 100%" async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
+<br>
+<br>
 
 <!--
 <header style="background-color: #020C2B; border-radius: 20px; padding: 10px">
