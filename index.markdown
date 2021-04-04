@@ -5,8 +5,6 @@
 layout: home
 title: 
 ---
-<head>Javier Carrillo Blog</head>
-
 <h1><b>Welcome!</b>👋</h1>
 
 <h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
