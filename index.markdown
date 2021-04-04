@@ -6,7 +6,7 @@ layout: home
 title: 
 ---
 
-<h1><b>Hi!!</b></h1>
+<h1><b>Welcome!</b>👋</h1>
 <!--
 <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
 </header>
@@ -27,6 +27,10 @@ title:
 -->
 
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
+<br>
+ <header style="background-color: #F8FAFC; border-radius: 0px; padding: 10px">
+    <h2 style="text-align: left"><b>Latest Articles<b></h3>
+</header>
 
 <!--
     <header style="background-color: #020C2B; border-radius: 20px; padding: 10px">
