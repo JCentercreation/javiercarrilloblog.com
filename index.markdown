@@ -14,7 +14,7 @@ title:
 <table style="table-layout: fixed">
   <caption></caption>
   <tr>
-    <th style="table-layout: fixed; width: 350px; border-style: hidden; margin: 0px; padding: 0px; background-color:#FDFDFD">
+    <td style="table-layout: fixed; width: 350px; border-style: hidden; margin: 0px; padding: 0px; background-color:#FDFDFD">
 <h1 style="text-align: justify"><b>Explore</b></h1>
 <hr style="width: 40%; height: 3px; background-color: #5395CE">
 <table style="table-layout: fixed; width: 350px">
@@ -48,7 +48,7 @@ title:
   <tr>
     <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Discover who I am and what I do</td>
   </tr>
-</table></th>
+</table></td>
     <td style="table-layout: fixed; width: 350px; border-style: hidden; margin: 0px; padding: 0px">
 <h1 style="text-align: justify"><b>Explore</b></h1>
 <hr style="width: 40%; height: 3px; background-color: #5395CE">
