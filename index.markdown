@@ -15,7 +15,7 @@ title:
 <header style="background-color: #F8FAFC"><h3>Articulo 9</h3></header>
 <br>
 <h1 style="text-align: justify"><b>Explore</b></h1>
-<hr style="width: 10%; height: 10px; color: #5395CE">
+<hr style="width: 10%; height: 10px; background-color: #5395CE">
 <table class="default">
   <caption></caption>
   <tr>
