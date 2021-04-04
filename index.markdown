@@ -6,13 +6,14 @@ layout: home
 title: 
 ---
 
-<h1><b>Welcome!!!</b></h1>
+<h1><b>Hi!!</b></h1>
 <!--
 <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
--->
-<h2 style="text-align: justify">I am Javier Carrillo, an engineer and sportman.</h2>
-<h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Please, check out latest post down below ⬇️</h3>
 </header>
+-->
+<h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
+<h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Please, check out latest post down below ⬇️</h3>
+
 <br>
 <!--
     <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
