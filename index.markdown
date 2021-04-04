@@ -20,7 +20,7 @@ title:
 <table style="table-layout: fixed; width: 450px">
   <caption></caption>
   <tr>
-    <th rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden">📚</td>
+    <th rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden">📚</th>
     <td style="font-size: 150%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden"><b>Book Summaries & Notes</b></td>
   </tr>
   <tr>
