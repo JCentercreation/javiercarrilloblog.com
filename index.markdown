@@ -14,6 +14,13 @@ title:
 <h1 style="text-align: justify"><b>Latest Articles</b></h1>
 <header style="background-color: #F8FAFC"><h3>Articulo 9</h3></header>
 <br>
+<h1 style="text-align: justify"><b>Explore</b></h1>
+<table class="default">
+  <caption></caption>
+  <tr>
+    <td style="font-size: 200%; text-align: center; background-color: #5395CE; table-layout: fixed; width: 30px; height: 5px; border-style: hidden"></td>
+  </tr>
+</table>
 <table class="default">
   <caption></caption>
   <tr>
