@@ -17,8 +17,8 @@ title:
 <table class="default">
   <caption></caption>
   <tr>
-    <td style="background-color: #F8FAFC; table-layout: fixed; width: 100px; height: 50px; border-style: hiden">📚</td>
-    <td style="background-color: #F8FAFC; table-layout: fixed; width: 100px; height: 50px; border-style: hiden">Book Summaries & Notes</td>
+    <td style="font-size: 300%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 50px; border-style: hiden">📚</td>
+    <td style="font-size: 300%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 50px; border-style: hiden"><b>Book Summaries & Notes</b></td>
   </tr>
 </table>
 
