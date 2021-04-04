@@ -21,7 +21,9 @@ title:
     </header>
     <br>
 -->
+<div style="align: center">
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
+</div>
 <br>
 <br>
 
