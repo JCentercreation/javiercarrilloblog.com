@@ -11,6 +11,47 @@ title:
 <h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest post down below ⬇️</h3>
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
 <br>
+<table style="table-layout: fixed">
+  <caption></caption>
+  <tr>
+    <th style="table-layout: fixed; width: 50px; height: 30px; border-style: hidden"></table>
+<h1 style="text-align: justify"><b>Explore</b></h1>
+<hr style="width: 10%; height: 3px; background-color: #5395CE">
+<table style="table-layout: fixed; width: 450px">
+  <caption></caption>
+  <tr>
+    <th rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">📚</th>
+    <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>Book Summaries & Notes</b></td>
+  </tr>
+  <tr>
+    <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Notes, highlights and reviews of my favourite books, both fiction and non-fiction ones.</td>
+  </tr>
+   <tr>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"></td>
+  </tr>
+  <tr>
+    <td rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">🎬</td>
+    <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>YouTube Channel</b></td>
+  </tr>
+  <tr>
+    <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Visit my YouTube channel</td>
+  </tr>
+   <tr>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"></td>
+  </tr>
+  <tr>
+    <td rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">😃</td>
+    <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>Know more about me</b></td>
+  </tr>
+  <tr>
+    <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Discover who I am and what I do</td>
+  </tr>
+</table></th>
+    <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>Book Summaries & Notes</b></td>
+  </tr>
+</table>
 <h1 style="text-align: justify"><b>Explore</b></h1>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table style="table-layout: fixed; width: 450px">
