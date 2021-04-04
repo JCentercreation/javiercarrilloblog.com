@@ -15,7 +15,7 @@ title:
 <header style="background-color: #F8FAFC"><h3>Articulo 9</h3></header>
 <br>
 <h1 style="text-align: justify"><b>Explore</b></h1>
-<hr style="width: 10%; height: 10px; background-color: #5395CE">
+<hr style="width: 10%; height: 5px; background-color: #5395CE">
 <table class="default">
   <caption></caption>
   <tr>
@@ -24,7 +24,19 @@ title:
   </tr>
    <tr>
     <td style="font-size: 200%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 10px; border-style: hidden"></td>
-    <td style="font-size: 170%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 10px; border-style: hidden"><b>B</b></td>
+    <td style="font-size: 170%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 10px; border-style: hidden"><b></b></td>
+  </tr>
+  <tr>
+    <td style="font-size: 200%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 50px; border-style: hidden">🎬</td>
+    <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 50px; border-style: hidden"><b>YouTube Channel</b></td>
+  </tr>
+  <tr>
+    <td style="font-size: 200%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 10px; border-style: hidden"></td>
+    <td style="font-size: 170%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 10px; border-style: hidden"><b></b></td>
+  </tr>
+  <tr>
+    <td style="font-size: 200%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 50px; border-style: hidden">😃</td>
+    <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 50px; border-style: hidden"><b>Know more about me</b></td>
   </tr>
 </table>
 
