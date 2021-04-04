@@ -15,11 +15,7 @@ title:
 <header style="background-color: #F8FAFC"><h3>Articulo 7</h3></header>
 <br>
 <table class="default">
-  <caption>Elementos de HTML que he aprendido hasta ahora</caption>
-  <tr>
-    <th>Elemento</th>
-    <th>Descripción</th>
-  </tr>
+  <caption></caption>
   <tr>
     <td>html</td>
     <td>Es el contenedor para todos los elementos de un documento</td>
