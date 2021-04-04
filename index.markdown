@@ -12,6 +12,7 @@ title:
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
 <br>
 <h1 style="text-align: justify"><b>Latest Articles</b></h1>
+<hr style="width: 10%; height: 5px; background-color: #5395CE">
 <header style="background-color: #F8FAFC"><h3>Articulo 9</h3></header>
 <br>
 <h1 style="text-align: justify"><b>Explore</b></h1>
@@ -20,23 +21,23 @@ title:
   <caption></caption>
   <tr>
     <td style="font-size: 200%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 40px; border-style: hidden">📚</td>
-    <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 40px; border-style: hidden"><b>Book Summaries & Notes</b></td>
+    <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 150px; height: 40px; border-style: hidden"><b>Book Summaries & Notes</b></td>
   </tr>
    <tr>
     <td style="font-size: 200%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 5px; border-style: hidden"></td>
-    <td style="font-size: 170%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 5px; border-style: hidden"><b></b></td>
+    <td style="font-size: 170%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 150px; height: 5px; border-style: hidden"><b></b></td>
   </tr>
   <tr>
     <td style="font-size: 200%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 40px; border-style: hidden">🎬</td>
-    <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 40px; border-style: hidden"><b>YouTube Channel</b></td>
+    <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 150px; height: 40px; border-style: hidden"><b>YouTube Channel</b></td>
   </tr>
   <tr>
     <td style="font-size: 200%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 5px; border-style: hidden"></td>
-    <td style="font-size: 170%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 5px; border-style: hidden"><b></b></td>
+    <td style="font-size: 170%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 150px; height: 5px; border-style: hidden"><b></b></td>
   </tr>
   <tr>
     <td style="font-size: 200%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 40px; border-style: hidden">😃</td>
-    <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 40px; border-style: hidden"><b>Know more about me</b></td>
+    <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 150px; height: 40px; border-style: hidden"><b>Know more about me</b></td>
   </tr>
 </table>
 
