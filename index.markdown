@@ -21,7 +21,7 @@ title:
     <td>Es el contenedor para todos los elementos de un documento</td>
   </tr>
   <tr>
-    <td>head</td>
+    <td style="background-color: #F8FAFC">head</td>
     <td>Contiene el título e información relacional acerca del documento</td>
   </tr>
   <tr>
