@@ -10,7 +10,7 @@ title:
 
 <h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
 <h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Please, check out latest post down below ⬇️</h3>
-<h1><b>Latest Articles<b>.</h1>
+<h1><b>Latest Articles<b>
 <br>
 <header style="background-color: #F8FAFC"><h10>Articulo 5</h10></header>
 <br>
