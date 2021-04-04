@@ -20,26 +20,6 @@ title:
     <td style="background-color: #F8FAFC; table-layout: fixed; width: 100px; height: 50px; border-style: hiden">📚</td>
     <td style="background-color: #F8FAFC; table-layout: fixed; width: 100px; height: 50px; border-style: hiden">Book Summaries & Notes</td>
   </tr>
-  <tr>
-    <td style="background-color: #F8FAFC">head</td>
-    <td>Contiene el título e información relacional acerca del documento</td>
-  </tr>
-  <tr>
-    <td>title</td>
-    <td>Provee un título para el documento</td>
-  </tr>
-  <tr>
-    <td>body</td>
-    <td>Es la sección donde se encuentra el contenido del documento</td>
-  </tr>
-  <tr>
-    <td>h1-h6</td>
-    <td>Representa un encabezado</td>
-  </tr>
-  <tr>
-    <td>p</td>
-    <td>Representa un párrafo</td>
-  </tr>
 </table>
 
 <!--
