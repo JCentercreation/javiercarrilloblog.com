@@ -7,14 +7,19 @@ title:
 ---
 
 <h1><b>Welcome!</b>👋</h1>
+
+<h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
+<h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Please, check out latest post down below ⬇️</h3>
+
+
+
+<script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
+<br>
+
 <!--
 <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
 </header>
 -->
-<h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
-<h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Please, check out latest post down below ⬇️</h3>
-
-<br>
 <!--
     <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
     <h3 style="text-align: justify">If you are interested about me, please check out <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whoIam"><b>Who I Am</b></a> and <a href="https://jcentercreation.github.io/JekyllPersonalWeb/whatIdo"><b>What I Do</b></a> to know more about my career and personal life.</h3>
@@ -25,12 +30,6 @@ title:
     </header>
     <br>
 -->
-<h2 style="text-align: justify"><b>Latest Articles<b>.</h2>
-<header style="background-color: #F8FAFC; padding: 10px"><h3 style="text-align: justify"><b>Latest Articles<b>.</h3></header>
-
-<script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
-<br>
-
 
 <!--
     <header style="background-color: #020C2B; border-radius: 20px; padding: 10px">
