@@ -6,7 +6,7 @@ layout: home
 title: 
 ---
 
-<h1><b>Welcome!</b>👋</h1>
+<h0><b>Welcome!</b>👋</h0>
 
 <h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
 <h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Please, check out latest post down below ⬇️</h3>
