@@ -52,10 +52,10 @@ title:
     <td style="table-layout: fixed; width: 350px; border-style: hidden; margin: 0px; padding: 0px">
 <h1 style="text-align: justify"><b>Latest articles</b></h1>
 <hr style="width: 40%; height: 3px; background-color: #5395CE">
-<table style=" width: 350px">
+<table style="table-layout: fixed; width: 350px">
   <caption></caption>
   <tr>
-    <th rowspan="2" style="font-size: 170%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">1</th>
+    <td rowspan="2" style="font-size: 170%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">1</td>
     <td style="font-size: 150%; text-align: left; background-color: #FDFDFD; table-layout: fixed; width: 250px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>Book Summaries & Notes</b></td>
   </tr>
   <tr>
