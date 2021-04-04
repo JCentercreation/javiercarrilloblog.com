@@ -24,16 +24,16 @@ title:
     <td style="font-size: 150%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 40px; border-style: hidden"><b>Book Summaries & Notes</b></td>
   </tr>
    <tr>
-    <td style="font-size: 50%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
-    <td style="font-size: 50%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"><b></b></td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"><b></b></td>
   </tr>
   <tr>
     <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 40px; border-style: hidden">🎬</td>
     <td style="font-size: 150%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 40px; border-style: hidden"><b>YouTube Channel</b></td>
   </tr>
   <tr>
-    <td style="font-size: 50%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
-    <td style="font-size: 50%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"><b></b></td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"><b></b></td>
   </tr>
   <tr>
     <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 40px; border-style: hidden">😃</td>
