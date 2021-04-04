@@ -17,7 +17,7 @@ title:
 <br>
 <h1 style="text-align: justify"><b>Explore</b></h1>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
-<table style="width: 500px">
+<table style="width: 300px">
   <caption></caption>
   <tr>
     <td style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 40px; border-style: hidden">📚</td>
