@@ -11,12 +11,6 @@ title:
 <h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest post down below ⬇️</h3>
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
 <br>
-<h1 style="text-align: justify"><b>Latest Articles</b></h1>
-<hr style="width: 10%; height: 3px; background-color: #5395CE">
-<header style="background-color: #F8FAFC"><h3>Articulo 9</h3></header>
-<br>
-<h1 style="text-align: justify"><b>Explore</b></h1>
-<hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table style="table-layout: fixed; width: 450px">
   <caption></caption>
   <tr>
@@ -49,6 +43,13 @@ title:
     <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Discover who I am and what I do</td>
   </tr>
 </table>
+<br>
+<h1 style="text-align: justify"><b>Latest Articles</b></h1>
+<hr style="width: 10%; height: 3px; background-color: #5395CE">
+<header style="background-color: #F8FAFC"><h3>Articulo 9</h3></header>
+<br>
+<h1 style="text-align: justify"><b>Explore</b></h1>
+<hr style="width: 10%; height: 3px; background-color: #5395CE">
 
 <!--
     <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
