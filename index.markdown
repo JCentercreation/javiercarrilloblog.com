@@ -50,12 +50,12 @@ title:
   </tr>
 </table></td>
     <td style="table-layout: fixed; width: 350px; border-style: hidden; margin: 0px; padding: 0px">
-<h1 style="text-align: justify"><b>Explore</b></h1>
+<h1 style="text-align: justify"><b>Lates articles</b></h1>
 <hr style="width: 40%; height: 3px; background-color: #5395CE">
-<table style="table-layout: fixed; width: 350px">
+<table style=" width: 350px">
   <caption></caption>
   <tr>
-    <th rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">📚</th>
+    <th rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">1</th>
     <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 250px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>Book Summaries & Notes</b></td>
   </tr>
   <tr>
@@ -66,7 +66,7 @@ title:
     <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"></td>
   </tr>
   <tr>
-    <td rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">🎬</td>
+    <td rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">2</td>
     <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>YouTube Channel</b></td>
   </tr>
   <tr>
@@ -77,7 +77,7 @@ title:
     <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"></td>
   </tr>
   <tr>
-    <td rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">😃</td>
+    <td rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">3</td>
     <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>Know more about me</b></td>
   </tr>
   <tr>
