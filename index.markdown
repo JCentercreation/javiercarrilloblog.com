@@ -25,7 +25,7 @@ title:
     </header>
     <br>
 -->
-<h2 style="text-align: left"><b>Latest Articles<b>.</h2>
+<h2 style="text-align: justify"><b>Latest Articles<b>.</h2>
 <header style="background-color: #F8FAFC; padding: 10px"><h3 style="text-align: justify"><b>Latest Articles<b>.</h3></header>
 
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
