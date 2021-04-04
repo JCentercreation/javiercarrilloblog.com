@@ -49,9 +49,13 @@ title:
     <td style="font-size: 90%; text-align: right; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Discover who I am and what I do</td>
   </tr>
 </table></th>
-    <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>Book Summaries & Notes</b></td>
+    <td style="font-size: 150%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"></td>
   </tr>
 </table>
+
+<!--
+-->
+
 <h1 style="text-align: justify"><b>Explore</b></h1>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table style="table-layout: fixed; width: 450px">
