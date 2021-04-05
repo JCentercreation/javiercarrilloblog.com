@@ -102,7 +102,7 @@ title:
 
 <h1 style="text-align: justify"><b>Contact me</b></h1>
 <hr style="width: 20%; height: 3px; background-color: #5395CE; align: center">
-<table>
+<table style="table-layout: fixed; width: 600px">
   <caption></caption>
   <tr>
     <td style="table-layout: fixed; width: 600px; height: 30px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">email</td>
