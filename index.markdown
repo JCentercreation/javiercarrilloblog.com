@@ -108,7 +108,7 @@ title:
 </table>
 
 <table style="table-layout: fixed; width: 750px; border-radius: 20px">
-  <caption><b>CONTACT ME</b></caption>
+  <caption><h1><b>CONTACT ME</b></h1></caption>
   <tr>
     <td style="table-layout: fixed; width: 375px; height: 50px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">✉️</td>
     <td style="table-layout: fixed; width: 375px; height: 50px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">🤝</td>
