@@ -107,10 +107,8 @@ title:
   </tr>
 </table>
 
-<h1 style="text-align: justify"><b>Contact me</b></h1>
-<hr style="width: 10%; height: 3px; background-color: #5395CE; align: center">
-<table style="table-layout: fixed; width: 750px">
-  <caption></caption>
+<table style="table-layout: fixed; width: 750px; border-radius: 20px">
+  <caption><b>CONTACT ME</b></caption>
   <tr>
     <td style="table-layout: fixed; width: 375px; height: 50px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">✉️</td>
     <td style="table-layout: fixed; width: 375px; height: 50px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">🤝</td>
