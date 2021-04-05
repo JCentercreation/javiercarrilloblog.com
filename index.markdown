@@ -102,11 +102,11 @@ title:
 
 <h1 style="text-align: justify"><b>Contact me</b></h1>
 <hr style="width: 15%; height: 3px; background-color: #5395CE; align: center">
-<table style="table-layout: fixed; width: 1200px">
+<table style="table-layout: fixed; width: 800px">
   <caption></caption>
   <tr>
-    <td style="table-layout: fixed; width: 600px; height: 30px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">email</td>
-    <td style="table-layout: fixed; width: 600px; height: 30px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">linkedin</td>
+    <td style="table-layout: fixed; width: 400px; height: 30px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">email</td>
+    <td style="table-layout: fixed; width: 400px; height: 30px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">linkedin</td>
   </tr>
 </table>
 
