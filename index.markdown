@@ -101,7 +101,7 @@ title:
 </table>
 
 <h1 style="text-align: justify"><b>Contact me</b></h1>
-<hr style="width: 15%; height: 3px; background-color: #5395CE; align: center">
+<hr style="width: 10%; height: 3px; background-color: #5395CE; align: center">
 <table style="table-layout: fixed; width: 800px">
   <caption></caption>
   <tr>
