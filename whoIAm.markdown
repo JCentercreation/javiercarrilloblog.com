@@ -5,7 +5,7 @@ permalink: /whoIam
 ---
 <p style="text-align: justify">Hi erveryone! 🙋‍♂️ My name is Javier Carrillo (you can call me <b><i>Javi</i></b> if you feel like to it). I am a techlover, sportman and also optimistic (but realistic, sorry I'm an engineer) person based in the worldwide. Here you will find some info which let you know me better as a human being.</p>
 <br>
-<header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 30px blue">
+<header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 15px grey">
 <h1 style="color: white"><b>Youtube Life</b><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/youtuberedlogo.png" whith="20" height="20"></h1>
 <p style="text-align: justify; color: white">Nowadays it is most important than ever to live around social media, so why don't use it in a productive way?💡 I decided to set up this <a href="https://www.youtube.com/channel/UCYYS01JxUBwsVUYocGZ9lQw/featured?view_as=subscriber"><b>Youtube Channel</b></a> as a modern way to engage with other techlovers and share everything I think it is interesting to know about tech and life. <b>Check out and subscribe</b> to the channel if you like it.</p>
 <!--<img src="/assets/img/photo.png" whith="100" height="100"> -->
