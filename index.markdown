@@ -105,8 +105,8 @@ title:
 <table style="table-layout: fixed; width: 800px">
   <caption></caption>
   <tr>
-    <td style="table-layout: fixed; width: 200px; height: 400px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">✉️</td>
-    <td style="table-layout: fixed; width: 200px; height: 400px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">🤝</td>
+    <td style="table-layout: fixed; width: 50px; height: 400px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">✉️</td>
+    <td style="table-layout: fixed; width: 50px; height: 400px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">🤝</td>
   </tr>
   <tr>
     <td style="table-layout: fixed; width: 200px; height: 400px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">email</td>
