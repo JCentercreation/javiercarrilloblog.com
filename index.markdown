@@ -100,15 +100,13 @@ title:
   </tr>
 </table>
 
-<header style="background-color: #F8FAFC">Prueba
--
--
--
--
--
--
--
-</header>
+<table>
+  <caption><b>CONTACT ME</b></caption>
+  <tr>
+    <td style="font-size: 100%; text-align: center; background-color: #FDFDFD; border-style: hidden; margin: 1px; padding: 1px">email</td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; border-style: hidden; margin: 1px; padding: 1px">linkedin<td>
+  </tr>
+</table>
 
 <!--
 
