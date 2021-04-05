@@ -93,7 +93,7 @@ title:
 </table>
 
 <!--
--->
+
 
 <h1 style="text-align: justify"><b>Explore</b></h1>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
@@ -136,6 +136,8 @@ title:
 <br>
 <h1 style="text-align: justify"><b>Explore</b></h1>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
+
+-->
 
 <!--
     <header style="background-color: #F5F7F9; border-radius: 20px; padding: 10px">
