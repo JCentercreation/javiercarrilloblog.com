@@ -105,8 +105,8 @@ title:
 <table style="table-layout: fixed; width: 800px">
   <caption></caption>
   <tr>
-    <td style="table-layout: fixed; width: 400px; height: 30px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">email</td>
-    <td style="table-layout: fixed; width: 400px; height: 30px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">linkedin</td>
+    <td style="table-layout: fixed; width: 400px; height: 400px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">email</td>
+    <td style="table-layout: fixed; width: 400px; height: 400px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">linkedin</td>
   </tr>
 </table>
 
