@@ -9,6 +9,12 @@ title:
 
 <h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
 <h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest post down below ⬇️</h3>
+<table>
+  <tr>
+    <td><script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
+    </td>
+  </tr>
+</table>
 <script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
 <br>
 <table style="table-layout: fixed">
