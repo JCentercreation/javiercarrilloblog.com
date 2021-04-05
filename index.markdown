@@ -100,8 +100,8 @@ title:
   </tr>
 </table>
 
-<h1 style="text-align: center"><b>CONTACT ME</b></h1>
-<hr style="width: 40%; height: 3px; background-color: #5395CE; align: center">
+<h1 style="text-align: justify"><b>Contact me</b></h1>
+<hr style="width: 30%; height: 3px; background-color: #5395CE; align: center">
 <table>
   <caption></caption>
   <tr>
