@@ -7,12 +7,12 @@ title:
 ---
 <h1><b>Welcome!</b>👋</h1>
 
-<table style="table-layout: fixed; width: 700px">
+<table style="table-layout: fixed; width: 750px">
   <caption></caption>
   <tr>
-    <td style="table-layout: fixed; width: 350px; height: 200px; font-size: 100%; text-align: center; background-color: #FDFDFD; border-style: hidden; margin: 1px; padding: 1px"><h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
+    <td style="table-layout: fixed; width: 375px; height: 200px; font-size: 100%; text-align: center; background-color: #FDFDFD; border-style: hidden; margin: 1px; padding: 1px"><h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
     <h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest posts down below ⬇️</h3></td>
-    <td style="table-layout: fixed; width: 350px; height: 200px; font-size: 100%; text-align: center; background-color: #FDFDFD; border-style: hidden; margin: 1px; padding: 1px"></td>
+    <td style="table-layout: fixed; width: 375px; height: 200px; font-size: 100%; text-align: center; background-color: #FDFDFD; border-style: hidden; margin: 1px; padding: 1px"></td>
   </tr>
 </table>
 
@@ -109,15 +109,15 @@ title:
 
 <h1 style="text-align: justify"><b>Contact me</b></h1>
 <hr style="width: 10%; height: 3px; background-color: #5395CE; align: center">
-<table style="table-layout: fixed; width: 700px">
+<table style="table-layout: fixed; width: 750px">
   <caption></caption>
   <tr>
-    <td style="table-layout: fixed; width: 350px; height: 50px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">✉️</td>
-    <td style="table-layout: fixed; width: 350px; height: 50px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">🤝</td>
+    <td style="table-layout: fixed; width: 375px; height: 50px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">✉️</td>
+    <td style="table-layout: fixed; width: 375px; height: 50px; font-size: 200%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">🤝</td>
   </tr>
   <tr>
-    <td style="table-layout: fixed; width: 350px; height: 200px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">email</td>
-    <td style="table-layout: fixed; width: 350px; height: 200px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">linkedin</td>
+    <td style="table-layout: fixed; width: 375px; height: 100px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">email</td>
+    <td style="table-layout: fixed; width: 375px; height: 100px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">linkedin</td>
   </tr>
 </table>
 
