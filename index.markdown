@@ -100,9 +100,10 @@ title:
   </tr>
 </table>
 
+<h1 style="text-align: center"><b>CONTACT ME</b></h1>
+<hr style="width: 40%; height: 3px; background-color: #5395CE; align: center">
 <table>
-  <caption><h1><b>CONTACT ME</b></h1></caption>
-  <hr style="width: 40%; height: 3px; background-color: #5395CE">
+  <caption></caption>
   <tr>
     <td style="font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">email</td>
     <td style="font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">linkedin</td>
