@@ -40,7 +40,7 @@ title:
     <td style="font-size: 120%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>YouTube Channel</b></td>
   </tr>
   <tr>
-    <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Visit my YouTube channel</td>
+    <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Come visit my YouTube channel</td>
   </tr>
    <tr>
     <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
