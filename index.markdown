@@ -26,7 +26,7 @@ title:
   <caption></caption>
   <tr>
     <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 15px; border-style: hidden; margin: 1px; padding: 1px"></td>
-    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 250px; height: 15px; border-style: hidden; margin: 1px; padding: 1px"></td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 15px; border-style: hidden; margin: 1px; padding: 1px"></td>
   </tr>
   <tr>
     <th rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px">📚</th>
