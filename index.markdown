@@ -107,6 +107,7 @@ title:
   </tr>
 </table>
 
+<!--
 <table style="table-layout: fixed; width: 750px; border-radius: 20px">
   <caption><h1><b>CONTACT ME</b></h1></caption>
   <tr>
@@ -118,6 +119,7 @@ title:
     <td style="table-layout: fixed; width: 375px; height: 100px; font-size: 100%; text-align: center; background-color: #F8FAFC; border-style: hidden; margin: 1px; padding: 1px">linkedin</td>
   </tr>
 </table>
+-->
 
 <!--
 
