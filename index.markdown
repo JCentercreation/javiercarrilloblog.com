@@ -67,10 +67,10 @@ title:
     <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 1px; height: 15px; border-style: hidden; margin: 1px; padding: 1px"></td>
     <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 250px; height: 15px; border-style: hidden; margin: 1px; padding: 1px"></td>
   </tr>
-  <a href="https://jcentercreation.github.io/JekyllPersonalWeb/books/01/02/2021/why_leaders_eat_last.html"><tr>
+  <tr>
     <td rowspan="2" style="font-size: 150%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 1px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"></td>
     <td style="font-size: 100%; text-align: left; background-color: #FDFDFD; table-layout: fixed; width: 250px; height: 30px; border-style: hidden; margin: 1px; padding: 1px; color: #656565;"><b>BOOK REVIEW</b></td>
-  </tr></a>
+  </tr>
   <tr>
     <td style="font-size: 90%; text-align: justify; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Notes, highlights and reviews of my favourite books.</td>
   </tr>
@@ -101,6 +101,12 @@ title:
 </table>
 
 <header style="background-color: #F8FAFC">Prueba
+
+
+
+
+
+
 </header>
 
 <!--
