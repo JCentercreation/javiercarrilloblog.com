@@ -59,7 +59,7 @@ title:
   </tr>
 </table></td>
     <td style="table-layout: fixed; width: 400px; border-style: hidden; margin: 0px; padding: 0px">
-<h1 style="text-align: justify"><b>Latest articles</b></h1>
+<h1 style="text-align: justify"><b>Latest Articles</b></h1>
 <hr style="width: 20%; height: 3px; background-color: #5395CE">
 <table style="table-layout: fixed; width: 350px">
   <caption></caption>
