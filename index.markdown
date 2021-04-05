@@ -53,7 +53,11 @@ title:
   <tr>
     <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Discover who I am and what I do</td>
   </tr>
-    <tr>
+  <tr>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"></td>
+  </tr>
+  <tr>
     <td rowspan="2" style="font-size: 170%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"></td>
     <td style="font-size: 120%; text-align: left; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b></b></td>
   </tr>
@@ -95,7 +99,11 @@ title:
   <tr>
     <td style="font-size: 90%; text-align: justify; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 1px">Discover who I am and what I do</td>
   </tr>
-    <tr>
+  <tr>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
+    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 3px; border-style: hidden"></td>
+  </tr>
+  <tr>
     <td rowspan="2" style="font-size: 150%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 10px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"></td>
     <td style="font-size: 120%; text-align: left; background-color: #FDFDFD; table-layout: fixed; width: 300px; height: 30px; border-style: hidden; margin: 1px; padding: 1px"><b>Know more about me</b></td>
   </tr>
