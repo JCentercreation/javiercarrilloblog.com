@@ -21,7 +21,7 @@ title:
   <tr>
     <td style="table-layout: fixed; width: 400px; border-style: hidden; margin: 0px; padding: 0px; background-color:#FDFDFD">
 <h1 style="text-align: justify"><b>Explore</b></h1>
-<hr style="width: 40%; height: 3px; background-color: #5395CE">
+<hr style="width: 30%; height: 3px; background-color: #5395CE">
 <table style="table-layout: fixed; width: 350px">
   <caption></caption>
   <tr>
@@ -60,7 +60,7 @@ title:
 </table></td>
     <td style="table-layout: fixed; width: 400px; border-style: hidden; margin: 0px; padding: 0px">
 <h1 style="text-align: justify"><b>Latest articles</b></h1>
-<hr style="width: 40%; height: 3px; background-color: #5395CE">
+<hr style="width: 30%; height: 3px; background-color: #5395CE">
 <table style="table-layout: fixed; width: 350px">
   <caption></caption>
   <tr>
