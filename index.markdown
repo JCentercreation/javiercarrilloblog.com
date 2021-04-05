@@ -19,7 +19,7 @@ title:
 <table style="table-layout: fixed">
   <caption></caption>
   <tr>
-    <td style="table-layout: fixed; width: 4000px; border-style: hidden; margin: 0px; padding: 0px; background-color:#FDFDFD">
+    <td style="table-layout: fixed; width: 400px; border-style: hidden; margin: 0px; padding: 0px; background-color:#FDFDFD">
 <h1 style="text-align: justify"><b>Explore</b></h1>
 <hr style="width: 40%; height: 3px; background-color: #5395CE">
 <table style="table-layout: fixed; width: 350px">
