@@ -100,7 +100,7 @@ title:
   </tr>
 </table>
 
-<header>Prueba
+<header style="background-color: #F8FAFC">Prueba
 </header>
 
 <!--
