@@ -9,9 +9,7 @@ title:
 <h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
 <h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest posts down below ⬇️</h3>
 
-<header><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="HandheldFriendly" content="true">
+<!--
 <table style="table-layout: fixed; width: 730px">
   <caption></caption>
   <tr>
@@ -20,7 +18,8 @@ title:
     <td style="table-layout: fixed; width: 365px; height: 200px; font-size: 100%; text-align: center; background-color: #FDFDFD; border-style: hidden; margin: 10px; padding: 10px"><div align="center"><iframe width="350" height="200" src="https://www.youtube.com/embed/MI-Q4DyQWak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
   </tr>
 </table>
-</header>
+-->
+
 
 
 <table>
