@@ -63,7 +63,7 @@ title:
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
   <tr>
-    <td style="border-style: hidden; text-align: centerg"><iframe width="560" height="315" src="https://www.youtube.com/embed/PRKzbc8vK6k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+    <td style="border-style: hidden; text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/PRKzbc8vK6k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
     </td>
   </tr>
 </table>
