@@ -5,6 +5,7 @@
 layout: home
 title: 
 ---
+<img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Foto1.png" whith="20" height="20" align="center">
 <h1 style="text-align: center"><b>Welcome!</b></h1>
 
 
