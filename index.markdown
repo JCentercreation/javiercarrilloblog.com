@@ -50,7 +50,7 @@ title:
 </table>
 <br>
 
-<table>
+<table style="table-layout: fixed; width: 350px;">
   <caption></caption>
   <tr>
     <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 15px; border-style: hidden; margin: 1px; padding: 1px"></td>
