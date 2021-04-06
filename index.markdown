@@ -23,7 +23,7 @@ title:
 -->
 
 
-
+<!--
 <table>
   <tr>
     <td style="border-style: hidden"><script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
@@ -114,7 +114,7 @@ title:
 </table></td>
   </tr>
 </table>
-
+-->
 
 <!--
 <table style="table-layout: fixed; width: 750px; border-radius: 20px">
