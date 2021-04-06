@@ -59,11 +59,11 @@ title:
   </tr>
 </table>
 <br>
-<h2 style="text-align: justify"><b>Videos</b></h2>
+<h2 style="text-align: justify"><b>Latest Videos</b></h2>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
   <tr>
-    <td style="border-style: hidden"><<iframe width="560" height="315" src="https://www.youtube.com/embed/PRKzbc8vK6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <td style="border-style: hidden; text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/PRKzbc8vK6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </td>
   </tr>
 </table>
