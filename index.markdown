@@ -59,7 +59,7 @@ title:
   </tr>
 </table>
 <br>
-<h2 style="text-align: justify"><b>Latest Video</b></h2>
+<h2 style="text-align: justify"><b>Latest Videos</b></h2>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
   <tr>
