@@ -22,8 +22,6 @@ title:
 </table>
 -->
 
-
-
 <table>
   <tr>
     <td style="border-style: hidden"><script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
@@ -31,6 +29,16 @@ title:
   </tr>
 </table>
 <br>
+<table>
+  <tr>
+    <td style="border-style: hidden; width: 50px"><b>5 April</b></td>
+    <td style="border-style: hidden; width: 150px">Why leaders eat last</td>
+    <td style="border-style: hidden; width: 50px; color: grey"><b>1 min read</b></td>
+    <hr>
+  </tr>
+</table>
+<br>
+
 
 <!--
 <table style="table-layout: fixed">
