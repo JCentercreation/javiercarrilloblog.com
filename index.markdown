@@ -6,10 +6,13 @@ layout: home
 title: 
 ---
 <h1><b>Welcome!</b>👋</h1>
-<h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
-<h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest posts down below ⬇️</h3>
 
 <!--
+<h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
+<h3 style="text-align: justify">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest posts down below ⬇️</h3>
+-->
+
+
 <table style="table-layout: fixed; width: 730px">
   <caption></caption>
   <tr>
@@ -18,7 +21,7 @@ title:
     <td style="table-layout: fixed; width: 365px; height: 200px; font-size: 100%; text-align: center; background-color: #FDFDFD; border-style: hidden; margin: 10px; padding: 10px"><div align="center"><iframe width="350" height="200" src="https://www.youtube.com/embed/MI-Q4DyQWak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></td>
   </tr>
 </table>
--->
+
 
 
 
@@ -112,6 +115,7 @@ title:
 </table></td>
   </tr>
 </table>
+
 
 <!--
 <table style="table-layout: fixed; width: 750px; border-radius: 20px">
