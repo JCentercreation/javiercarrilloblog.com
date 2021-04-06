@@ -5,10 +5,8 @@
 layout: home
 title: 
 ---
-<img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Foto1.png" whith="20" height="20" align="center">
+<div style="text-align: center"><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Foto1.png" whith="100" height="100"></div>
 <h1 style="text-align: center"><b>Welcome!</b></h1>
-
-
 <h2 style="text-align: center">I'm Javier Carrillo, an engineer and athlete.</h2>
 <h3 style="text-align: center">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest posts down below ⬇️</h3>
 
