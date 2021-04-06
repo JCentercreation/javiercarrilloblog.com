@@ -29,16 +29,16 @@ title:
   </tr>
 </table>
 <br>
-<h1 style="text-align: justify"><b>Explore</b></h1>
-<hr style="width: 20%; height: 3px; background-color: #5395CE">
+<h1 style="text-align: justify"><b>Latest Articles</b></h1>
+<hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
   <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px"><b>5 April</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%"><b>5 April</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400px">Why leaders eat last</td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>1 min read</b></td>
   </tr>
     <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; background-color: #F8FAFC"><b>5 April</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; background-color: #F8FAFC; font-size: 80%"><b>5 April</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC">Why leaders eat last</td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>1 min read</b></td>
   </tr>
