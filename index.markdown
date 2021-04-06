@@ -31,11 +31,11 @@ title:
 <br>
 <table>
   <tr>
-    <td style="border-style: hidden; width: 50px"><b>5 April</b></td>
-    <td style="border-style: hidden; width: 150px">Why leaders eat last</td>
-    <td style="border-style: hidden; width: 50px; color: grey"><b>1 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px"><b>5 April</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 150px">Why leaders eat last</td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; color: grey"><b>1 min read</b></td>
   </tr>
-  <hr>
+  <hr>g
 </table>
 <br>
 
