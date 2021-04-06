@@ -35,13 +35,11 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 150px">Why leaders eat last</td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; color: grey"><b>1 min read</b></td>
   </tr>
-  <hr>
     <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px"><b>5 April</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 150px">Why leaders eat last</td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; color: grey"><b>1 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; background-color: #F8FAFC"><b>5 April</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 150px; background-color: #F8FAFC">Why leaders eat last</td>
+    <td style="table-layout: fixed; border-style: hidden; width: 200px; color: grey; background-color: #F8FAFC"><b>1 min read</b></td>
   </tr>
-  <hr>
 </table>
 <br>
 
