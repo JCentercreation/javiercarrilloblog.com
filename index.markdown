@@ -5,10 +5,10 @@
 layout: home
 title: 
 ---
-<h1><b>Welcome! Ey</b>👋</h1>
+<h1 style="text-align: center"><b>Welcome!</b></h1>
 
 
-<h2 style="text-align: justify">I'm Javier Carrillo, an engineer and athlete.</h2>
+<h2 style="text-align: center">I'm Javier Carrillo, an engineer and athlete.</h2>
 <h3 style="text-align: center">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest posts down below ⬇️</h3>
 
 
