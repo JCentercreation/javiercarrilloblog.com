@@ -29,7 +29,7 @@ title:
   </tr>
 </table>
 <br>
-<h1 style="text-align: justify"><b>Latest Articles</b></h1>
+<h2 style="text-align: justify"><b>Latest Articles</b></h2>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
   <tr>
