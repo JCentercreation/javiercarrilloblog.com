@@ -38,54 +38,18 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>1 min read</b></td>
   </tr>
   <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; background-color: #F8FAFC; font-size: 80%"><b>5 April</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC">Why leaders eat last</td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; background-color: #F8FAFC; font-size: 80%"><b>2 February</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC">Starting a blog, a YouTibe channel and a podcast...from scratch!!</td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>1 min read</b></td>
   </tr>
   <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%"><b>5 April</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px">Why leaders eat last</td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%"><b>1 January</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400px">Happy New Year!</td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>1 min read</b></td>
   </tr>
 </table>
 <br>
 
-<table>
-  <caption></caption>
-  <tr>
-    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 15px; border-style: hidden; margin: 1px; padding: 100px"></td>
-    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 800px; height: 15px; border-style: hidden; margin: 1px; padding: 100px"></td>
-  </tr>
-  <tr>
-    <th rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 100px">📚</th>
-    <td style="font-size: 120%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 800px; height: 30px; border-style: hidden; margin: 1px; padding: 100px"><b>Book Summaries & Notes</b></td>
-  </tr>
-  <tr>
-    <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 100px">Notes, highlights and reviews of my favourite books.</td>
-  </tr>
-   <tr>
-    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
-    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 800px; height: 3px; border-style: hidden"></td>
-  </tr>
-  <tr>
-    <td rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 100px">🎬</td>
-    <td style="font-size: 120%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 800px; height: 30px; border-style: hidden; margin: 1px; padding: 100px"><b>YouTube Channel</b></td>
-  </tr>
-  <tr>
-    <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 100px">Come visit my YouTube channel.</td>
-  </tr>
-  <tr>
-    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 50px; height: 3px; border-style: hidden"></td>
-    <td style="font-size: 10%; text-align: center; background-color: #FDFDFD; table-layout: fixed; width: 800px; height: 3px; border-style: hidden"></td>
-  </tr>
-  <tr>
-    <td rowspan="2" style="font-size: 170%; text-align: center; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 30px; border-style: hidden; margin: 1px; padding: 100px">😃</td>
-    <td style="font-size: 120%; text-align: left; background-color: #F8FAFC; table-layout: fixed; width: 800px; height: 30px; border-style: hidden; margin: 1px; padding: 100px"><b>Know more about me.</b></td>
-  </tr>
-  <tr>
-    <td style="font-size: 90%; text-align: justify; background-color: #F8FAFC; table-layout: fixed; width: 50px; height: 3px; border-style: hidden; margin: 1px; padding: 100px">Discover who I am and what I do</td>
-  </tr>
-</table>
 
 
 <!--
