@@ -67,6 +67,23 @@ title:
   </tr>
 </table>
 
+<div class="video-responsive">
+<iframe src="https://www.youtube.com/embed/PRKzbc8vK6k?controls=0" frameborder="0" allowfullscreen></iframe>
+</div>
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
 
 <!--
 <table style="table-layout: fixed">
