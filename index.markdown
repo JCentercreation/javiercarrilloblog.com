@@ -34,7 +34,7 @@ title:
 <table>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%"><b>5 April</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/1.html">Why leaders eat last</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400px">Prueba</td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>1 min read</b></td>
   </tr>
   <tr>
