@@ -1,7 +1,12 @@
 ---
-layout: page
-title: Prueba
-permalink: /prueba
+layout: post
+title: "Prueba"
+date:   2020-11-15 12:02:05 +0100
+categories: books
+author: Javier Carrillo
+permalink: /:categories/:day/:month/:year/:title.html
+published: true
+tags: books personal_development 
 ---
 # Starting where it all began
 
