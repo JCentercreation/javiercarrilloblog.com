@@ -11,3 +11,27 @@ permalink: /books
 <br>
 <a href="https://jcentercreation.github.io/JekyllPersonalWeb/books/15/11/2020/atomichabits.html"><img style="display: block; margin-left: auto; margin-right: auto; width: 50%" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/atomic-habits-book.png"></a>
 <br>
+
+# Week 14/21
+
+Assign: Javier Carrillo Gallego
+Channel: Blog, Newsletter
+Deadline: Apr 10, 2021
+Product: Newsletter
+Status: Idea
+
+# Story
+
+Hi guys,
+
+# Quote of the week ✍️
+
+> "Perfect is the enemy of good"
+
+From the moral poem *La Bégueule,* Voltaire (1772)
+
+# Recommended Books 📚
+
+# Things I've enjoyed this week ☀️
+
+# Videos
