@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Prueba"
-date:   2020-11-16 12:02:05 +0100
-categories: books
+date:   2021-04-06 12:02:05 +0100
+categories: article
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
 published: true

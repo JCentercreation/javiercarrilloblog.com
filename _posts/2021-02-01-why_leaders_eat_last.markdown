@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why leadejafhjafhrs eat last"
+title: "Why leaders eat last"
 date:   2021-02-01 12:02:05 +0100
 categories: books
 author: Javier Carrillo
