@@ -59,17 +59,8 @@ title:
   </tr>
 </table>
 <br>
-<h2 style="text-align: justify"><b>Latest Videos</b></h2>
-<hr style="width: 10%; height: 3px; background-color: #5395CE">
-<table>
-  <tr>
-    <td style="border-style: hidden; text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/PRKzbc8vK6k?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-  </tr>
-</table>
 
-<div style="height: 0; overflow: hidden; padding-bottom: 56.25%; padding-top: 30px; position: relative;">
-<iframe src="https://www.youtube.com/embed/PRKzbc8vK6k?controls=0" frameborder="0" allowfullscreen></iframe>
-</div>
+
 
 
 <!--
