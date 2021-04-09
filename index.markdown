@@ -48,13 +48,13 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>1 min read</b></td>
   </tr>
   <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>JOURNAL</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC">Starting a blog, a YouTibe channel and a podcast...from scratch!!</td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>BOOK REVIEWL</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href=2https://jcentercreation.github.io/JekyllPersonalWeb/books/01/12/2020/factfulness.html">Starting a blog, a YouTibe channel and a podcast...from scratch!!</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>1 min read</b></td>
   </tr>
     <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>JOURNAL</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px">Happy New Year!</td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>BOOK REVIEW</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400px"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/books/05/01/2021/buildingastorybrand.html">Happy New Year!</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>1 min read</b></td>
   </tr>
 </table>

@@ -35,7 +35,3 @@ From the moral poem *La Bégueule,* Voltaire (1772)
 - **Extreme E Championship -** First race of this electric racing buggies championship was held in Saudi Arabia desert. It is like the Dakar but with a closer battle between competitors. Only three cars take part at each race, and each race lasts only two laps. At the end of the first lap each car must head to the box for a driver switch. Several prestigious former Formula 1 and WRC drivers like Sebastian Loeb, Jenson Button or Carlos Sainz participates in it. Another feature is that this is a mixed gender championship, inside each team there is a male and a female driver. You can follow the action and even watch the races live on [YouTube](https://www.youtube.com/channel/UCmlrp3y74JN1L1o1tSdeINw).
 
 - Book: **The Rosie Project** by Graeme Simsion. I am not a big fan of fiction books but this one made me fall in love with literature again. The narrator, a professor with autism describes how he navigates his love relationships.
-
-# Recommended Books 📚
-
-1.
