@@ -49,7 +49,7 @@ title:
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>BOOK REVIEW</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="ghttps://jcentercreation.github.io/JekyllPersonalWeb/books/01/12/2020/factfulness.html">Starting a blog, a YouTibe channel and a podcast...from scratch!!</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="ghttps://jcentercreation.github.io/JekyllPersonalWeb/books/01/12/2020/factfulness.html">Factfulness</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>1 min read</b></td>
   </tr>
     <tr>
