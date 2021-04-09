@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Prueba"
-date:   2021-04-06 12:02:05 +0100
-categories: article
+title: "Starting when it all began"
+date:   2021-04-11 12:02:05 +0100
+categories: newsletter
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
 published: true
-tags: books personal_development 
+tags: newsletter
 ---
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Gym exercise.png"></h1>
 # Starting where it all began
 
 Hey guys,
