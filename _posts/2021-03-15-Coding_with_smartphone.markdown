@@ -18,19 +18,19 @@ Here you can find three websites where you can deploy and run your code:
 
 The first platform I wanna talk you about is Jupyter Notebook. Jupyter Project started in 2014 and his aim was to build a platform for open source coding and interactive computation. It supports dozens of programming languages and the name stands for Julia, Python and R which are the main programming languages for maths, physics, engineering, data science, machine learning and a bunch of other scientific purposes. The first thing we need to do is open a new python notebook and just start coding. Thanks to cloud computing service we can run the code directly and see the result on our screen.You can also import libraries and plot graphs for instance. It is like working with an IDE on your computer but without the need of installing anything. The main advantage of Jupyter is that it supports a bunch of programming languages.
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/IMG_0166.PNG"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/IMG_0168.PNG"></h1>
 
 ## CodePen
 
 If you are a frontend developer this will be very useful for you because CodePen is developed for running HTML, CSS and JavaScript routines. It also provides like a social community support to show your work and learn from others developers, see their work and even copy their code.
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/IMG_0165.PNG"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/IMG_0168.PNG"></h1>
 
 ## Google Colab
 
 The last web platform for coding I wanna talk you about is Google Colab. This platform, as you could imaging was developed by Google, and allows you to run your Python scripts. This is an specific platform for those AI developers and scientist. Behind the platform there is a great hardware like powerful graphic cards which are very suitable for that purposes.
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/IMG_0167.PNG"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/IMG_0170.PNG"></h1>
 
 I made also a quick video about this topic:
 
