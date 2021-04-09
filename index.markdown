@@ -43,8 +43,8 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>6 min read</b></td>
   </tr>
   <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>JOURNAL</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px">Happy New Year!</td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>ARTICLE</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400px">Coding with an smartphone</td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>1 min read</b></td>
   </tr>
   <tr>
