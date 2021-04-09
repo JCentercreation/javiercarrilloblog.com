@@ -45,17 +45,17 @@ title:
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>TECH</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400px"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/article/11/04/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>1 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>3 min read</b></td>
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>BOOK REVIEW</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/books/01/12/2020/factfulness.html">Factfulness</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>1 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>9 min read</b></td>
   </tr>
     <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>BOOK REVIEW</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400px"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/books/05/01/2021/buildingastorybrand.html">Building a Storybrand</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>1 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>5 min read</b></td>
   </tr>
 </table>
 <br>
