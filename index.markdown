@@ -38,9 +38,9 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>5 min read</b></td>
   </tr>
   <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey;background-color: #F8FAFC"><b>JOURNAL</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC">Starting a blog, a YouTibe channel and a podcast...from scratch!!</td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>1 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey;background-color: #F8FAFC"><b>BOOK REVIEW</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/books/01/02/2021/why_leaders_eat_last.html">Why leaders eat last</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>6 min read</b></td>
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>JOURNAL</b></td>
