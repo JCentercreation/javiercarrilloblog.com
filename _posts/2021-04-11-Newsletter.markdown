@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Starting when it all began"
+title: 
 date:   2021-04-11 12:02:05 +0100
 categories: newsletter
 author: Javier Carrillo
