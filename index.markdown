@@ -33,9 +33,9 @@ title:
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
   <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>JOURNAL</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px">Prueba</td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>1 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>NEWSLETTER</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400px"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/newsletter/11/04/2021/Newsletter.html">Starting Where It All Began</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>5 min read</b></td>
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey;background-color: #F8FAFC"><b>JOURNAL</b></td>
