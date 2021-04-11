@@ -22,8 +22,8 @@ Another metric I also focus on is the HRV (Heart Rate Variability). Apparently t
 
 <table>
     <tr>
-        <td><h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/IMG_0177.PNG"></h1></td>
-        <td><h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/IMG_0178.PNG"></h1></td>
+        <td style="border-style: hidden"><h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/IMG_0177.PNG"></h1></td>
+        <td style="border-style: hidden"><h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/IMG_0178.PNG"></h1></td>
     </tr>
 </table>
 
