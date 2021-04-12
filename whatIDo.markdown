@@ -6,7 +6,7 @@ permalink: /whatIdo
 <h1 style="color: #1E1D1F"><b>Summary</b></h1>
 <p style="text-align: justify; color: #1E1D1F">Driven by a relentless passion for technology I have been always pursuing working on cutting-edge projects which challenge my skills. I started my career in a fellowship researching in diesel combustion engines, modeling combustion and initiating in engine calibration. Then I had the chance to try in Energy sector, first in technical areas and then in financial markets as an energy trader developing purchasing strategies, price and customer consumptions predictions and risk hedging. After that experiences I decided to turn back to automotive sector and I had the chance to work at companies like Nissan and Seat as a powertrain development engineer being in charge of engine and traction control modules software calibration. During my free time I like to create useful solutions for several needs by means of coding and CAE design.</p>
 
-In this page you can find a sneak peek of my work experience, skills and education but for further information you can download my [resume](/assets/files/resume.pdf)⬅️
+In this page you can find a sneak peek of my work experience, skills and education but for further information you can download my [resume](/assets/files/resume2021.pdf)⬅️
 <br>
 <br>
 <header style="background-color: #E1ECF1; border-radius: 20px; padding: 20px">
