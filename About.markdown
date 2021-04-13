@@ -9,7 +9,7 @@ permalink: /about
 In this page you can find a sneak peek of my work experience, skills and education but for further information you can download my [resume](/assets/files/Carrillo_Javier_CV2021.pdf)⬅️
 <br>
 <br>
-<header style="background-color: #E1ECF1; border-radius: 20px; padding: 20px">
+<header style="background-color: #E1ECF1; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px grey">
 <h2><b>Work Experience</b></h2>
 <header style="background-color: #000000; border-radius: 20px; padding: 20px">
 <h1 style="text-align: left; color: white">Automotive Sector</h1>
@@ -24,7 +24,7 @@ In this page you can find a sneak peek of my work experience, skills and educati
 </header>
 <br>
 <br>
-<header style="background-color: #EFEEEA; border-radius: 20px; padding: 20px">
+<header style="background-color: #EFEEEA; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px grey">
 <h2><b>Skills</b></h2>
 <header style="background-color: #000000; border-radius: 20px; padding: 20px">
 <h1 style="text-align: left; color: white">Coding</h1>
@@ -39,7 +39,7 @@ In this page you can find a sneak peek of my work experience, skills and educati
 </header>
 <br>
 <br>
-<header style="background-color: black; border-radius: 20px; padding: 20px">
+<header style="background-color: black; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px grey">
 <h2 style="color: white"><b>Education</b></h2>
 <p style="text-align: justify; color: white">Since I was a child it was clear for me that I wanted to became an engineer, but which major? Well I liked space shuttles, racing cars, electronic devices and to take into pieces any gadget or toy that was within my reach, so when I grew up I decided to get a <b>BSc. and MSc. in Mechanical and Industrial Engineering</b> and I guess it was a right choice because it allowed me to gain a broad knowledge about many engineering realms. Then I got a <b>MSc. in Energy Technology</b> majoring in renewable energies and energy efficiency. </p>
 </header>
