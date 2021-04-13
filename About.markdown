@@ -11,13 +11,13 @@ In this page you can find a sneak peek of my work experience, skills and educati
 <br>
 <header style="background-color: #E1ECF1; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px grey">
 <h2><b>Work Experience</b></h2>
-<header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px white">
+<header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px #FDFDFD">
 <h1 style="text-align: left; color: white">Automotive Sector</h1>
 <p style="text-align: justify; color: white">I started my career in automotive sector as a <i>Combustion Reseracher Intern</i> at <b>CMT-Motores Térmicos</b>, a worldwide reference in combustion engines development. That allowed me to learn in a hands-on way about combustion process, models and applications to internal combustion engines. Those knowledge were very useful when I moved to companies like <b>Nissan</b> or <b>SEAT</b> where I worked as a <i>Powertrain Development Engineer</i>, building the powertrain control software for Diesel, Petrol and CNG engines targeting on emissions control, performance and driveability.</p>
 </header>
 <br>
 <br>
-<header style="background-color: white; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px white">
+<header style="background-color: white; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px #FDFDFD">
 <h1 style="text-align: right">Energy Sector</h1>
 <p style="text-align: justify">Apart from automotive sector I have always been very curious about energy industries and renewable sources. As an engineer I always pursue efficiency in almost everything and doing that within energy process is a very fulfilling way to do it. I started at energy sector as an <i>Energy Advisor</i> for third sector companies like hotels and hospitals performing energy audits, detecting weak points and predesigning energy saving measures. Then I had the chance to try on energy markets as an <i>Energy Trader.</i> </p>
 </header>
@@ -26,15 +26,15 @@ In this page you can find a sneak peek of my work experience, skills and educati
 <br>
 <header style="background-color: #EFEEEA; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px grey">
 <h2><b>Skills</b></h2>
-<header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px white">
+<header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px #FDFDFD">
 <h1 style="text-align: left; color: white">Coding</h1>
 <p style="text-align: justify; color: white">Coding has been a great part of my daily routine among different jobs, mainly developing macros in <b>VBA</b> to automate processes. On the other hand I also use programming to built solutions in my private life, in this case by using languages like <b>Python</b> and <b>Java</b> among others (this webpage was developed by myself for instance). You can check out my <a href="https://github.com/JCentercreation"><b>GitHub profile</b></a> and take a look to my repositories so you could have an idea about which languages I am used to dealing with.</p>
 </header>
 <br>
 <br>
-<header style="background-color: white; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px white">
+<header style="background-color: white; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px #FDFDFD">
 <h1 style="text-align: right">CAE Design</h1>
-<p style="text-align: justify">During my internship at CMT-Motores I had the chance to learn not only about powertrain devlopment and combustion engines calibration but also about CAE software. I was granted with a scolarship to attend <b>CATIA</b> courses and appplying all that knowledge to high efficiency vehicles design performing mechanical parts design and stress analysis for the Shell Eco-Marathon European Championship UPV Team. We won that championship twice in Diesel Category with a fuel efficiency record of 1265 kilometers per liter. This was one of the less glamorous achievements for me but one of the proudest ones I feel about.</p>
+<p style="text-align: justify">During my internship at CMT-Motores I had the chance to learn not only about powertrain devlopment and combustion engines calibration but also about CAE software. I was granted with a scolarship to attend <b>CATIA</b> courses and applying all that knowledge to high efficiency vehicles design performing mechanical parts design and stress analysis for the Shell Eco-Marathon European Championship UPV Team. We won that championship twice in Diesel Category with a fuel efficiency record of 1265 kilometers per liter. This was one of the less glamorous achievements for me but one of the proudest ones I feel about.</p>
 </header>
 </header>
 <br>
