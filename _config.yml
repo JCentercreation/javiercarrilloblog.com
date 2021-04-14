@@ -30,6 +30,7 @@ github_username:  JCentercreation
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 defaults:
   -
