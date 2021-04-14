@@ -5,3 +5,4 @@ permalink: /newsletter
 ---
 <script async data-uid="424e862343" src="https://fabulous-maker-8008.ck.page/424e862343/index.js"></script>
 <script async data-uid="657d52a115" src="https://fabulous-maker-8008.ck.page/657d52a115/index.js"></script>
+<script async data-uid="7b8eb74475" src="https://fabulous-maker-8008.ck.page/7b8eb74475/index.js"></script>
