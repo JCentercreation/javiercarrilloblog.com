@@ -10,8 +10,7 @@ permalink: /newsletter
 </header>
 <br>
 <br>
-<h2 style="text-align: justify"><b>Read past issues</b></h2>
-<hr style="width: 10%; height: 3px; background-color: #5395CE">
+<h2 style="text-align: justify; color: grey"><b>Read past issues</b></h2>
 <table>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: #1677BE"><b>11 April 2021</b></td>
