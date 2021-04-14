@@ -6,6 +6,10 @@ permalink: /newsletter
 <h3 style="text-align: center">Ey guys every Sunday I send an email with my latest discoveries and thoughts about tech, science, personal development, productivity and a bunch of other interesting topics.</h3>
 <br>
 <script async data-uid="657d52a115" src="https://fabulous-maker-8008.ck.page/657d52a115/index.js"></script>
+<br>
+<br>
+<h2 style="text-align: justify"><b>Latest Articles</b></h2>
+<hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>11 April 2021</b></td>
