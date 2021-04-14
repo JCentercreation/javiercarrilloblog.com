@@ -10,9 +10,9 @@ permalink: /newsletter
 <br>
 <br>
 <h3 style="text-align: justify; color: grey">Read past issues</h3>
-<table style="border-bottom: 1px solid grey; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000">
+<table style="border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000">
   <tr> 
-    <td style="table-layout: fixed; width: 50px; font-size: 80%; color: #1677BE; border-bottom: 1px solid grey; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000"><b>11 April 2021</b></td>
-    <td style="table-layout: fixed; width: 400px; border-bottom: 1px solid grey; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/newsletter/11/04/2021/Newsletter.html">Starting Where It All Began</a></td>
+    <td style="table-layout: fixed; width: 50px; font-size: 80%; color: #1677BE; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000"><b>11 April 2021</b></td>
+    <td style="table-layout: fixed; width: 400px; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/newsletter/11/04/2021/Newsletter.html">Starting Where It All Began</a></td>
   </tr>
 </table>
