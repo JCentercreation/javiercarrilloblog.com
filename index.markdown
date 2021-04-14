@@ -46,7 +46,7 @@ title:
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>TECH</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/article/11/04/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400px"><a href="https://www.javiercarrilloblog.com/article/01/04/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>3 min read</b></td>
   </tr>
   <tr>
