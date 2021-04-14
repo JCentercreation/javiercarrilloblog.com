@@ -3,7 +3,8 @@ layout: page
 title: Newsletter
 permalink: /newsletter
 ---
-Ey guys every Sunday I send an email with my latest discoveries and thoughts about tech, science, personal development, productivity and a bunch of other interesting topics. 
+<h2 style="text-align: center">Ey guys every Sunday I send an email with my latest discoveries and thoughts about tech, science, personal development, productivity and a bunch of other interesting topics.</h2>
+<br>
 <script async data-uid="657d52a115" src="https://fabulous-maker-8008.ck.page/657d52a115/index.js"></script>
 <table>
   <tr>
