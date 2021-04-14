@@ -1,5 +1,6 @@
 ---
 layout: page
 title: Newsletter
-permalink: https://fabulous-maker-8008.ck.page/javinewsletter
+permalink: /newsletter
+path: https://fabulous-maker-8008.ck.page/javinewsletter
 ---
