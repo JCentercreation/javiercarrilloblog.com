@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Secrets of Silicon Valley
-date:   2021-04-11 12:02:05 +0100
+date:   2021-04-14 12:02:05 +0100
 categories: books
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
