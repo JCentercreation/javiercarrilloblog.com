@@ -1,6 +1,5 @@
 ---
 layout: page
 title: Newsletter
-permalink: /newsletter
+permalink: https://fabulous-maker-8008.ck.page/javinewsletter
 ---
-<a href="https://jcentercreation.github.io/JekyllPersonalWeb/newsletter/11/04/2021/Newsletter.html">Starting Where It All Began</a>
