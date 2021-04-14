@@ -13,6 +13,6 @@ permalink: /newsletter
 <table style="border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000">
   <tr> 
     <td style="table-layout: fixed; width: 100px; font-size: 100%; color: #5395CE; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000; align: left; margin: 0px; padding: 0px"><b>11 Apr 2021</b></td>
-    <td style="table-layout: fixed; width: 400px; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000"><a style="font-size: 20px" href="https://jcentercreation.github.io/JekyllPersonalWeb/newsletter/11/04/2021/Newsletter.html">Starting Where It All Began</a></td>
+    <td style="table-layout: fixed; width: 400px; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000"><a style="font-size: 20px; color: grey" href="https://jcentercreation.github.io/JekyllPersonalWeb/newsletter/11/04/2021/Newsletter.html">Starting Where It All Began</a></td>
   </tr>
 </table>
