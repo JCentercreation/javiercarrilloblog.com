@@ -12,7 +12,7 @@ permalink: /newsletter
 <br>
 <h3 style="text-align: justify; color: grey">Read past issues</h3>
 <table>
-  <tr style="border-bottom-width: 1px solid #000;; border-top-width: 0px solid #000; 0; border-right-width: 0px solid #000; 0; border-left-width: 0px solid #000; 0"> 
+  <tr style="border-bottom: 1px solid #000;; border-top: 0px solid #000; 0; border-right: 0px solid #000; 0; border-left: 0px solid #000; 0"> 
     <td style="table-layout: fixed; width: 50px; font-size: 80%; color: #1677BE"><b>11 April 2021</b></td>
     <td style="table-layout: fixed; width: 400px"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/newsletter/11/04/2021/Newsletter.html">Starting Where It All Began</a></td>
   </tr>
