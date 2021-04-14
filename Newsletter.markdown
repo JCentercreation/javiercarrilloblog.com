@@ -3,4 +3,4 @@ layout: page
 title: Newsletter
 permalink: /newsletter
 ---
-<script async data-uid="4e2df557c2" src="https://fabulous-maker-8008.ck.page/4e2df557c2/index.js"></script>
+<script async data-uid="657d52a115" src="https://fabulous-maker-8008.ck.page/657d52a115/index.js"></script>
