@@ -12,6 +12,7 @@ In this page you can find a sneak peek of my work experience, skills and educati
 <br>
 <br>
 -->
+<script async data-uid="7b8eb74475" src="https://fabulous-maker-8008.ck.page/7b8eb74475/index.js"></script>
 <header style="background-color: #E1ECF1; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px grey">
 <h2><b>Work Experience</b></h2>
 <header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px grey">
