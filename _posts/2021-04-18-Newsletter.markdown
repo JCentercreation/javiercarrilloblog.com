@@ -8,7 +8,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: newsletter
 ---
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Construction.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 40%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Construction.png"></h1>
 Hey guys,
 
 This week I have discovered a silly "method" to stick to your purposes and start doing what you want to do. Maybe you all already know it but for me this method blew my mind when I stumble with it and realised how solid it is. When it comes to start a new activity or project, above all if those are challenging for me, I have the feeling that *"maybe I am not good enough yet for doing that so until I am good enough I will not go for it"*. I guess this feeling comes from my perfectionist way of living (which I am also trying too get rid of).
