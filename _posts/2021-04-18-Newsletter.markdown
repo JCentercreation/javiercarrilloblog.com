@@ -17,8 +17,10 @@ Well the first thing that I realised about is that ***you don't need to be good 
 
 Now maybe you are thinking *"congratulations man, you have discovered that there is no point in thinking too much about something and not putting it into practice...but the hot question is: how to start doing what you don't know how to do?"*. Well I just try to apply myself this three steps:
 
-- **Make it EXIST**: at the very beginning of starting doing or building something don't try to make it perfect from scratch. I personally guess it is mandatory to assess and think before taking action, but start doing and when you realise whatever you are doing is still not good, keep going on and just make it exists for you. The worst action is better than the best thought. (Little disclaimer: last sentence is only legit if the results of your actions are not gonna affect anyone else but you. Do not release your product or whatever it could be to other people until it os functional at least).
-- **Make it FUNCTIONAL**: once it exists (whatever it is) is time to make it functional and focus on the outcome. Making it functional means that what you are creating solves a need. Maybe your first website is not pretty and it looks like the first nerdy webpages of the early 90's, but it has a banner to navigate through, a contact link with your data to let anyone reach out, and even a picture! So now it is functional, it works.
+- **Make it EXIST**: at the very beginning of starting doing or building something don't try to make it perfect from scratch. I personally think that it is mandatory to assess and think before taking action, but start doing and when you realise that whatever you are doing is still not good, keep going on and just make it exists for you. The worst action is better than the best thought. (Little disclaimer: last sentence is only legit if the results of your actions are not gonna affect anyone else but you. Do not release your product or whatever it could be to other people until it is functional at least).
+
+- **Make it FUNCTIONAL**: once it exists (whatever it is) is time to make it functional and focus on the outcome. Making it functional means that it solves a need. Maybe your first website is not pretty and it looks like the first nerdy webpages of the early 90's, but it has a banner to navigate through, a contact link with your phone number and email that allows anyone to reach out, and even a picture! So now it is functional, it works.
+
 - **Make it EFFECTIVE**: now that it is functional its time to think about making it as good as posible, to decorate, to get rid of the the inefficiencies and the like. Now it is really the time to care about perfection.
 
 Just wanted to share with you this ideas I came across with last week. Hopefully it could be useful for someone else than me.
@@ -35,5 +37,6 @@ Albert Einstein
 
 # Things I've enjoyed this week 🎉
 
-- **Webscraping with Python:** its been a while since the last time (at least a couple of month) I wrote a script to automate any of my daily tasks. So this week I decided to go back to my past coding routines (when I say "coding" I mean back-end stuff...sorry front-end developers 😜) in order to get rid of some silly activities that drain my time.
+- **Webscraping with Python:** its been a while since the last time (at least a couple of month) I wrote a script to automate any of my daily tasks. So this week I decided to go back to my past coding routines (when I say "coding" I mean back-end stuff...sorry front-end developers 😜) in order to get rid of some silly activities that drain my time. You can have a look <a href="https://www.javiercarrilloblog.com/books/18/04/2021/Formula1WebScraping.html">here.</a>
+
 - Book: ***The Rosie Effect*** by Graeme Simsion. This is the second part of ***The Rosie Project,*** which recommended last week. Again a lovely story about a professor with autism that has a to deal with life problems.
