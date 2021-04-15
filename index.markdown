@@ -51,8 +51,8 @@ title:
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey;background-color: #F8FAFC"><b>BOOK REVIEW</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/books/01/02/2021/why_leaders_eat_last.html">Why leaders eat last</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>6 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/books/14/04/2021/SecretsSiliconValley-copy.html">The Secrets of Silicon Valley</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>9 min read</b></td>
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>TECH</b></td>
