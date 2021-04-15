@@ -37,6 +37,6 @@ Albert Einstein
 
 # Things I've enjoyed this week 🎉
 
-- **Webscraping with Python:** its been a while since the last time (at least a couple of month) I wrote a script to automate any of my daily tasks. So this week I decided to go back to my past coding routines (when I say "coding" I mean back-end stuff...sorry front-end developers 😜) in order to get rid of some silly activities that drain my time. You can have a look <a href="https://www.javiercarrilloblog.com/books/18/04/2021/Formula1WebScraping.html">here.</a>
+- **Webscraping with Python:** its been a while since the last time (at least a couple of month) I wrote a script to automate any of my daily tasks. So this week I decided to go back to my past coding routines (when I say "coding" I mean back-end stuff...sorry front-end developers 😜) in order to get rid of some silly activities that drain my time. Check out <a href="https://www.javiercarrilloblog.com/books/18/04/2021/Formula1WebScraping.html">here.</a>
 
 - Book: ***The Rosie Effect*** by Graeme Simsion. This is the second part of ***The Rosie Project,*** which recommended last week. Again a lovely story about a professor with autism that has a to deal with life problems.
