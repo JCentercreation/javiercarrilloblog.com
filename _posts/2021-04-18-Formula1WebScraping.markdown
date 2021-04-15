@@ -10,7 +10,7 @@ tags: tech
 ---
 Hi guys today I want to show you how to build an easy routine to automate your tasks related to web scrapping so you could save much time. And we are going to apply those concepts to a real case.
 
-Well basically what we are gonna do today is building a small program which is going to send an email to our inbox with the latest results of Formula 1, which is my favourite sport. So for that purpose we are will divide that final goal into four small routines:
+Well basically what we are going to do today is building a small program which is going to send an email to our inbox with the results of latest Formula 1 race. So for that purpose we will divide that final goal into four small routines:
 
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/ProgramExplanation.001.jpeg"></h1>
 
@@ -22,7 +22,7 @@ All the programming tools we will need are:
     - Beautiful Soup module: which will allow us to perform the webscrapping
     - "smtplib" module: to work with mailing stuff
 
-I'm not gonna spend any time explaining how to install those modules cause I guess you all ready know how to do it. If you are a very beginner with Python no worries, just make a quick search in the internet about how to use PIP, the Python Package Installer manager. It's very straight forward.
+I'm not gonna spend any time explaining how to install those modules cause I guess you all ready know how to do it. If you are a very beginner with Python no worries, just make a quick search in the internet about how to use PIP, the Python Package Installer manager. It's very straight forward. And also I will not perform a clean clode because the main target is to show you the main feautures of Beautiful Soup when it comes to web scarping.
 
 Ok, lets dive into it:
 
