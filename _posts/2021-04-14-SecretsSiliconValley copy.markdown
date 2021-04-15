@@ -8,7 +8,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: tech books entrepreneur business
 ---
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/SecretsSandHillRoad.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/SecretsSandHillRoad.png"></h1>
 
 It is widely known that setting a start-up is one of the hardest thing you could do in your career. It takes a lot of time and effort without being sure it’s gonna work while you are risking a big amount of money. Many entrepreneurs have really good technical skills about the product or service they are trying to put into market, but also many of them have no expertise when it comes to manage the business itself and dealing with investors. That’s the gap Scot Kupor tries to fill with his book “Secrets of Sand Hill Road”. The author got a great background working at tech companies like HP before he moved to managing a venture capital firm and he puts all that valuable knowledge in this book to help those entrepreneurs who want to play their cards properly when getting investors for their companies.
 
