@@ -10,7 +10,6 @@ permalink: /newsletter
     </tr>
 </table>
 <br>
-<br>
 <h3 style="text-align: justify; color: grey">Read past issues</h3>
 <table style="border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000">
   <tr> 
