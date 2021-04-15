@@ -22,7 +22,7 @@ All the programming tools we will need are:
     - Beautiful Soup module: which will allow us to perform the webscrapping
     - "smtplib" module: to work with mailing stuff
 
-I'm not gonna spend any time explaining how to install those modules cause I guess you all ready know how to do it. If you are a very beginner with Python no worries, just make a quick search in the internet about how to use PIP, the Python Package Installer manager. It's very straight forward. And also I will not perform a clean clode because the main target is to show you the main feautures of Beautiful Soup when it comes to web scarping.
+I'm not gonna spend any time explaining how to install those modules cause I guess you all ready know how to do it. If you are a very beginner with Python no worries, just make a quick search in the internet about how to use PIP, the Python Package Installer manager. It's very straight forward. And also I will not perform a clean clode because the main target is to show you the feautures of Beautiful Soup when it comes to web scraping, so sorry for my messy code.
 
 Ok, lets dive into it:
 
