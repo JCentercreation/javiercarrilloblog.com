@@ -36,9 +36,9 @@ title:
 <table>
 <tr>
   <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>NEWSLETTER</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/newsletter/18/04/2021/Newsletter.html">Make it Exist</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>9 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>NEWSLETTER</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/newsletter/18/04/2021/Newsletter.html">Make it Exist</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>9 min read</b></td>
   </tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>TECH</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/books/18/04/2021/Formula1WebScraping.html">Formula 1 and Web Scraping with Python</a></td>
