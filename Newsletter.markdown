@@ -6,7 +6,7 @@ permalink: /newsletter
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Message.png"></h1>
 <table>
   <tr>
-    <td style="border-style: hidden"><script async data-uid="657d52a115" src="https://fabulous-maker-8008.ck.page/657d52a115/index.js"></script>
+    <td style="border-style: hidden"><script async data-uid="657d52a115" src="https://fabulous-maker-8008.ck.page/657d52a115/index.js"></script></td>
     </tr>
 </table>
 <br>
