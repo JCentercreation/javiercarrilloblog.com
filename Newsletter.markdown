@@ -4,7 +4,11 @@ title: Newsletter
 permalink: /newsletter
 ---
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Message.png"></h1>
-<script async data-uid="657d52a115" src="https://fabulous-maker-8008.ck.page/657d52a115/index.js"></script>
+<table>
+  <tr>
+    <td style="border-style: hidden"><script async data-uid="657d52a115" src="https://fabulous-maker-8008.ck.page/657d52a115/index.js"></script>
+    </tr>
+</table>
 <br>
 <br>
 <h3 style="text-align: justify; color: grey">Read past issues</h3>
