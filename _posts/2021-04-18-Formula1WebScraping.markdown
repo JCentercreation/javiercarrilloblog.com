@@ -31,11 +31,11 @@ Ok, lets dive into it:
 
     Basically inside this module we will define the URL we want the program take the information from. This variable obviously is vital. In this case I just made a quick if else rule to define it based on how the webpages are routed inside the official Formula 1 website and taking into account which is the real date the program is been used so the email contains the latest race results. But if you just want to make it easy at the first attempt in order to test your code quickly this will be enough:
 
-    <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-15 a las 22.28.14.png"></h1>
+    <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-15 a las 22.20.11.png"></h1>
 
     Inside this module the URL availability is also checked so we could skip the program if the requested URL is not available yet for whatever reason. This is our first web scrapping activity so we ask Beautiful Soup to do it. It will return a true/false state.
 
-    <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-15 a las 22.18.23.png"></h1>
+    <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura_de_pantalla_2021-04-15_a_las_22.18.23.png"></h1>
 
 
 - WebScraping.py
