@@ -35,6 +35,11 @@ title:
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
 <tr>
+  <tr>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>NEWSLETTER</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/newsletter/18/04/2021/Newsletter.html">Make it Exist</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>9 min read</b></td>
+  </tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>TECH</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/books/18/04/2021/Formula1WebScraping.html">Formula 1 and Web Scraping with Python</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>4 min read</b></td>
@@ -51,13 +56,8 @@ title:
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>TECH</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/article/01/04/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400px; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/article/15/03/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>3 min read</b></td>
-  </tr>
-  <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>BOOK REVIEW</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/books/01/12/2020/factfulness.html">Factfulness</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>9 min read</b></td>
   </tr>
 </table>
 <br>
