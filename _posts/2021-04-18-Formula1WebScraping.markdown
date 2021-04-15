@@ -8,7 +8,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: tech
 ---
-Hi guys welcome to the channel. If you are new here my name is Javier Carrillo, I'm a Powertrain Development Engineer based in Spain. Today I want to show you how to build an easy routine to automate your tasks related to web scrapping so you could save much time. And we are going to apply those concepts to a real case.
+Hi guys today I want to show you how to build an easy routine to automate your tasks related to web scrapping so you could save much time. And we are going to apply those concepts to a real case.
 
 Well basically what we are gonna do today is building a small program which is going to send an email to our inbox with the latest results of Formula 1, which is my favourite sport. So for that purpose we are will divide that final goal into four small routines:
 
