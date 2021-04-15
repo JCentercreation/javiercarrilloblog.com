@@ -34,6 +34,11 @@ title:
 <h2 style="text-align: justify"><b>Latest Articles</b></h2>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
+<tr>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>TECH</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/books/18/04/2021/Formula1WebScraping.html">Formula 1 and Web Scraping with Python</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>4 min read</b></td>
+  </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>NEWSLETTER</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400px"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/newsletter/11/04/2021/Newsletter.html">Starting Where It All Began</a></td>
@@ -53,11 +58,6 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>BOOK REVIEW</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/books/01/12/2020/factfulness.html">Factfulness</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>9 min read</b></td>
-  </tr>
-    <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>BOOK REVIEW</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/books/05/01/2021/buildingastorybrand.html">Building a Storybrand</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey"><b>5 min read</b></td>
   </tr>
 </table>
 <br>
