@@ -30,7 +30,7 @@ Ok, lets dive into it:
 
     <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-15 a las 22.20.11.png"></h1>
 
-    Inside this module the URL availability is also checked so we could skip the program if the requested URL is not available yet for whatever reason. This is our first web scrapping activity so we ask Beautiful Soup to do it. It will return a true/false state.
+    Inside this module the race result availability is also checked so we could skip the program if the results are not available yet for whatever reason. This is our first web scrapping activity so we ask Beautiful Soup to do it. It will return a true/false state.
 
     <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura_de_pantalla_2021-04-15_a_las_22.18.23.png"></h1>
 
