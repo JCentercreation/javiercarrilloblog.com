@@ -48,7 +48,7 @@ Ok, lets dive into it:
 
 - **Main.py**
     <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-15 a las 23.09.16.png"></h1>
-
+<br>
 Finally if we run the program we will get an email like this:
 
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-16 a las 0.43.58.png"></h1>
