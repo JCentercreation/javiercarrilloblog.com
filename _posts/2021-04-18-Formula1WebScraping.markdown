@@ -26,7 +26,7 @@ I'm not gonna spend any time explaining how to install those modules cause I gue
 
 Ok, lets dive into it:
 
-- WebAvailability.py
+- **WebAvailability.py**
 
     Basically inside this module we will define the URL we want the program take the information from. This variable obviously is vital. In this case I just made a quick if else rule to define it based on how the webpages are routed inside the official Formula 1 website and taking into account which is the real date the program is been used so the email contains the latest race results. But if you just want to make it easy at the first attempt in order to test your code quickly this will be enough:
 
@@ -37,19 +37,19 @@ Ok, lets dive into it:
     <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura_de_pantalla_2021-04-15_a_las_22.18.23.png"></h1>
 
 
-- WebScraping.py
+- **WebScraping.py**
 
     All right, so this is the module where we are going to properly get the information from the webpage. And Then we are gonna write that information into a .txt file. Take a look to the whole code:
 
     <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-15 a las 22.28.14.png"></h1>
 
-- EmailDelivery.py
+- **EmailDelivery.py**
 
     Inside this module we are going to built the connection with the mailing server, create the email and to send it.
 
     <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-15 a las 22.53.58.png"></h1>
 
-- Main.py
+- **Main.py**
 
     <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-15 a las 23.09.16.png"></h1>
 
