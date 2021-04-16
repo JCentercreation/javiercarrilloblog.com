@@ -13,7 +13,6 @@ Hi guys today I want to show you how to build an easy routine to automate your t
 Well basically what we are going to do today is building a small program which is going to send an email to our inbox with the results of latest Formula 1 race. So for that purpose we will divide that final goal into four small routines:
 
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/ProgramExplanation2q.001.jpeg"></h1>
-
 All the programming tools we will need are:
 
 - A recent Python version. I'm currently using Python 3.9.3
