@@ -28,13 +28,6 @@ In this page you can find a sneak peek of my work experience, skills and educati
 </header>
 <br>
 <br>
-<header style="background-color: #F2F2F2; border-radius: 20px; padding: 20px">
-<h1><b>Sport Life🏃‍♂️</b></h1>
-<p style="text-align: justify">Sport is not only a way to keep you healthier but also happier. I practice sport for two main reasons: the first and most important one is because I enjoy it, and the second one is because it triggers my hormones game to keep me in the right emotions. Since my early days I've always been in touch with sport in a semiprofessional way, at the beggining it was just a way to socialize and develope my body, but when I started college I realized how sport matters in my life in terms of happines and achiving my goals.</p>
-<div align="center"><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/VTTI1266-originalrecort.jpg" whith="560" height="625" style="border-radius: 20px"></div>
-</header>
-<br>
-<br>
 <header style="background-color: #EFEEEA; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px grey">
 <h2><b>Skills</b></h2>
 <header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px grey">
