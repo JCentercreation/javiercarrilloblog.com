@@ -17,6 +17,6 @@ permalink: /codingseries
   </tr>
     <tr> 
     <td style="table-layout: fixed; width: 100px; font-size: 100%; background-color: #FDFDFD; color: #5395CE; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000; align: left; margin: 0px; padding: 0px"><b>15 Feb 2021</b></td>
-    <td style="table-layout: fixed; width: 400px; background-color: #FDFDFD; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000"><a style="font-size: 20px; color: #000" href="https://www.javiercarrilloblog.com/article/15/03/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
+    <td style="table-layout: fixed; width: 400px; background-color: #FDFDFD; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000"><a style="font-size: 20px; color: #000" href="https://www.javiercarrilloblog.com/coding/15/02/2021/MySQLPython.html">Managing MySQL database with Python</a></td>
   </tr>
 </table>
