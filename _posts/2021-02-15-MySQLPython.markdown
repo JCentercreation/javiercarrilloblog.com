@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Managing MySQL database with Python
-date:   2021-04-18 12:02:05 +0100
+date:   2021-02-15 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
