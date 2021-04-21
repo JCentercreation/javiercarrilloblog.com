@@ -38,7 +38,7 @@ In this page you can find a sneak peek of my work experience, skills and educati
 <br>
 <header style="background-color: white; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px grey">
 <h1 style="text-align: right">CAE Design</h1>
-<p style="text-align: justify">During my internship at CMT-Motores I had the chance to learn not only about powertrain devlopment and combustion engines calibration but also about CAE software. I was granted with a scolarship to attend <b>CATIA</b> courses and applying all that knowledge to high efficiency vehicles design performing mechanical parts design and stress analysis for the Shell Eco-Marathon European Championship UPV Team. We won that championship twice in Diesel Category with a fuel efficiency record of 1265 kilometers per liter. This was one of the less glamorous achievements for me but one of the most proud of I feel.</p>
+<p style="text-align: justify">During my internship at CMT-Motores I had the chance to learn not only about powertrain devlopment and combustion engines calibration but also about CAE software. I was granted with a scolarship to attend <b>CATIA</b> courses and applying all that knowledge to high efficiency vehicles design performing mechanical parts design and stress analysis for the Shell Eco-Marathon European Championship UPV Team. We won that championship twice in Diesel Category with a fuel efficiency record of 1265 kilometers per liter. This was one of the less glamorous achievements for me but one I most proud of.</p>
 </header>
 </header>
 <br>
