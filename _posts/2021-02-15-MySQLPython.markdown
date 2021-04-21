@@ -51,7 +51,7 @@ Obviously it is also possible to modify the database. Lets imagine that we want 
 
 Finally this is what we will get into the terminal:
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-21 a las 18.50.48.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Captura de pantalla 2021-04-21 a las 18.50.48.PNG"></h1>
 
 
 Take a look to my GitHub <a href="https://github.com/JCentercreation/MySQLPython/blob/main/mySQLConnection.py">repository</a> to see full code.
