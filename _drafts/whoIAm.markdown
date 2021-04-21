@@ -3,7 +3,7 @@ layout: page
 title: Who I am
 permalink: /whoIam
 ---
-<p style="text-align: justify">Hi erveryone! 🙋‍♂️ My name is Javier Carrillo (you can call me <b><i>Javi</i></b> if you feel like to it). I am a techlover, sportman and also optimistic (but realistic, sorry I'm an engineer) person based in the worldwide. Here you will find some info which let you know me better as a human being.</p>
+<p style="text-align: justify">Hi erveryone! 🙋‍♂️ My name is Javier Carrillo (you can call me <b><i>Javi</i></b> if you feel like to it). I am a techlover, sportman and also optimistic (but realistic, sorry I'm an engineer) person based in Spain. Here you will find some info which let you know me better as a human being.</p>
 <br>
 <header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px grey">
 <h1 style="color: white"><b>Youtube Life</b><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/youtuberedlogo.png" whith="20" height="20"></h1>
