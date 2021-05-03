@@ -37,8 +37,8 @@ title:
 <tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>NEWSLETTER</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/newsletter/18/04/2021/Newsletter.html">Make it Exist</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>9 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/newsletter/02/05/2021/Newsletter.html">Rocket Science</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>4 min read</b></td>
   </tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>TECH</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/books/15/04/2021/Formula1WebScraping.html">Formula 1 and Web Scraping with Python</a></td>
@@ -54,7 +54,7 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/books/14/04/2021/SecretsSiliconValley-copy.html">The Secrets of Silicon Valley</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>9 min read</b></td>
   </tr>
-  <tr>
+   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>TECH</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400px; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/article/15/03/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>3 min read</b></td>
