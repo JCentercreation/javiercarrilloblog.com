@@ -51,8 +51,8 @@ title:
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey;background-color: #F8FAFC"><b>BOOK REVIEW</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/books/14/04/2021/SecretsSiliconValley-copy.html">The Secrets of Silicon Valley</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>9 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/books/08/05/2021/ElonMusk.html">Elon Musk</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>17 min read</b></td>
   </tr>
    <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>TECH</b></td>
