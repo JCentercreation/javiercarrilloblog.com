@@ -33,5 +33,5 @@ Oprah Winfrey
 # Things I've enjoyed this week 🎉
 
 - **The mosquito coast:** great serie broadcasted on Apple TV. This is a story about a family that is being chased by the FBI for something the father did in the past. Just two episodes released, lets see how it evolves but seems to be really promising. The story is based on the book written by Paul Theroux.
-- Book: ***Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*** by Ashlee Vance.
+- Book: ***Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future*** by Ashlee Vance. You can read my nothes from this book <a href="https://www.javiercarrilloblog.com/books/08/05/2021/ElonMusk.html">here</a>
 
