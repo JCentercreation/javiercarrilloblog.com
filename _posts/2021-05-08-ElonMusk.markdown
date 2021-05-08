@@ -8,7 +8,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: tech books entrepreneur business
 ---
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; height: 400px; width: 350px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/ElonMusk.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; height: 400px; width: 270px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/ElonMusk.png"></h1>
 
 ### Who is this book for? 🙋‍♂️
 
