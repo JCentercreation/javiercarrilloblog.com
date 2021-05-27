@@ -9,7 +9,7 @@ published: true
 tags: newsletter
 ---
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 40%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Startup.png"></h1>
-Ey guys,
+Hey guys,
 
 This week has been a little bit rare, nothing special to highlight to be honest. Just focusing on learning how to code in Xcode, reading as much as I can and being very hyped about recent and future space exploration missions. Definitely the aeronautics and space is a sector I really would like to work at. If you are new in this realm and you would like to know more about it, I strongly recommend you to take a look to this two NASA missions:
 
