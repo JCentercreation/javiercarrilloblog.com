@@ -41,7 +41,7 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>4 min read</b></td>
   </tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>TECH</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/books/15/04/2021/Formula1WebScraping.html">Formula 1 and Web Scraping with Python</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html">Formula 1 and Web Scraping with Python</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>4 min read</b></td>
   </tr>
   <tr>
@@ -56,7 +56,7 @@ title:
   </tr>
    <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>TECH</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/article/15/03/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400px; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/coding/15/03/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>3 min read</b></td>
   </tr>
 </table>
