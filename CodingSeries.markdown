@@ -13,7 +13,7 @@ permalink: /codingseries
   </tr>
   <tr> 
     <td style="table-layout: fixed; width: 100px; font-size: 100%; color: #5395CE; background-color: #FDFDFD; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000; align: left; margin: 0px; padding: 0px"><b>15 Apr 2021</b></td>
-    <td style="table-layout: fixed; width: 400px; background-color: #FDFDFD; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000"><a style="font-size: 20px; color: #000" href="https://www.javiercarrilloblog.com/books/15/04/2021/Formula1WebScraping.html">Formula 1 and Web Scraping with Python</a></td>
+    <td style="table-layout: fixed; width: 400px; background-color: #FDFDFD; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000"><a style="font-size: 20px; color: #000" href="https://www.javiercarrilloblog.com/article/15/04/2021/Formula1WebScraping.html">Formula 1 and Web Scraping with Python</a></td>
   </tr>
   <tr> 
     <td style="table-layout: fixed; width: 100px; font-size: 100%; background-color: #FDFDFD; color: #5395CE; border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000; align: left; margin: 0px; padding: 0px"><b>15 Mar 2021</b></td>

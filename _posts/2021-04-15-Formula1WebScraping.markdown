@@ -2,7 +2,7 @@
 layout: post
 title: Formula 1 and Web Scraping with Python
 date:   2021-04-15 12:02:05 +0100
-categories: books
+categories: article
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
 published: true
