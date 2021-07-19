@@ -2,7 +2,7 @@
 layout: post
 title: Notifications in iOS
 date:   2021-05-17 12:02:05 +0100
-categories: article
+categories: coding
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
 published: true

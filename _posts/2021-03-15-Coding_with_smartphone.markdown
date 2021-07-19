@@ -2,7 +2,7 @@
 layout: post
 title: Coding with my smartphone
 date:   2021-03-15 12:02:05 +0100
-categories: article
+categories: coding
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
 published: true
