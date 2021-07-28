@@ -35,9 +35,9 @@ title:
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
   <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>TECH</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/coding/15/03/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>3 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>CODING</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 400px; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/coding/17/05/2021/SwiftClosures.html">How Swift Closure Works</a></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>3 min read</b></td>
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>NEWSLETTER</b></td>
