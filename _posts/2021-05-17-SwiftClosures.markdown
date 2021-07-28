@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Swift Closure works
+title: How Swift Closure Works
 date:   2021-05-17 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
@@ -29,3 +29,7 @@ Finally we instance the function passing the closure as the completion handler:
 As a final comment, and if you are following this short explanation coding writing the code in your own computer, you probably have notice that when instancing the function Swift gives you the chance to work with the input argument of the closure embedded as a completion handler:
 
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/closure4.png"></h1>
+
+The result is:
+
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/closure5.png"></h1>
