@@ -18,12 +18,13 @@ title:
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    <label for="country">Country</label>
+    <label for="area">area</label>
     <select id="area" name="area">
       <option value="europe">Europe</option>
       <option value="usa">USA</option>
       <option value="other">Other</option>
     </select>
+    <br>
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width: 365px"></textarea>
     <input type="submit" value="Submit">
