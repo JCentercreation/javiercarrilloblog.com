@@ -26,7 +26,7 @@ Finally we instance the function passing the closure as the completion handler:
 
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/closure3.png"></h1>
 
-As a final comment, and if you are following this short explanation coding writing the code in your own computer, you probably have notice that when instancing the function Swift gives you the chance to work with the input argument of the closure embedded as a completion handler:
+As a final comment, and if you are following this short explanation writing the code in your own computer, you probably have noticed that Swift gives you the chance to work with the input argument of the closure embedded as a completion handler when instancing the fucntion:
 
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/closure4.png"></h1>
 

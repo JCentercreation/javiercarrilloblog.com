@@ -9,8 +9,8 @@ title:
 <div style="text-align: center"><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Foto1.png" whith="200" height="200"></div>
 -->
 <h1 style="text-align: center"><b>Welcome!</b></h1>
-<h2 style="text-align: center">I'm Javier Carrillo, an engineer and sport lover.</h2>
-<h3 style="text-align: center">On this website I explore a bunch of different topics related to tech, science, personal development and productivity. Check out latest posts down below ⬇️</h3>
+<h2 style="text-align: center">I'm Javier Carrillo, an engineer, software developer and sport lover.</h2>
+<h3 style="text-align: center">I built this website as a way to show and share with my friends interesting topics about tech, science and other stuff. Check out latest posts down below ⬇️</h3>
 
 
 <!--
@@ -40,19 +40,9 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>3 min read</b></td>
   </tr>
   <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>NEWSLETTER</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/newsletter/02/05/2021/Newsletter.html">Rocket Science</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>4 min read</b></td>
-  </tr>
-  <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>TECH</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>CODING</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400x; background-color: #F8FAFC"><a href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html">Formula 1 and Web Scraping with Python</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>4 min read</b></td>
-  </tr>
-  <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>NEWSLETTER</b></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 400px; background-color: #FDFDFD"><a href="https://jcentercreation.github.io/JekyllPersonalWeb/newsletter/11/04/2021/Newsletter.html">Starting Where It All Began</a></td>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>5 min read</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>4 min read</b></td>
   </tr>
   <tr>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey;background-color: #F8FAFC"><b>BOOK REVIEW</b></td>
@@ -60,7 +50,7 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #F8FAFC"><b>17 min read</b></td>
   </tr>
    <tr>
-    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>TECH</b></td>
+    <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>CODING</b></td>
     <td style="table-layout: fixed; border-style: hidden; width: 400px; background-color: #FDFDFD"><a href="https://www.javiercarrilloblog.com/coding/15/03/2021/Coding_with_smartphone.html">Coding with my smartphone</a></td>
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>3 min read</b></td>
   </tr>

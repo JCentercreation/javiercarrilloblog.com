@@ -32,7 +32,7 @@ In this page you can find a sneak peek of my work experience, skills and educati
 <h2><b>Skills</b></h2>
 <header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px grey">
 <h1 style="text-align: left; color: white">Coding</h1>
-<p style="text-align: justify; color: white">Coding has been a great part of my daily routine among different jobs, mainly developing macros in <b>VBA</b> to automate processes. On the other hand I also use programming to built solutions in my private life, in this case by using languages like <b>Python</b> and <b>Java</b> among others (this webpage was developed by myself for instance). You can check out my <a href="https://github.com/JCentercreation"><b>GitHub profile</b></a> and take a look to my repositories so you could have an idea about which languages I am used to dealing with. I recently started a <a href="https://www.javiercarrilloblog.com/codingseries"><b>coding series</b></a> tutorials.</p>
+<p style="text-align: justify; color: white">Coding has been a great part of my daily routine among different jobs, mainly developing macros in <b>VBA</b> to automate processes. On a side I also like to built solutions by means of softaware applications by using programming languages like <b>Swift</b>,<b>Python</b> or <b>Java</b> among others (this webpage was developed by myself for instance). You can check out my <a href="https://github.com/JCentercreation"><b>GitHub profile</b></a> and take a look to my repositories so you could have an idea about which languages I am used to dealing with. I recently started a <a href="https://www.javiercarrilloblog.com/codingseries"><b>coding series</b></a> tutorials.</p>
 </header>
 <br>
 <br>
