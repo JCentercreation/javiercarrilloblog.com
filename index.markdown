@@ -11,7 +11,7 @@ title:
 <table>
   <tr>
     <td style="border-style: hidden">
-      <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/techOffice.jpg"></h1>
+      <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/1.svg"></h1>
     </td>
     <td style="border-style: hidden">
       <h3>Building the digital solutions that will empower your business</h3>
