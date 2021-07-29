@@ -22,12 +22,12 @@ title:
 
 <table style="width: 100%">
   <tr>
+    <td style="border-style: hidden; width: 60%"><script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script><script>hbspt.forms.create({region: "eu1",portalId: "24911257",formId: "07fe559d-ca81-41ad-b091-f3d32cd5bd93"});</script>
+    </td>
     <td style="border-style: hidden; width: 40%">
       <header style="background-color: #264364; border-radius: 20px; padding: 10px">
         <h2 style="text-align: center; color: white">If you are a small business and you need a digital solution for running the operations, reducing the expenses and enhancing the experience of your customers and employees please contact me by filling the form down below.</h2>
       </header>
-    </td>
-    <td style="border-style: hidden; width: 60%"><script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script><script>hbspt.forms.create({region: "eu1",portalId: "24911257",formId: "07fe559d-ca81-41ad-b091-f3d32cd5bd93"});</script>
     </td>
   </tr>
 </table>
