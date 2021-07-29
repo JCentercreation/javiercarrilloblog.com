@@ -16,7 +16,7 @@ title:
   </tr>
 </table>
 
-<h2>If you are a small business and you need a digital solution for running the operations, reducing the expenses and enhancing the experience of your customers and employees please contact filling the form down below.</h2>
+<h2 style="text-align: center">If you are a small business and you need a digital solution for running the operations, reducing the expenses and enhancing the experience of your customers and employees please contact me by filling the form down below.</h2>
 
 <table>
   <tr>
