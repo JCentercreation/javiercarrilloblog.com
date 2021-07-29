@@ -16,9 +16,19 @@ title:
   </tr>
 </table>
 
-<h1 style="text-align: center"><b>Welcome!</b></h1>
+<h2>If you are a small business and you need a digital solution for running the operations, reducing the expenses and enhancing the experience of your customers and employees please contact filling the form down below.</h2>
+
+<table>
+  <tr>
+    <td style="border-style: hidden"><script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script><script>hbspt.forms.create({region: "eu1",portalId: "24911257",formId: "07fe559d-ca81-41ad-b091-f3d32cd5bd93"});</script>
+    </td>
+  </tr>
+</table>
+
+
+<!-- <h1 style="text-align: center"><b>Welcome!</b></h1>
 <h2 style="text-align: center">I'm Javier Carrillo, an engineer focus on software development for multiple platforms.</h2>
-<h3 style="text-align: center">I built this website as a way to show and share with my friends interesting topics about tech, science and other stuff. Check out latest posts down below ⬇️</h3>
+<h3 style="text-align: center">I built this website as a way to show and share with my friends interesting topics about tech, science and other stuff. Check out latest posts down below ⬇️</h3> -->
 
 
 <!--
@@ -34,12 +44,7 @@ title:
 
 
 
-<table>
-  <tr>
-    <td style="border-style: hidden"><script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script><script>hbspt.forms.create({region: "eu1",portalId: "24911257",formId: "07fe559d-ca81-41ad-b091-f3d32cd5bd93"});</script>
-    </td>
-  </tr>
-</table>
+
 <br>
 <h2 style="text-align: justify"><b>Latest Articles</b></h2>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
