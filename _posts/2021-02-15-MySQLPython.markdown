@@ -8,7 +8,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding tech
 ---
-Hey guys, today I wanna show you how to link your mySQL server with your Python application. This is very convenient when it comes to handle with a great amount of data that needs to be stored. As you may know mySQL is one of the most widely used structured database in the world (in deed now it is P2 in the <a href="https://db-engines.com/en/ranking">ranking</a>.
+Hey guys, today I wanna show you how to link your mySQL server with your Python application. This is very convenient when it comes to handle with a great amount of data that needs to be stored. As you may know mySQL is one of the most widely used structured database in the world (in deed now it is P2 in the <a href="https://db-engines.com/en/ranking">ranking</a>).
 
 MySQL is not a pure coding language but we could consider it as that. Basically a database is composed of a server where the info is stored, so to access the info, read it or update it we do that by means of queries (SQL stands for Structured Query Language). There are many external SQL management tools to perform that queries (I usually use PoPSQL) but in the most of the cases a database is just a part of a bigger application or system so linking the database with our api is much more handy than doing it aside. And here it is where Python plays his part, so lets go for it.
 
