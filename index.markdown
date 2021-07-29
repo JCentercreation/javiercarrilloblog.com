@@ -10,10 +10,10 @@ title:
 -->
 <table>
   <tr>
-    <td>
+    <td style="border-style: hidden">
       <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/techOffice.jpg"></h1>
     </td>
-    <td>
+    <td style="border-style: hidden">
       <h3>Building the digital solutions that will empower your business</h3>
     </td>
   </tr>
