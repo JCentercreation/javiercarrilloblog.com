@@ -28,9 +28,10 @@ title:
       </header>
     </td>
     <td style="border-style: hidden; width: 40%; vertical-align: center">
-      <header style="background-color: #264364; border-radius: 20px; padding: 10px">
+      <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/verticalBanner.svg"></h1>
+      <!-- <header style="background-color: #264364; border-radius: 20px; padding: 10px">
         <h2 style="text-align: center; color: white">If you are a small business and you need a digital solution for running the operations, reducing the expenses and enhancing the experience of your customers and employees please contact me by filling the form.</h2>
-      </header>
+      </header> -->
     </td>
   </tr>
 </table>
