@@ -9,27 +9,10 @@ title:
 <div style="text-align: center"><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Foto1.png" whith="200" height="200"></div>
 -->
 <h1 style="text-align: center"><b>Welcome!</b></h1>
-<h2 style="text-align: center">I'm Javier Carrillo, an engineer, software developer and sport lover.</h2>
+<h2 style="text-align: center">I'm Javier Carrillo, an engineer focus on software development for multiple platforms.</h2>
 <h3 style="text-align: center">I built this website as a way to show and share with my friends interesting topics about tech, science and other stuff. Check out latest posts down below ⬇️</h3>
 
-<div class="container">
-  <form action="action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    <label for="area">area</label>
-    <select id="area" name="area">
-      <option value="europe">Europe</option>
-      <option value="usa">USA</option>
-      <option value="other">Other</option>
-    </select>
-    <br>
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width: 365px"></textarea>
-    <input type="submit" value="Submit">
-  </form>
-</div>
+
 <!--
 <table style="table-layout: fixed; width: 730px">
   <caption></caption>
@@ -43,7 +26,7 @@ title:
 
 <table>
   <tr>
-    <td style="border-style: hidden"><script async data-uid="b6b777ef50" src="https://fabulous-maker-8008.ck.page/b6b777ef50/index.js"></script>
+    <td style="border-style: hidden"><script async data-uid="dcdddf927f" src="https://fabulous-maker-8008.ck.page/dcdddf927f/index.js"></script>
     </td>
   </tr>
 </table>
