@@ -8,6 +8,17 @@ title:
 <!--
 <div style="text-align: center"><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Foto1.png" whith="200" height="200"></div>
 -->
+<table>
+  <tr>
+    <td>
+      <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/techOffice.jpg"></h1>
+    </td>
+    <td>
+      <h3>Building the digital solutions that will empower your business
+    </td>
+  </tr>
+</table>
+
 <h1 style="text-align: center"><b>Welcome!</b></h1>
 <h2 style="text-align: center">I'm Javier Carrillo, an engineer focus on software development for multiple platforms.</h2>
 <h3 style="text-align: center">I built this website as a way to show and share with my friends interesting topics about tech, science and other stuff. Check out latest posts down below ⬇️</h3>
