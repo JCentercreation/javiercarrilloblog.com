@@ -26,7 +26,7 @@ title:
     </td>
     <td style="border-style: hidden; width: 50%; vertical-align: center">
       <header style="background-color: #264364; border-radius: 20px; padding: 10px">
-        <h2 style="text-align: center; color: white">If you are a small business and you need a digital solution for running the operations, reducing the expenses and enhancing the experience of your customers and employees please contact me by filling the form down below.</h2>
+        <h2 style="text-align: center; color: white">If you are a small business and you need a digital solution for running the operations, reducing the expenses and enhancing the experience of your customers and employees please contact me by filling the form.</h2>
       </header>
     </td>
   </tr>
