@@ -35,6 +35,7 @@ title:
     </td>
   </tr>
 </table>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/horizontalBanner.svg"></h1>
 
 
 <!-- <h1 style="text-align: center"><b>Welcome!</b></h1>
