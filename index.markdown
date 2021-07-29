@@ -55,7 +55,7 @@ title:
 
 
 
-<br>
+<!-- <br>
 <h2 style="text-align: justify"><b>Latest Articles</b></h2>
 <hr style="width: 10%; height: 3px; background-color: #5395CE">
 <table>
@@ -80,7 +80,7 @@ title:
     <td style="table-layout: fixed; border-style: hidden; width: 50px; font-size: 80%; color: grey; background-color: #FDFDFD"><b>3 min read</b></td>
   </tr>
 </table>
-<br>
+<br> -->
 
 
 
