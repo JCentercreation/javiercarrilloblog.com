@@ -3,7 +3,7 @@ layout: page
 title: Coding Snippets
 permalink: /codingseries
 ---
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 50%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/horizontalBanner2.svg"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/horizontalBanner2.svg"></h1>
 <br>
 <!-- <h3 style="text-align: justify; color: grey">Read past issues</h3> -->
 <table style="border-bottom: 1px solid #F2F2F2; border-top: 0px solid #000; border-right: 0px solid #000; border-left: 0px solid #000">
