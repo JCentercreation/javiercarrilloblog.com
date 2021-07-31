@@ -23,7 +23,7 @@ title:
 <table style="width: 100%">
   <tr>
     <td style="border-style: hidden; width: 60%; vertical-align: center">
-      <header style="background-color: #F8FAFC; border-radius: 20px; padding: 10px">
+      <header style="background-color: #2A55A3; border-radius: 20px; padding: 10px">
         <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/shell.js"></script><script>hbspt.forms.create({region: "eu1",portalId: "24911257",formId: "07fe559d-ca81-41ad-b091-f3d32cd5bd93"});</script>
       </header>
     </td>
