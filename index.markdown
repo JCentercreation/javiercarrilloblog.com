@@ -11,7 +11,7 @@ title:
 <table>
   <tr>
     <td style="border-style: hidden">
-      <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/techOffice5.svg"></h1>
+      <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 20px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/techOffice5.svg"></h1>
     </td>
   </tr>
 </table>
@@ -34,7 +34,7 @@ title:
   </tr>
 </table>
 <br>
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/horizontalBanner.svg"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 20px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/horizontalBanner.svg"></h1>
 
 
 <!-- <h1 style="text-align: center"><b>Welcome!</b></h1>
