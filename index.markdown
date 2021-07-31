@@ -38,7 +38,7 @@ title:
     <td style="border-style: hidden">
       <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 20px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/horizontalBanner.svg"></h1>
     </td>
-  <tr>
+  </tr>
 </table>
 <!-- <h1 style="text-align: center"><b>Welcome!</b></h1>
 <h2 style="text-align: center">I'm Javier Carrillo, an engineer focus on software development for multiple platforms.</h2>
