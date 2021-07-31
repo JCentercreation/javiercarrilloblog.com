@@ -8,13 +8,14 @@ title:
 <!--
 <div style="text-align: center"><img src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/Foto1.png" whith="200" height="200"></div>
 -->
-<table>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 20px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/techOffice5.svg"></h1>
+<!-- <table>
   <tr>
     <td style="border-style: hidden">
       <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 20px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/techOffice5.svg"></h1>
     </td>
   </tr>
-</table>
+</table> -->
 <!-- <header style="background-color: #264364; border-radius: 20px; padding: 10px">
 <h2 style="text-align: center; color: white">If you are a small business and you need a digital solution for running the operations, reducing the expenses and enhancing the experience of your customers and employees please contact me by filling the form down below.</h2>
 </header> -->
@@ -33,7 +34,6 @@ title:
     </td> -->
   </tr>
 </table>
-<br>
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 20px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/horizontalBanner.svg"></h1>
 
 
