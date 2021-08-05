@@ -9,7 +9,7 @@ permalink: /prueba
 <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
   <tr>
     <tds tyle="border-style: hidden; width: 100%; vertical-align: center; horizontal-align: center">
-      <h2><b>Open-Sourcing Pulse</b></h2>
+      <h3><b>Open-Sourcing Pulse</b></h3>
     </td>
     <td>
     </td>
