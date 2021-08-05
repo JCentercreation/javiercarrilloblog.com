@@ -74,7 +74,7 @@ permalink: /prueba
   <tr>
     <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
-        <table style="vertical-align: center">
+        <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
           <tr>
             <h2><b>Prueba</b></h2>
           </tr>
