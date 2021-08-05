@@ -9,7 +9,7 @@ permalink: /prueba
 <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
-      <h2><b>Open-Sourcing Pulse</b></h2>
+      <h2 href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html"><b>Open-Sourcing Pulse</b></h2>
       <p style="color: gray">Open source developers</p>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
@@ -72,7 +72,7 @@ permalink: /prueba
   </tr>
   <tr style="background-color: #FDFDFD">
     <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: top">
-      <header style="background-color: #F4F4F4; border-radius: 20px; padding: 20px">
+      <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
         <table>
           <tr>
             <h2><b>Prueba</b></h2>
@@ -87,7 +87,7 @@ permalink: /prueba
       </header>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
-      <header style="background-color: #F4F4F4; border-radius: 20px; padding: 20px">
+      <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
         <table>
           <tr>
             <h2><b>Prueba</b></h2>
