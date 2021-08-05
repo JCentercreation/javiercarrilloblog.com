@@ -74,7 +74,7 @@ permalink: /prueba
   <tr>
     <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
-        <table>
+        <table style="vertical-align: center">
           <tr>
             <h2><b>Prueba</b></h2>
           </tr>
@@ -89,7 +89,7 @@ permalink: /prueba
     </td>
     <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
-        <table>
+        <table style="vertical-align: center">
           <tr>
             <h2><b>PruebaS</b></h2>
           </tr>
@@ -106,7 +106,7 @@ permalink: /prueba
   <tr style="background-color: #FDFDFD">
     <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
-        <table>
+        <table style="vertical-align: center">
           <tr>
             <h2><b>Prueba</b></h2>
           </tr>
@@ -121,7 +121,7 @@ permalink: /prueba
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
-        <table>
+        <table style="vertical-align: center">
           <tr>
             <h2><b>Prueba</b></h2>
           </tr>
