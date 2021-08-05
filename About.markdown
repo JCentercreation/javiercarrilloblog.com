@@ -16,7 +16,7 @@ In this page you can find a sneak peek of my work experience, skills and educati
 <header style="background-color: #E1ECF1; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 20px grey">
 <h2><b>Work Experience</b></h2>
 <header style="background-color: #000000; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px grey">
-<h1 style="text-align: left; color: white">Automotive Sector</h1>
+<h1 style="text-align: left; color: white; font-family: -apple-system">Automotive Sector</h1>
 <p style="text-align: justify; color: white">I started my career in automotive sector as a <i>Combustion Reseracher Intern</i> at <b>CMT-Motores Térmicos</b>, a worldwide reference in combustion engines development. That allowed me to learn in a hands-on way about combustion process, models and applications to internal combustion engines. Those knowledge were very useful when I moved to companies like <b>Nissan</b> or <b>SEAT</b> where I worked as a <i>Powertrain Development Engineer</i>, building the powertrain control software for Diesel, Petrol and CNG engines targeting on emissions control, performance and driveability.</p>
 </header>
 <br>

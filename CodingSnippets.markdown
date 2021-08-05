@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Coding Snippets
-permalink: /codingsnippets
+title: Snippets
+permalink: /snippets
 ---
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/horizontalBanner3.svg"></h1>
 <br>
