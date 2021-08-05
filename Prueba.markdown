@@ -10,6 +10,13 @@ permalink: /prueba
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+puts markdown.to_html
+```
+
 <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
