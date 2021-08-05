@@ -12,7 +12,7 @@ title:
 <br>
 <br>
 <h1 style="color: gray"><b>Recent Articles</b></h1>
-<table style="width: 100%; horizontal-align: center; border-right: 0px">
+<table style="width: 100%; horizontal-align: center; margin-right: 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
       <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html"><h2><b>Open-Sourcing Pulse</b></h2></a>
