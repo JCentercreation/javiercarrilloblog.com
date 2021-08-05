@@ -91,7 +91,7 @@ permalink: /prueba
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
         <table>
           <tr>
-            <h2><b>Prueba</b></h2>
+            <h2><b>PruebaS</b></h2>
           </tr>
           <tr>
             <p>Esto es una prueba</p>
