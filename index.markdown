@@ -5,9 +5,10 @@
 layout: home
 title: 
 ---
+<h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>Please come back later, we are working on the site. Thanks!</b></h1>
 
-<h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
-<p style="color: #403F3F">Make your first steps with cryptography in Swift</p>
+<!-- <h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
+<p style="color: #403F3F">Take your first steps with cryptography in Swift</p>
 <a style="color: #75A4F2" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html"><b>Continue reading >></b></a>
 <br>
 <br>
@@ -41,4 +42,4 @@ title:
       <p style="color: gray">Parse the web with this app</p>
     </td>
   </tr>
-</table>
+</table> -->
