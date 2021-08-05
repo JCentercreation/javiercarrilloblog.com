@@ -22,11 +22,17 @@ permalink: /prueba
     </td>
   </tr>
   <tr>
-    <td>
+    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
+      <h3><b>CryptoKit</b></h3>
+      <p style="color: gray">Basics about CryptoKit for Swift</p>
     </td>
-    <td>
+    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
+      <h3><b>Pyhton `roject</b></h3>
+      <p style="color: gray">My last python projects</p>
     </td>
-    <td>
+    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
+      <h3><b>WebScrapping with Ruby</b></h3>
+      <p style="color: gray">Parse the web with this app</p>
     </td>
   </tr>
 </table>
