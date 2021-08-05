@@ -9,9 +9,10 @@ permalink: /prueba
 - [x] Finish my changes
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
+- [ ] \(Optional) Abre una propuesta de seguimiento
 
 
-```
+```swift
   import Foundation
   import Combine
 
