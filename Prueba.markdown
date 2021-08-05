@@ -21,7 +21,7 @@ permalink: /prueba
       <p style="color: gray">How to build client-side applications</p>
     </td>
   </tr>
-  <tr>
+  <tr style="background-color: #FDFDFD">
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
       <h3><b>CryptoKit</b></h3>
       <p style="color: gray">Basics about CryptoKit for Swift</p>
