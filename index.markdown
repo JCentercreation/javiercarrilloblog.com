@@ -5,7 +5,7 @@
 layout: home
 title: 
 ---
-<h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>Please come back later, we are working on the site. Thanks!</b></h1>
+<h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>Please come back later, I am working on the site. Thanks!</b></h1>
 
 <!-- <h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
 <p style="color: #403F3F">Take your first steps with cryptography in Swift</p>
