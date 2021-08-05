@@ -10,6 +10,7 @@ permalink: /prueba
   <tr>
     <td style="border-style: hidden; width: 100%; text-align: left">
       <h3><b>Open-Sourcing Pulse</b></h3>
+      <p style="color: gray">Open source developers</p>
     </td>
     <td>
     </td>
