@@ -10,7 +10,7 @@ permalink: /prueba
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
 
-```swift
+```
   import Foundation
   import Combine
 
