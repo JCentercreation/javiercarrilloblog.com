@@ -11,29 +11,29 @@ permalink: /prueba
 - [ ] Open a pull request
 
 ```swift
-import Foundation
-import Combine
+  import Foundation
+  import Combine
 
-final class OrderData: ObservableObject {
-    
-    @Published var vOrder: [Course] = []
-    
-    func añadePlato(plato: Course) -> Void {
-        vOrder.append(plato)
-    }
+  final class OrderData: ObservableObject {
+      
+      @Published var vOrder: [Course] = []
+      
+      func añadePlato(plato: Course) -> Void {
+          vOrder.append(plato)
+      }
 
-    func sumaPedido(todo: [Course]) -> Double {
-        var suma: Double = 0
-        for pedido in todo {
-            suma = suma + pedido.price
-        }
-        return suma
-    }
-    
-    func borraPlato(at offsets: IndexSet){
-        vOrder.remove(atOffsets: offsets)
-    }
-}
+      func sumaPedido(todo: [Course]) -> Double {
+          var suma: Double = 0
+          for pedido in todo {
+              suma = suma + pedido.price
+          }
+          return suma
+      }
+      
+      func borraPlato(at offsets: IndexSet){
+          vOrder.remove(atOffsets: offsets)
+      }
+  }
 ```
 
 <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
