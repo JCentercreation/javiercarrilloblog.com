@@ -8,7 +8,7 @@ permalink: /prueba
 
 <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
   <tr>
-    <td style="border-style: hidden; width: 100%; vertical-align: center; horizontal-align: center">
+    <td style="border-style: hidden; width: 100%; vertical-align: center; horizontal-align: left">
       <h3><b>Open-Sourcing Pulse</b></h3>
     </td>
     <td>
