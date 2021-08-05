@@ -6,4 +6,4 @@ layout: home
 title: 
 ---
 
-<h1 style="font-size: 60px; color: gray">CryptoKit Basics</h1>
+<h1 style="font-size: 60px; color: gray"><b>CryptoKit Basics</b></h1>
