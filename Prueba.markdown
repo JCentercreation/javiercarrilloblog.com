@@ -74,7 +74,8 @@ permalink: /prueba
   <tr>
     <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
-        <table style="width: 50%; horizontal-align: center; margin-left: auto; margin-right: auto">
+        <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html">
+        <table>
           <tr>
             <h2><b>Prueba</b></h2>
           </tr>
@@ -85,11 +86,12 @@ permalink: /prueba
             <p>🟠Swift   ★146</p>
           </tr>
         </table>
+        </a>
       </header>
     </td>
     <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
-        <table style="vertical-align: center">
+        <table>
           <tr>
             <h2><b>PruebaS</b></h2>
           </tr>
@@ -106,7 +108,7 @@ permalink: /prueba
   <tr style="background-color: #FDFDFD">
     <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
-        <table style="vertical-align: center">
+        <table>
           <tr>
             <h2><b>Prueba</b></h2>
           </tr>
@@ -121,7 +123,7 @@ permalink: /prueba
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
-        <table style="vertical-align: center">
+        <table>
           <tr>
             <h2><b>Prueba</b></h2>
           </tr>
