@@ -72,7 +72,7 @@ permalink: /prueba
 
 <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
   <tr>
-    <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: top">
+    <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
         <table>
           <tr>
@@ -87,7 +87,7 @@ permalink: /prueba
         </table>
       </header>
     </td>
-    <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: top">
+    <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
         <table>
           <tr>
@@ -104,7 +104,7 @@ permalink: /prueba
     </td>
   </tr>
   <tr style="background-color: #FDFDFD">
-    <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: top">
+    <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
         <table>
           <tr>
@@ -119,7 +119,7 @@ permalink: /prueba
         </table>
       </header>
     </td>
-    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
+    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: center">
       <header style="background-color: #F4F4F4; border-radius: 10px; padding: 20px">
         <table>
           <tr>
