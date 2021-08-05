@@ -6,6 +6,10 @@ permalink: /prueba
 
 <h1 style="color: gray"><b>Recent Articles</b></h1>
 
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
+
 <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
