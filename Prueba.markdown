@@ -70,7 +70,7 @@ permalink: /prueba
       </header>
     </td>
   </tr>
-  <tr>
+  <tr style="background-color: #FDFDFD">
     <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: top">
       <header style="background-color: #F4F4F4; border-radius: 20px; padding: 20px">
         <table>
