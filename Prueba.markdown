@@ -36,3 +36,70 @@ permalink: /prueba
     </td>
   </tr>
 </table>
+
+<table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
+  <tr>
+    <td style="border-style: hidden; width: 50%; text-align: center; vertical-align: center">
+      <header style="background-color: #F4F4F4; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px grey">
+        <table>
+          <tr>
+            <h2><b>Prueba</b></h2>
+          </tr>
+          <tr>
+            <p>Esto es una prueba</p>
+          </tr>
+          <tr>
+            <p>🟠Swift   ★146</p>
+          </tr>
+        </table>
+      </header>
+    </td>
+    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
+      <header style="background-color: #F4F4F4; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px grey">
+        <table>
+          <tr>
+            <h2><b>Prueba</b></h2>
+          </tr>
+          <tr>
+            <p>Esto es una prueba</p>
+          </tr>
+          <tr>
+            <p>🟠Swift   ★146</p>
+          </tr>
+        </table>
+      </header>
+    </td>
+  </tr>
+  <tr>
+    <td style="border-style: hidden; width: 50%; text-align: center; vertical-align: center">
+      <header style="background-color: #F4F4F4; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px grey">
+        <table>
+          <tr>
+            <h2><b>Prueba</b></h2>
+          </tr>
+          <tr>
+            <p>Esto es una prueba</p>
+          </tr>
+          <tr>
+            <p>🟠Swift   ★146</p>
+          </tr>
+        </table>
+      </header>
+    </td>
+    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
+      <header style="background-color: #F4F4F4; border-radius: 20px; padding: 20px; box-shadow: 0px 0px 10px grey">
+        <table>
+          <tr>
+            <h2><b>Prueba</b></h2>
+          </tr>
+          <tr>
+            <p>Esto es una prueba</p>
+          </tr>
+          <tr>
+            <p>🟠Swift   ★146</p>
+          </tr>
+        </table>
+      </header>
+    </td>
+  </tr>
+</table>
