@@ -10,7 +10,7 @@ permalink: /prueba
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
 
-```ruby
+```swift
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
