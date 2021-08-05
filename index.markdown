@@ -7,5 +7,5 @@ title:
 ---
 
 <h1 style="font-size: 55px; color: #403F3F"><b>CryptoKit Basics</b></h1>
-<p style="color: gray">Make your first steps with cryptography in Swift</p>
-<p style="color: #75A4F2">Continue reading >></p>
+<p style="color: #403F3F">Make your first steps with cryptography in Swift</p>
+<p style="color: #75A4F2"><b>Continue reading >></b></p>
