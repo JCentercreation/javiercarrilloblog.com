@@ -77,7 +77,7 @@ permalink: /prueba
         <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html">
         <table>
           <tr>
-            <h2><b>Prueba</b></h2>
+            <h2><b>Link</b></h2>
           </tr>
           <tr>
             <p>Esto es una prueba</p>
