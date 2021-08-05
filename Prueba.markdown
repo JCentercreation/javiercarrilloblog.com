@@ -9,7 +9,7 @@ permalink: /prueba
 - [x] Finish my changes
 - [ ] Push my commits to GitHub
 - [ ] Open a pull request
-- [ ] \(Optional) Abre una propuesta de seguimiento
+[ ] \(Optional) Abre una propuesta de seguimiento
 
 
 ```swift
@@ -39,7 +39,7 @@ permalink: /prueba
 ```
 
 
-<table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
+<table style="width: 100%; horizontal-align: center">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top">
       <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html"><h2><b>Open-Sourcing Pulse</b></h2></a>
