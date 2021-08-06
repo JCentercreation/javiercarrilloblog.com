@@ -43,4 +43,4 @@ title:
 <br>
 <br>
 <br>
-<h1 style="font-size: 30px; color: gray; margin: 0px 0px"><b>More Artcicles</b></h1>
+<h1 style="font-size: 30px; color: gray; margin: 0px 0px"><b>More Articles</b></h1>
