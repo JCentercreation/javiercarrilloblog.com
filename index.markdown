@@ -94,7 +94,7 @@ title:
   <table style="width: 100%; padding: 0px; border-style: hidden; text-align: right">
     <tr>
       <td style="width: 35%; border-style: hidden; text-align: left">
-        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img2.png">
+        <img style="display: block; margin-left: auto; margin-right: auto; height: 70%; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img2.png">
       </td>
       <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
         <body>
