@@ -8,7 +8,6 @@ title:
 <style>
   a {color: red;}
 </style>
-<a>Esto es una prueba</a>
 <h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>Please come back later, I am working on the site. Thanks!</b></h1>
 <h1 style="font-size: 60px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
 <p style="color: #403F3F">Take your first steps with cryptography in Swift</p>
@@ -19,10 +18,10 @@ title:
 <table style="width: 100%; horizontal-align: left; margin-left: 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a style="color: #403F3F; text-decoration: none; cursor: pointer" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
+      <a style="text-decoration: none; cursor: pointer" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
       <body>
       <h2><b>CryptoKit Basics</b></h2>
-      <p style="color: gray">Take your first steps with cryptography in Swift</p>
+      <p>Take your first steps with cryptography in Swift</p>
       </body>
       </a>
     </td>
