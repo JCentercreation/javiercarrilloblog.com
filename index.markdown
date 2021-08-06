@@ -67,8 +67,7 @@ title:
 </table>
 <br>
 <br>
-<br>
-<header>
+<header style="border-radius: 10px">
   <table style="width: 100%; horizontal-align: left; margin-left: 0px; border: 1px">
     <tr>
       <td style="width: 65%; background-color: #F4F4F4">
@@ -81,7 +80,6 @@ title:
     </tr>
   </table>
 </header>
-<br>
 <br>
 <br>
 <h1 style="font-size: 30px; color: gray; margin: 0px 0px"><b>More Articles</b></h1>
