@@ -6,8 +6,9 @@ layout: home
 title: 
 ---
 <style>
+  body {background-color: powderblue;}
   a:hover {
-    color: #403F3F
+    color: #403F3F;
   }
 </style>
 <h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>Please come back later, I am working on the site. Thanks!</b></h1>
