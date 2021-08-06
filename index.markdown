@@ -76,7 +76,7 @@ title:
 <header style="border-radius: 10px; background-color: #F4F4F4">
   <table style="width: 100%; padding: 0px; border-style: hidden; text-align: left">
     <tr>
-      <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
+      <td style="width: 65%; background-color: #F4F4F4; border-style: hidden; padding: 0px">
         <body>
           <h2 style="font-size: 30px"><b>Apps that empower your business</b></h2>
           <p>Custom made beautiful Apps that will let you save money and time enhancing your clients and employees experience at the same time.</p>
