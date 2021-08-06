@@ -73,6 +73,7 @@ title:
       <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
         <body>
           <h2 style="font-size: 30px"><b>Beautiful Apps that empower your business</b></h2>
+          <img style="display: block; margin-left: auto; margin-right: auto; width: 100%" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img1.PNG">
         </body>
       </td>
       <td style="width: 35%; border-style: hidden">
