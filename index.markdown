@@ -11,7 +11,7 @@ title:
 <a style="color: #75A4F2" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html"><b>Continue reading >></b></a>
 <br>
 <br>
-<h2 style="font-size: 40px; color: gray; margin: 0px 0px"><b>Recent Articles</b></h2>
+<h2 style="font-size: 30px; color: gray; margin: 0px 0px"><b>Recent Articles</b></h2>
 <table style="width: 100%; horizontal-align: left; margin-left: 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
