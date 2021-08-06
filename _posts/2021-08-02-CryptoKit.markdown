@@ -29,4 +29,34 @@ The hash digest returned for this is example is:
 
 If this method valid to encrypt data? Are we sure that a hash function will return a unique output for a unique input? Well, the answer to these questions is Yes but No. It depends on which hash function you are using. Notice that for this example we have used the SHA256 which is a 256 bits output function and so far there has not been any collision case reported. Collision resistance of a hash function is the likelihood that for two different input values the function returns exactly the same digest value. If you are curios about how many hash functions are available as an standard, collision reports, performance and more I strongly recommend you heading up to <a href="https://www.nist.gov">NIST website</a> where you can find detailed information about this.
 <br>
+<br>
 <h2 style="color: #403F3F">Authenticating Data with HMAC</h2>
+HMAC is hash fucntion that requires a key to build the digest. We could consider it as a certified hash that inform to the recipient that digest comes from someone and that the information has not been corrupted. HMAC stands for <i>Hash Message Authentication Code</i>.
+
+```swift
+import Foundation
+import CryptoKit
+
+let chain = "This is a string" //This is the information we want to hash.
+let chainData = cadena.data(using: .utf8) //Turning the string type into data type.
+
+let key = SymmetricKey(size: .bits256) //Building a key
+
+let HMAC = HMAC<SHA256>.authenticationCode(for: chainData!, using: key) //Creating the HMAC by means of the key
+
+//Lets validate the HMAC by means of the key.
+if HMAC<SHA256>.isValidAuthenticationCode(HMAC, authenticating: chainData!, using: key) == true {
+    print("HMAC is valid")
+} else {
+    print("HMAC is invalid")
+}
+
+//Creating a different HMAC by means of a different key
+let key2 = SymmetricKey(size: .bits256)//Building a second key
+let HMAC2 = HMAC<SHA256>.authenticationCode(for: chainData!, using: key2)//Creating a new HMAC with the second key
+if HMAC<SHA256>.isValidAuthenticationCode(HMAC2, authenticating: chainData!, using: key) == true {//Validating the new HMAC BUT with the second key
+    print("HMAC is valid")
+} else {
+    print("HMAC is invalid)
+}
+```
