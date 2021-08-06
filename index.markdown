@@ -10,8 +10,8 @@ title:
   a:visited {color: #403F3F; text-decoration: none;}
   a:hover {color: gray; text-decoration: none;}
   a:active {color: #403F3F; text-decoration: none;}
-  button { border: none; color: #5189C5; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:30%/30px}
-  button:hover {border: none; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:30%/30px; background-color: #5189C5}
+  button { border: 2px; border-color: #5189C5; color: #5189C5; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:30%/30px; background-color: #F4F4F4}
+  button:hover {border: 2px; border-color: #5189C5; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:30%/30px; background-color: #5189C5}
 </style>
 <h1 style="font-size: 60px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
 <p style="color: #403F3F">Take your first steps with cryptography in Swift</p>
@@ -71,7 +71,6 @@ title:
   </tr>
 </table>
 <br>
-<br>
 <header style="border-radius: 10px; background-color: #F4F4F4">
   <table style="width: 100%; pading: 0px; border-style: hidden">
     <tr>
@@ -79,7 +78,7 @@ title:
         <body>
           <h2 style="font-size: 30px"><b>Apps that empower your business</b></h2>
           <p>Custom made beautiful Apps that will let you save money and time enhancing your clients and employees experience at the same time.</p>
-          <button>Contact Me</button>
+          <button><b>Contact Me</b></button>
         </body>
       </td>
       <td style="width: 35%; border-style: hidden">
