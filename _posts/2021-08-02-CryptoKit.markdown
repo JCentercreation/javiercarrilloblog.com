@@ -8,12 +8,13 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding
 ---
+When you decide to build an App or any other kind of software development it is very likely that you will manage sensitive information that you want to protect from others, above all when the app is linked to a network. No good programmer would ever code an App that sends to the net the username or password in a raw format without been encrypted previously.
 
-When you decide to build an App or any other kind of software development it is very likely that you will manage sensitive information that you want to protect from others, above all when the app is linked to a network. No good programmer would ever code an App that sends to the net the username or password in a raw format without been encrypted previously. Bear in mind that building your own encryption algorithms is a very tough and risky task unless you are cryptography expert, and fortunately nowadays there are many libraries that could help you with this issue. As you may now if you are an iOS developer, Apple provides a library called CryptoKit for your encryption purposes. If it is the first time for you hearing about this don´t worry, in this article we will go through CryptoKit basics so at the end you could start working with cryptography within your development.
+Bear in mind that building your own encryption algorithms is a very tough and risky task unless you are a cryptography expert, and fortunately nowadays there are many libraries that could help you with this issue. As you may now if you are an iOS developer, Apple provides a library called CryptoKit for your encryption purposes. If it is the first time for you hearing about this don´t worry, in this article we will go through CryptoKit basics so at the end you could start working with cryptography within your development.
 <br>
 <br>
 <h2 style="color: #403F3F">Hashing Data</h2>
-A Hash is a function that returns a unique identifier for the input data. The returned value is called "digest". Lets see an example with CryptoKit:
+A Hash is a function that returns a unique identifier for the input data. The returned value is called "digest". Let's see an example with CryptoKit:
 
 ```swift
 import Foundation
@@ -27,7 +28,7 @@ let chainDigest = SHA256.hash(data: chainData!) //Getting the hash digest
 The hash digest returned for this is example is:
 > 4e9518575422c9087396887ce20477ab5f550a4aa3d161c5c22a996b0abb8b35
 
-If this method valid to encrypt data? Are we sure that a hash function will return a unique output for a unique input? Well, the answer to these questions is Yes but No. It depends on which hash function you are using. Notice that for this example we have used the SHA256 which is a 256 bits output function and so far there has not been any collision case reported. Collision resistance of a hash function is the likelihood that for two different input values the function returns exactly the same digest value. If you are curios about how many hash functions are available as an standard, collision reports, performance and more I strongly recommend you heading up to <a href="https://www.nist.gov">NIST website</a> where you can find detailed information about this.
+Are we sure that a hash function will return a unique output for a unique input? Well, the answer to these questions is Yes but No. It depends on which hash function you are using. Notice that for this example we have used the SHA256 which is a 256 bits output function and there is not any collision case reported so far. Collision resistance of a hash function is the likelihood that for two different input values the function returns exactly the same digest value. If you are curios about how many hash functions are available as an standard, collision reports, performance and more I strongly recommend you heading up to <a href="https://www.nist.gov">NIST website</a> where you can find detailed information about this.
 <br>
 <br>
 <h2 style="color: #403F3F">Authenticating Data with HMAC</h2>
@@ -57,4 +58,39 @@ HMAC<SHA256>.isValidAuthenticationCode(HMAC2, authenticating: chainData!, using:
 <br>
 <br>
 <h2 style="color: #403F3F">Encrypting Data</h2>
-<h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>Please come back later, I am working on the site. Thanks!</b></h1>
+A hash function does not encrypt data. A hash function only returns an identifier of the data. A hash fucntion is valid to authenticate the content but nor for knowing the content itself. CryptoKit offers two main symetric encryption methods: ChaChaPoly and AES-GCM. What's de difference between this two methods? Well the first one is that ChaChaPoly (ChaCha20-Poly1305) is only defined at 256 bits security level whereas AES-GCM is able to target 128-bit, 192-bit and 256-bit security levels. Another difference is that ChaChaPoly20 is faster in the most of the cases than AES-GCM, unless you are using hardware acceleration.
+
+What CryptoKit offers in terms of data encryption is a securized container (based on ChaChaPoly or AES-GCM) with the encrypted information. The container is composed by three elements:
+- A cipher: A version of the encrypted data
+- An authentication tag
+- A NONCE (Number that can only be used ONCE): The NONCE is unique for each encryption process. That means that if we encrypt exactly the same information twice the NONCE of the first and the second encryption process wil be difference. The NONCE is used as a root vector for the block encryption process.
+
+Now worries if you have not understand all at the first time. Let's see an example about this.
+
+```swift
+import Foundation
+import CryptoKit
+
+let chain = "This is a chain that must be encrypted" //This is the information we want to encrypt
+let chainData = chain.data(using: .utf8) //Turning the string into a Data type
+
+let key = SymmetricKey(size: .bits256) //Generating a key
+
+let encryptedChain = try! ChaChaPoly.seal(chainaData!, using: key).combined //We use the key to generate the three elements that must have the container
+
+let container = try! ChaChaPoly.SealedBox(combined: encryptedChain) //Generating the container with the three elements
+
+let decryptedChain = try! ChaChaPoly.open(container, using: key) //We coul only open/decrypt the container with the exact same key that was used to encrypt the information
+print(String(data: decryptedChain, encoding: .utf8)!)
+````
+> This is a chain that must be encrypted
+
+It is also possible to acces the three elements of the container:
+```swift
+let nonce = container.nonce 
+
+let tag = container.tag
+
+let ciphertext = container.ciphertext //Es la versión cifrada de la informacion
+```
+
