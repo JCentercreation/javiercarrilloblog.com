@@ -10,7 +10,7 @@ tags: coding
 ---
 
 When you decide to build an App or any other kind of software development it is very likely that you will manage sensitive information that you want to protect from others, above all when the app is linked to a network. No good programmer would ever code an App that sends to the net the username or password in a raw format without been encrypted previously. Bear in mind that building your own encryption algorithms is a very tough and risky task unless you are cryptography expert, and fortunately nowadays there are many libraries that could help you with this issue. As you may now if you are an iOS developer, Apple provides a library called CryptoKit for your encryption purposes. If it is the first time for you hearing about this don´t worry, in this article we will go through CryptoKit basics so at the end you could start working with cryptography within your development.
-
+<br>
 <h2 style="color: #403F3F">Hashing Data</h2>
 A Hash is a function that returns a unique identifier for the input data. The returned value is called "digest". Lets see an example with CryptoKit:
 
