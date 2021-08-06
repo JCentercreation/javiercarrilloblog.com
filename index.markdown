@@ -70,12 +70,12 @@ title:
 <header style="border-radius: 10px; background-color: #F4F4F4">
   <table style="width: 100%; horizontal-align: left; margin-left: 0px; pading: 0px; border-style: hidden">
     <tr>
-      <td style="width: 65%; background-color: #F4F4F4">
+      <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
         <body>
           <h2 style="font-size: 30px"><b>Beautiful Apps that empower your business</b></h2>
         </body>
       </td>
-      <td style="width: 35%">
+      <td style="width: 35%; border-style: hidden">
       </td>
     </tr>
   </table>
