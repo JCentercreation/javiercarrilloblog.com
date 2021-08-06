@@ -73,7 +73,7 @@ title:
   </tr>
 </table>
 <br>
-<header style="border-radius: 10px; background-color: #F4F4F4">
+<header style="border-radius: 20px; background-color: #F4F4F4">
   <table style="width: 100%; padding: 0px; border-style: hidden; text-align: left">
     <tr>
       <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
@@ -90,7 +90,7 @@ title:
   </table>
 </header>
 <br>
-<header style="border-radius: 10px; background-color: #F4F4F4">
+<header style="border-radius: 20px; background-color: #F4F4F4">
   <table style="width: 100%; padding: 0px; border-style: hidden; text-align: right">
     <tr>
       <td style="width: 35%; border-style: hidden; text-align: left">
