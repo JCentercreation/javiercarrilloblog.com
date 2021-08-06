@@ -47,11 +47,13 @@ let HMAC = HMAC<SHA256>.authenticationCode(for: chainData!, using: key) //Creati
 //Lets validate the HMAC by means of the key.
 HMAC<SHA256>.isValidAuthenticationCode(HMAC, authenticating: chainData!, using: key) //It will return a true because it takes the key used for creating the HMAC
 
-
 //Creating a different HMAC by means of a different key
 let key2 = SymmetricKey(size: .bits256)//Building a second key
 let HMAC2 = HMAC<SHA256>.authenticationCode(for: chainData!, using: key2)//Creating a new HMAC with the second key
 
-//Validating the new HMAC BUT with the second key, so it will return false
+//Validating the new HMAC BUT with the first key
 HMAC<SHA256>.isValidAuthenticationCode(HMAC2, authenticating: chainData!, using: key)//It will return false because is using the first key to validate a HMAC created by means of key2
 ```
+<br>
+<br>
+<h2 style="color: #403F3F">Encrypting Data</h2>
