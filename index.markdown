@@ -84,7 +84,7 @@ title:
         </body>
       </td>
       <td style="width: 35%; border-style: hidden; text-align: right">
-        <img style="display: block; margin-left: auto; margin-right: auto; height: 100px; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img6.png">
+        <img style="display: block; margin-left: auto; margin-right: auto; height: 300px; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img6.png">
       </td>
     </tr>
   </table>
