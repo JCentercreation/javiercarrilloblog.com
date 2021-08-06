@@ -6,10 +6,10 @@ layout: home
 title: 
 ---
 <style>
-  a:link {color: #403F3F;}
-  a:visited {color: #403F3F;}
-  a:hover {color: gray; }
-  a:active {color: #403F3F;}
+  a:link {color: #403F3F; text-decoration: none;}
+  a:visited {color: #403F3F; text-decoration: none;}
+  a:hover {color: gray; text-decoration: none;}
+  a:active {color: #403F3F; text-decoration: none;}
 </style>
 <h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>Please come back later, I am working on the site. Thanks!</b></h1>
 <h1 style="font-size: 60px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
@@ -29,22 +29,38 @@ title:
       </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/17/05/2021/SwiftClosures.html"><h2><b>How Swift Closure Works</b></h2></a>
-      <p style="color: gray">Understanding the closures in Swift</p>
+      <a href="https://www.javiercarrilloblog.com/coding/17/05/2021/SwiftClosures.html">
+      <body>
+      <h2><b>How Swift Closure Works</b></h2>
+      <p>Understanding the closures in Swift</p>
+      </body>
+      </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html"><h2><b>Formula 1 and Web Scrapping with Python</b></h2></a>
-      <p style="color: gray">How to build client-side applications</p>
+      <a href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html">
+      <body>
+      <h2><b>Formula 1 and Web Scrapping with Python</b></h2>
+      <p>How to build client-side applications</p>
+      </body>
+      </a>
     </td>
   </tr>
   <tr style="background-color: #FDFDFD">
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/03/2021/Coding_with_smartphone.html"><h2><b>Coding with my Smartphone</b></h2></a>
-      <p style="color: gray">It is possible to code with a smartphone</p>
+      <a href="https://www.javiercarrilloblog.com/coding/15/03/2021/Coding_with_smartphone.html">
+      <body>
+      <h2><b>Coding with my Smartphone</b></h2>
+      <p>It is possible to code with a smartphone</p>
+      </body>
+      </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/02/2021/MySQLPython.html"><h2><b>MySQL and Python</b></h2></a>
-      <p style="color: gray">Managing MySQL database with Python</p>
+      <a href="https://www.javiercarrilloblog.com/coding/15/02/2021/MySQLPython.html">
+      <body>
+      <h2><b>MySQL and Python</b></h2>
+      <p>Managing MySQL database with Python</p>
+      <body>
+      </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
     </td>
