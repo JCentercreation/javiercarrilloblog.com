@@ -11,7 +11,6 @@ title:
   a:hover {color: gray; text-decoration: none;}
   a:active {color: #403F3F; text-decoration: none;}
 </style>
-<h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>Please come back later, I am working on the site. Thanks!</b></h1>
 <h1 style="font-size: 60px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
 <p style="color: #403F3F">Take your first steps with cryptography in Swift</p>
 <a style="color: #75A4F2" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html"><b>Continue reading >></b></a>
@@ -63,6 +62,17 @@ title:
       </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<table style="width: 100%; horizontal-align: left; margin-left: 0px; border-radius: 10px; border: 1px">
+  <tr>
+    <td style="width: 65%; background-color: gray">
+    </td>
+     <td style="width: 35%">
     </td>
   </tr>
 </table>
