@@ -76,7 +76,7 @@ title:
 <header style="border-radius: 10px; background-color: #F4F4F4">
   <table style="width: 100%; padding: 0px; border-style: hidden; text-align: left">
     <tr>
-      <td style="width: 65%; background-color: #F4F4F4; border-style: hidden; padding: 0px">
+      <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
         <body>
           <h2 style="font-size: 30px"><b>Apps that empower your business</b></h2>
           <p>Custom made beautiful Apps that will let you save money and time enhancing your clients and employees experience at the same time.</p>
@@ -84,7 +84,7 @@ title:
         </body>
       </td>
       <td style="width: 35%; border-style: hidden; text-align: right">
-        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: scale-down" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img6.png">
+        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img6.png">
       </td>
     </tr>
   </table>
