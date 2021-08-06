@@ -10,8 +10,10 @@ title:
   a:visited {color: #403F3F; text-decoration: none;}
   a:hover {color: gray; text-decoration: none;}
   a:active {color: #403F3F; text-decoration: none;}
-  button { border: 2px solid #5189C5; color: #5189C5; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #F4F4F4}
-  button:hover {border: 2px solid #5189C5; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #5189C5}
+  button.1 { border: 2px solid #5189C5; color: #5189C5; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #F4F4F4}
+  button.1:hover {border: 2px solid #5189C5; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #5189C5}
+  button.2 { border: 2px solid pink; color: pink; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #F4F4F4}
+  button.2:hover {border: 2px solid #5189C5; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: pink}
 </style>
 <h1 style="font-size: 60px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
 <p style="color: #403F3F">Take your first steps with cryptography in Swift</p>
@@ -78,11 +80,28 @@ title:
         <body>
           <h2 style="font-size: 30px"><b>Apps that empower your business</b></h2>
           <p>Custom made beautiful Apps that will let you save money and time enhancing your clients and employees experience at the same time.</p>
-          <button onclick="window.location.href='https://www.javiercarrilloblog.com/services';"><b>Contact Me</b></button>
+          <button class="1" onclick="window.location.href='https://www.javiercarrilloblog.com/services';"><b>Contact Me</b></button>
         </body>
       </td>
       <td style="width: 35%; border-style: hidden">
         <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img1.PNG">
+      </td>
+    </tr>
+  </table>
+</header>
+<br>
+<header style="border-radius: 10px; background-color: #F4F4F4">
+  <table style="width: 100%; pading: 0px; border-style: hidden">
+    <tr>
+      <td style="width: 35%; border-style: hidden">
+        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img1.PNG">
+      </td>
+      <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
+        <body>
+          <h2 style="font-size: 30px"><b>Coding Courses</b></h2>
+          <p>If you are a young student or a professional very experienced, it's never too late to learnt how to code.</p>
+          <button class="2" onclick="window.location.href='https://www.javiercarrilloblog.com/services';"><b>Contact Me</b></button>
+        </body>
       </td>
     </tr>
   </table>
