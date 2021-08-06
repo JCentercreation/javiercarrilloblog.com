@@ -20,10 +20,10 @@ title:
 <table style="width: 100%; horizontal-align: left; margin-left: 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a style=":link {color: blue; text-decoration: none;}
-  :visited {color: #403F3F; text-decoration: none;}
-  :hover {color: gray; text-decoration: none;}
-  :active {color: #403F3F; text-decoration: none;}" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
+      <a style="link {color: blue; text-decoration: none;}
+  visited {color: #403F3F; text-decoration: none;}
+  hover {color: gray; text-decoration: none;}
+  active {color: #403F3F; text-decoration: none;}" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
       <body>
       <h2><b>CryptoKit Basics</b></h2>
       <p>Take your first steps with cryptography in Swift</p>
@@ -79,7 +79,7 @@ title:
         </body>
       </td>
       <td style="width: 35%; border-style: hidden">
-        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img1.PNG">
+        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img1.PNG">
       </td>
     </tr>
   </table>
