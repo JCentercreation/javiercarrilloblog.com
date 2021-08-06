@@ -74,7 +74,7 @@ title:
 </table>
 <br>
 <header style="border-radius: 10px; background-color: #F4F4F4">
-  <table style="width: 100%; pading: 0px; border-style: hidden">
+  <table style="width: 100%; pading: 0px; border-style: hidden; text-align: left">
     <tr>
       <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
         <body>
