@@ -21,7 +21,7 @@ title:
 <table style="width: 100%; horizontal-align: left; margin-left: 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a style="text-decoration: none; cursor: pointer" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
+      <a href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
       <body>
       <h2><b>CryptoKit Basics</b></h2>
       <p>Take your first steps with cryptography in Swift</p>
@@ -59,7 +59,7 @@ title:
       <body>
       <h2><b>MySQL and Python</b></h2>
       <p>Managing MySQL database with Python</p>
-      <body>
+      </body>
       </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
