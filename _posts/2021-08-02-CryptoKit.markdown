@@ -23,6 +23,7 @@ let chainData = cadena.data(using: .utf8) //Turning the string type into data ty
 
 let chainDigest = SHA256.hash(data: chainData!) //Getting the hash digest
 ```
-The hash digest returned for this is example is "4e9518575422c9087396887ce20477ab5f550a4aa3d161c5c22a996b0abb8b35".
+The hash digest returned for this is example is:
+> 4e9518575422c9087396887ce20477ab5f550a4aa3d161c5c22a996b0abb8b35
 
 If this method valid to encrypt data? Are we sure that a hash function will return a unique output for a unique input? Well, the answer to these questions is Yes but No. It depends on which hash function you are using. Notice that for this example we have used the SHA256 which is a 256 bits output function and so far there has not been any collision case reported. Collision resistance of a hash function is the likelihood that for two different input values the function returns exactly the same digest value. If you are curios about how many hash functions are available as an standard, collision reports, performance and more I strongly recommend you heading up to <a href="https://www.nist.gov">NIST website</a> where you can find detailed information about this.
