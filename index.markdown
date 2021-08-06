@@ -19,7 +19,7 @@ title:
 <br>
 <br>
 <h2 style="font-size: 30px; color: gray; margin: 0px 0px"><b>Recent Articles</b></h2>
-<table style="width: 100%; horizontal-align: left; margin-left: 0px">
+<table style="width: 100%; horizontal-align: left; margin: 0px 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
       <a style="link {color: blue; text-decoration: none;}
