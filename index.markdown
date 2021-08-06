@@ -25,7 +25,7 @@ title:
         <body>
           <h2 style="font-size: 30px"><b>Apps that empower your business</b></h2>
           <p>Custom made beautiful Apps that will let you save money and time enhancing your clients and employees experience at the same time.</p>
-          <button><b>Contact Me</b></button>
+          <button onclick="window.location.href='https://www.javiercarrilloblog.com/services';"><b>Contact Me</b></button>
         </body>
       </td>
       <td style="width: 35%; border-style: hidden">
