@@ -91,7 +91,7 @@ title:
 </header>
 <br>
 <header style="border-radius: 10px; background-color: #F4F4F4">
-  <table style="width: 100%; pading: 0px; border-style: hidden">
+  <table style="width: 100%; pading: 0px; border-style: hidden; horizontal-align: right">
     <tr>
       <td style="width: 35%; border-style: hidden">
         <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img1.PNG">
@@ -99,7 +99,7 @@ title:
       <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
         <body>
           <h2 style="font-size: 30px"><b>Coding Courses</b></h2>
-          <p>If you are a young student or a professional very experienced, it's never too late to learnt how to code.</p>
+          <p>If you are a young student or an experienced professional, it's never too late to learnt how to code and you do not need the most powerful laptop fo that. Learn Swift even with you iPad.</p>
           <button class="button2" onclick="window.location.href='https://www.javiercarrilloblog.com/services';"><b>Contact Me</b></button>
         </body>
       </td>
