@@ -91,6 +91,7 @@ let nonce = container.nonce
 
 let tag = container.tag
 
-let ciphertext = container.ciphertext //Es la versión cifrada de la informacion
+let ciphertext = container.ciphertext 
 ```
+
 
