@@ -10,10 +10,10 @@ title:
   a:visited {color: #403F3F; text-decoration: none;}
   a:hover {color: gray; text-decoration: none;}
   a:active {color: #403F3F; text-decoration: none;}
-  .button1 { border: 2px solid #5189C5; color: #5189C5; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #F4F4F4; text-align: right}
-  .button1:hover {border: 2px solid #5189C5; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #5189C5; text-align: right}
-  .button2 { border: 2px solid pink; color: pink; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #F4F4F4; text-align: left}
-  .button2:hover {border: 2px solid pink; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: pink; text-align: left}
+  .button1 { border: 2px solid #5189C5; color: #5189C5; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #F4F4F4}
+  .button1:hover {border: 2px solid #5189C5; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #5189C5}
+  .button2 { border: 2px solid pink; color: pink; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #F4F4F4}
+  .button2:hover {border: 2px solid pink; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: pink}
 </style>
 <h1 style="font-size: 60px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
 <p style="color: #403F3F">Take your first steps with cryptography in Swift</p>
