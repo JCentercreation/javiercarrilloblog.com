@@ -12,7 +12,7 @@ title:
 <br>
 <br>
 <h1 style="color: gray; margin: 0px 0px"><b>Recent Articles</b></h1>
-<table style="width: 100%; horizontal-align: left; margin-left: 0px; border: 0px">
+<table style="width: 100%; horizontal-align: left; margin-left: 0px; border: 30px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; margin: 0px 0px 0px 0px">
       <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html"><h2><b>CryptoKit Basics</b></h2></a>
