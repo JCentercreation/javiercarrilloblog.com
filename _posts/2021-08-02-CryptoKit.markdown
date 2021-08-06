@@ -55,7 +55,8 @@ let HMAC2 = HMAC<SHA256>.authenticationCode(for: chainData!, using: key2)//Creat
 //Validating the new HMAC BUT with the first key
 HMAC<SHA256>.isValidAuthenticationCode(HMAC2, authenticating: chainData!, using: key)//It will return false because is using the first key to validate a HMAC created by means of key2
 ```
-<br>
+
+
 <br>
 <h2 style="color: #403F3F">Encrypting Data</h2>
 A hash function does not encrypt data. A hash function only returns an identifier of the data. A hash fucntion is valid to authenticate the content but nor for knowing the content itself. CryptoKit offers two main symetric encryption methods: ChaChaPoly and AES-GCM. What's de difference between this two methods? Well the first one is that ChaChaPoly (ChaCha20-Poly1305) is only defined at 256 bits security level whereas AES-GCM is able to target 128-bit, 192-bit and 256-bit security levels. Another difference is that ChaChaPoly20 is faster in the most of the cases than AES-GCM, unless you are using hardware acceleration.
@@ -82,7 +83,8 @@ let container = try! ChaChaPoly.SealedBox(combined: encryptedChain) //Generating
 
 let decryptedChain = try! ChaChaPoly.open(container, using: key) //We coul only open/decrypt the container with the exact same key that was used to encrypt the information
 print(String(data: decryptedChain, encoding: .utf8)!)
-````
+```
+
 > This is a chain that must be encrypted
 
 It is also possible to acces the three elements of the container:
