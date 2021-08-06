@@ -15,7 +15,7 @@ title:
 <table style="width: 100%; horizontal-align: left; margin-left: 0px">
   <tr>
     <td style="width: 33%; text-align: left; vertical-align: top; margin-left: 0px">
-      <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html"><h2><b>CryptoKit Basics1</b></h2></a>
+      <a style="color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html"><h2><b>CryptoKit Basics</b></h2></a>
       <p style="color: gray">Take your first steps with cryptography in Swift</p>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; margin: 0px 0px 0px 0px">
