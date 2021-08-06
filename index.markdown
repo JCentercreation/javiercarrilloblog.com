@@ -68,17 +68,19 @@ title:
 <br>
 <br>
 <br>
-<table style="width: 100%; horizontal-align: left; margin-left: 0px; border-radius: 10px; border: 1px">
-  <tr>
-    <td style="width: 65%; background-color: gray">
-      <body>
-        <h2 style="font-size: 30px"><b>Beautiful Apps that empower your business</b></h2>
-      </body>
-    </td>
-     <td style="width: 35%">
-    </td>
-  </tr>
-</table>
+<header>
+  <table style="width: 100%; horizontal-align: left; margin-left: 0px; border: 1px">
+    <tr>
+      <td style="width: 65%; background-color: #F4F4F4">
+        <body>
+          <h2 style="font-size: 30px"><b>Beautiful Apps that empower your business</b></h2>
+        </body>
+      </td>
+      <td style="width: 35%">
+      </td>
+    </tr>
+  </table>
+</header>
 <br>
 <br>
 <br>
