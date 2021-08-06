@@ -6,7 +6,7 @@ layout: home
 title: 
 ---
 <!-- <h1 style="font-size: 55px; color: #403F3F; margin: 0px 0px"><b>Please come back later, I am working on the site. Thanks!</b></h1> -->
-<a style="font-size: 60px; color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html"><p style="margin: 0px 0px"><b>CryptoKit Basics</b></p></a>
+<a style="font-size: 60px; color: #403F3F" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html"><h1 style="margin: 0px 0px"><b>CryptoKit Basics</b></h1></a>
 <p style="color: #403F3F">Take your first steps with cryptography in Swift</p>
 <a style="color: #75A4F2" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html"><b>Continue reading >></b></a>
 <br>
