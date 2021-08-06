@@ -83,7 +83,7 @@ title:
           <button class="button1" onclick="window.location.href='https://www.javiercarrilloblog.com/services';"><b>Contact Me</b></button>
         </body>
       </td>
-      <td style="width: 35%; border-style: hidden">
+      <td style="width: 35%; border-style: hidden; text-align: right">
         <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img1.PNG">
       </td>
     </tr>
@@ -94,7 +94,7 @@ title:
   <table style="width: 100%; pading: 0px; border-style: hidden; text-align: right">
     <tr>
       <td style="width: 35%; border-style: hidden">
-        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img1.PNG">
+        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain; text-align: left" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/img2.png">
       </td>
       <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
         <body>
