@@ -19,8 +19,8 @@ A Hash is a function that returns a unique identifier for the input data. The re
 import Foundation
 import CryptoKit
 
-let chain = "This is a string" //This is the information we want to hash.
-let chainData = cadena.data(using: .utf8) //Turning the string type into data type.
+let chain = "This is a string" //This is the information we want to hash
+let chainData = cadena.data(using: .utf8) //Turning the string type into data type
 
 let chainDigest = SHA256.hash(data: chainData!) //Getting the hash digest
 ```
@@ -37,26 +37,21 @@ HMAC is hash fucntion that requires a key to build the digest. We could consider
 import Foundation
 import CryptoKit
 
-let chain = "This is a string" //This is the information we want to hash.
-let chainData = cadena.data(using: .utf8) //Turning the string type into data type.
+let chain = "This is a string" //This is the information we want to hash
+let chainData = cadena.data(using: .utf8) //Turning the string type into data type
 
 let key = SymmetricKey(size: .bits256) //Building a key
 
 let HMAC = HMAC<SHA256>.authenticationCode(for: chainData!, using: key) //Creating the HMAC by means of the key
 
 //Lets validate the HMAC by means of the key.
-if HMAC<SHA256>.isValidAuthenticationCode(HMAC, authenticating: chainData!, using: key) == true {
-    print("HMAC is valid")
-} else {
-    print("HMAC is invalid")
-}
+HMAC<SHA256>.isValidAuthenticationCode(HMAC, authenticating: chainData!, using: key) //It will return a true because it takes the key used for creating the HMAC
+
 
 //Creating a different HMAC by means of a different key
 let key2 = SymmetricKey(size: .bits256)//Building a second key
 let HMAC2 = HMAC<SHA256>.authenticationCode(for: chainData!, using: key2)//Creating a new HMAC with the second key
-if HMAC<SHA256>.isValidAuthenticationCode(HMAC2, authenticating: chainData!, using: key) == true {//Validating the new HMAC BUT with the second key
-    print("HMAC is valid")
-} else {
-    print("HMAC is invalid)
-}
+
+//Validating the new HMAC BUT with the second key, so it will return false
+HMAC<SHA256>.isValidAuthenticationCode(HMAC2, authenticating: chainData!, using: key)//It will return false because is using the first key to validate a HMAC created by means of key2
 ```
