@@ -67,7 +67,7 @@ title:
 </table>
 <br>
 <br>
-<header style="border-radius: 10px">
+<header style="border-radius: 10px; background-color: #F4F4F4">
   <table style="width: 100%; horizontal-align: left; margin-left: 0px; pading: 0px; border-style: hidden">
     <tr>
       <td style="width: 65%; background-color: #F4F4F4">
