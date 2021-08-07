@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "CryptoKit I: The Basics"
-date:   2021-06-15 12:02:05 +0100
+title: "CryptoKit II: Don't share your secret"
+date:   2021-07-16 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
