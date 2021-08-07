@@ -101,10 +101,10 @@ Thanks for reading :)
 
 <table style="width: 100%; overflow: scroll; border-right: 0px solid gray; border-left: 0px solid gray">
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
-        <td style="width: 40%; border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
+        <td style="width: 10%; border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
             <p style="color: #A8A8A8; font-size: 20px"><b>Written By</b></p>
         </td>
-        <td style="width: 40%; border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
+        <td style="width: 10%; border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
             <p style="color: #A8A8A8; font-size: 20px"><b></b></p>
         </td>
     </tr>
