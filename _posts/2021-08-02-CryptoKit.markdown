@@ -88,6 +88,7 @@ print(String(data: decryptedChain, encoding: .utf8)!)
 > This is a chain that must be encrypted
 
 It is also possible to acces the three elements of the container:
+
 ```swift
 let nonce = container.nonce 
 
@@ -95,5 +96,25 @@ let tag = container.tag
 
 let ciphertext = container.ciphertext 
 ```
+These are just the basics to stast using CryptoKit. For further information I strongly recommend reading <a href="">Protect the secrets</a> which explains with more detail how to encrypt data, store it and send it through a network communication.
+Thanks for reading :)
+
+<table style="border: hidden">
+    <tr style="border-top: 2px solid gray">
+        <td><p style="color: gray"><b>Written by</b></p>
+        </td>
+        <td>
+        </td>
+    </tr>
+    <tr style="border-bottom: 2px solid gray">
+        <td>
+        </td>
+        <td><p style="font-size: 20px"><b>Javi Carrillo</b></p>
+            <p>In the past I developed car's powertrain control software. Now I develope mobile apps for many purposes</p>
+        </td>
+    </tr>
+</table>
+
+
 
 
