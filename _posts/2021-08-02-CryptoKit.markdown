@@ -101,16 +101,16 @@ Thanks for reading :)
 
 <table style="border-right: 0px solid gray; border-left: 0px solid gray; width: 100%">
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
-        <td style="border-top: 2px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; width: 30%; color: gray; font-size: 20px">
+        <td style="border-top: 2px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; width: 30%; color: gray; font-size: 20px; text-align: left; vertical-align: top; padding: 0px">
             <p><b>Written by</b></p>
         </td>
-        <td style="border-top: 2px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; width: 30%">
+        <td style="border-top: 2px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; width: 30%; text-align: left; vertical-align: top; padding: 0px">
         </td>
     </tr>
-    <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
+    <tr style="border-right: 0px solid gray; border-left: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
         <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; color: gray; font-size: 20px; background-color: #FDFDFD">
         </td>
-        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; background-color: #FDFDFD">
+        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
             <p style="font-size: 20px;"><b>Javi Carrillo</b></p>
             <p>In the past I developed car's powertrain control software. Now I develope mobile apps for many purposes.</p>
         </td>
