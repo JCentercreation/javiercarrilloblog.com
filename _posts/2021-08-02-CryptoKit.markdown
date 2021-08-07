@@ -100,7 +100,7 @@ These are just the basics to stast using CryptoKit. For further information I st
 Thanks for reading :)
 
 <table>
-    <tr style="border-top: 2px solid gray; width: 30%">
+    <tr style="border-top: 2px solid gray; border-left: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; width: 30%">
         <td style="width: 30%"><p style="color: gray; font-size: 20px"><b>Written by</b></p>
         </td>
         <td style="width: 30%">
