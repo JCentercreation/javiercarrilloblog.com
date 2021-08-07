@@ -99,18 +99,18 @@ let ciphertext = container.ciphertext
 These are just the basics to stast using CryptoKit. For further information I strongly recommend reading <a href="">Protect the secrets</a> which explains with more detail how to encrypt data, store it and send it through a network communication.
 Thanks for reading :)
 
-<table style="width: 100%; border-right: 0px solid gray; border-left: 0px solid gray">
+<table style="border-right: 0px solid gray; border-left: 0px solid gray">
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
-        <td style="width: 30%; border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
+        <td style="border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
             <p style="color: #A8A8A8; font-size: 20px"><b>Written by</b></p>
         </td>
-        <td style="width: 30%; border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
+        <td style="border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
         </td>
     </tr>
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
-        <td style="width: 70%; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; color: gray; font-size: 20px; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
+        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; color: gray; font-size: 20px; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
         </td>
-        <td style="width: 70%; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
+        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
             <p style="font-size: 20px;"><b>Javi Carrillo</b></p>
             <p>In the past I developed car's powertrain control software. Now I develope mobile apps for many purposes.</p>
         </td>
