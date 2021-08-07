@@ -15,8 +15,12 @@ title:
   .button2 { border: 2px solid pink; color: pink; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #F4F4F4}
   .button2:hover {border: 2px solid pink; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: pink}
 </style>
-<h1 style="font-size: 60px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
-<p style="color: #403F3F">Take your first steps with cryptography in Swift</p>
+<a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
+  <body>
+    <h1 style="font-size: 60px; color: #403F3F; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
+    <p style="color: #403F3F">Take your first steps with cryptography in Swift</p>
+  </body>
+</a>
 <a style="color: #75A4F2" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html"><b>Continue reading >></b></a>
 <br>
 <br>
