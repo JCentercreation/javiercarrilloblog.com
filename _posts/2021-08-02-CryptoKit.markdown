@@ -105,6 +105,7 @@ Thanks for reading :)
             <p style="color: #A8A8A8; font-size: 20px"><b>Written By</b></p>
         </td>
         <td style="width: 40%; border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
+            <p style="color: #A8A8A8; font-size: 20px"><b>Written By</b></p>
         </td>
     </tr>
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
