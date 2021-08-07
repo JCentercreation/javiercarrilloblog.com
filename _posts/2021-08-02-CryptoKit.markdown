@@ -108,10 +108,10 @@ Thanks for reading :)
         </td>
     </tr>
     <tr>
-        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; width: 70%; color: gray; font-size: 20px; background-color: #FDFDFD">
+        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; color: gray; font-size: 20px; background-color: #FDFDFD">
         </td>
-        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; width: 70%; color: gray; font-size: 20px; background-color: #FDFDFD">
-            <p><b>Javi Carrillo</b></p>
+        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; background-color: #FDFDFD">
+            <p style="color: gray; font-size: 20px;"><b>Javi Carrillo</b></p>
             <p>In the past I developed car's powertrain control software. Now I develope mobile apps for many purposes.</p>
         </td>
     </tr>
