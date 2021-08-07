@@ -101,16 +101,16 @@ Thanks for reading :)
 
 <table style="border-right: 0px solid gray; border-left: 0px solid gray; width: 100%">
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
-        <td style="border-top: 2px solid #E8E8E8; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; width: 70%; color: #E8E8E8; font-size: 20px; text-align: left; vertical-align: top; padding: 0px">
+        <td style="border-top: 2px solid #A8A8A8; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; width: 70%; color: #A8A8A8; font-size: 20px; text-align: left; vertical-align: top; padding: 0px">
             <p><b>Written by</b></p>
         </td>
-        <td style="border-top: 2px solid #E8E8E8; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; width: 70%; text-align: left; vertical-align: top; padding: 0px">
+        <td style="border-top: 2px solid #A8A8A8; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; width: 70%; text-align: left; vertical-align: top; padding: 0px">
         </td>
     </tr>
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
-        <td style="width: 30%; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; color: gray; font-size: 20px; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
+        <td style="width: 30%; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #A8A8A8; color: gray; font-size: 20px; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
         </td>
-        <td style="width: 30%; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
+        <td style="width: 30%; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #A8A8A8; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
             <p style="font-size: 20px;"><b>Javi Carrillo</b></p>
             <p>In the past I developed car's powertrain control software. Now I develope mobile apps for many purposes.</p>
         </td>
