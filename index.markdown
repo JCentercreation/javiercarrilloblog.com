@@ -18,7 +18,7 @@ title:
 <body>
 <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
 <body>
-<h1 style="font-size: 60px; margin: 0px 0px"><b>CryptoKit Basics</b></h1>
+<h1 style="font-size: 60px; margin: 0px 0px"><b>CryptoKit I: The Basics</b></h1>
 <p>Take your first steps with cryptography in Swift</p>
 </body>
 </a>
@@ -32,7 +32,7 @@ title:
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
       <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
       <body>
-      <h2><b>CryptoKit Basics</b></h2>
+      <h2><b>CryptoKit I: The Basics</b></h2>
       <p>Take your first steps with cryptography in Swift</p>
       </body>
       </a>
