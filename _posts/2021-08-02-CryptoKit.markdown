@@ -100,16 +100,18 @@ These are just the basics to stast using CryptoKit. For further information I st
 Thanks for reading :)
 
 <table>
-    <tr style="border-top: 2px solid gray; border-left: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; width: 30%">
-        <td style=""><p style="color: gray; font-size: 20px"><b>Written by</b></p>
+    <tr>
+        <td style="border-top: 2px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; width: 30%; color: gray; font-size: 20px">
+            <p><b>Written by</b></p>
         </td>
-        <td style="">
+        <td style="border-top: 2px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; width: 30%">
         </td>
     </tr>
-    <tr style="border-bottom: 2px solid gray; background-color: #FDFDFD">
-        <td style="">
+    <tr>
+        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; width: 70%; color: gray; font-size: 20px; background-color: #FDFDFD">
         </td>
-        <td><p style="font-size: 20px"><b>Javi Carrillo</b></p>
+        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid gray; width: 70%; color: gray; font-size: 20px; background-color: #FDFDFD">
+            <p><b>Javi Carrillo</b></p>
             <p>In the past I developed car's powertrain control software. Now I develope mobile apps for many purposes.</p>
         </td>
     </tr>
