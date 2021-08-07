@@ -113,7 +113,7 @@ Thanks for reading :)
         <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/yo.png">
         </td>
         <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
-            <p style="font-size: 26px"><b>Javi Carrillo</b></p>
+            <p style="font-size: 26px; margin: 0px 0px"><b>Javi Carrillo</b></p>
             <p style="font-size: 18px">In the past I developed car's powertrain control software. Now I develope mobile apps for many purposes.</p>
         </td>
     </tr>
