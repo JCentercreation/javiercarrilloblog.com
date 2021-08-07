@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CryptoKit Basics
+title: "CryptoKit I: The Basics"
 date:   2021-06-15 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
@@ -59,7 +59,7 @@ HMAC<SHA256>.isValidAuthenticationCode(HMAC2, authenticating: chainData!, using:
 
 <br>
 <h2 style="color: #403F3F">Encrypting Data</h2>
-A hash function does not encrypt data. A hash function only returns an identifier of the data. A hash fucntion is valid to authenticate the content but nor for knowing the content itself. CryptoKit offers two main symetric encryption methods: ChaChaPoly and AES-GCM. What's de difference between this two methods? Well the first one is that ChaChaPoly (ChaCha20-Poly1305) is only defined at 256 bits security level whereas AES-GCM is able to target 128-bit, 192-bit and 256-bit security levels. Another difference is that ChaChaPoly20 is faster in the most of the cases than AES-GCM, unless you are using hardware acceleration.
+A hash function does not encrypt data. A hash function only returns an identifier of the data. A hash fucntion is valid to authenticate the content but nor for knowing the content itself. CryptoKit offers two main symetric encryption methods: ChaChaPoly and AES-GCM. What's de difference between this two methods? Well the first one is that ChaChaPoly (ChaCha20-Poly1305) is only defined at 256 bits security level whereas AES-GCM is able to target 128-bit, 192-bit and 256-bit security levels. Another difference is that ChaChaPoly20 is faster in the most of the cases than AES-GCM, unless you are using hardware acceleration. For instance for mobile development ChaChaPoly is faster.
 
 What CryptoKit offers in terms of data encryption is a securized container (based on ChaChaPoly or AES-GCM) with the encrypted information. The container is composed by three elements:
 - A cipher: A version of the encrypted data
