@@ -101,15 +101,15 @@ Thanks for reading :)
 
 <table>
     <tr style="border-top: 2px solid gray; border-left: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; width: 30%">
-        <td style="width: 30%"><p style="color: gray; font-size: 20px"><b>Written by</b></p>
+        <td style=""><p style="color: gray; font-size: 20px"><b>Written by</b></p>
         </td>
-        <td style="width: 30%">
+        <td style="">
         </td>
     </tr>
     <tr style="border-bottom: 2px solid gray; background-color: #FDFDFD">
-        <td style="width: 70%">
+        <td style="">
         </td>
-        <td><p style="width: 70%; font-size: 20px"><b>Javi Carrillo</b></p>
+        <td><p style="font-size: 20px"><b>Javi Carrillo</b></p>
             <p>In the past I developed car's powertrain control software. Now I develope mobile apps for many purposes.</p>
         </td>
     </tr>
