@@ -99,14 +99,14 @@ let ciphertext = container.ciphertext
 These are just the basics to stast using CryptoKit. For further information I strongly recommend reading <a href="">Protect the secrets</a> which explains with more detail how to encrypt data, store it and send it through a network communication.
 Thanks for reading :)
 
-<table style="border: hidden">
+<table style="border-style: hidden">
     <tr style="border-top: 2px solid gray">
         <td><p style="color: gray"><b>Written by</b></p>
         </td>
         <td>
         </td>
     </tr>
-    <tr style="border-bottom: 2px solid gray">
+    <tr style="border-bottom: 2px solid gray, background-color: #FDFDFD">
         <td>
         </td>
         <td><p style="font-size: 20px"><b>Javi Carrillo</b></p>
