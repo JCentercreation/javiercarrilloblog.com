@@ -101,17 +101,17 @@ Thanks for reading :)
 
 <table style="width: 100%; overflow: scroll; border-right: 0px solid gray; border-left: 0px solid gray">
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
-        <td style="width: 10%; border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
+        <td style="border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
             <p style="color: #A8A8A8; font-size: 20px"><b>Written By</b></p>
         </td>
-        <td style="width: 10%; border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
+        <td style="border-top: 2px solid #DDDDDD; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid gray; text-align: left; vertical-align: top; padding: 0px">
             <p style="color: #A8A8A8; font-size: 20px"><b></b></p>
         </td>
     </tr>
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
-        <td style="width: 60%; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; color: gray; font-size: 20px; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
+        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; color: gray; font-size: 20px; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
         </td>
-        <td style="width: 60%; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
+        <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; background-color: #FDFDFD; text-align: left; vertical-align: top; padding: 0px">
             <p style="font-size: 20px;"><b>Javi Carrillo</b></p>
             <p>In the past I developed car's powertrain control software. Now I develope mobile apps for many purposes.</p>
         </td>
