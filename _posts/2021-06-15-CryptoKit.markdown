@@ -96,7 +96,7 @@ let tag = container.tag
 
 let ciphertext = container.ciphertext 
 ```
-These are just the basics to star using CryptoKit. For further information I strongly recommend reading <a href="https://www.javiercarrilloblog.com/coding/16/07/2021/CryptoKitII.html">CryptoKit II: Don't share your secret</a> where I explain in detail how to perform key agreement and how to encrypt and sign with a public key.
+These are just the basics to start using CryptoKit. For further information I strongly recommend reading <a href="https://www.javiercarrilloblog.com/coding/16/07/2021/CryptoKitII.html">CryptoKit II: Don't share your secret</a> where I explain in detail how to perform key agreement and how to encrypt and sign with a public key.
 Thanks for reading :)
 
 <table style="width: 100%; overflow: scroll; border-right: 0px solid gray; border-left: 0px solid gray">
