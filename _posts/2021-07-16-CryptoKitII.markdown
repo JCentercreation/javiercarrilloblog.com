@@ -14,7 +14,7 @@ If you are here it is probably because you have already read <a href="https://ww
 <h2 style="color: #403F3F">Key Agreement</h2>
 Before going deeply about this topic it is neccessary to understand a few concepts about cryptography. What we allready know is that in order to encrypt any information we need to generate a key previously. Then we use that key to encrypt or decrypt the information. In <a href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">CryptoKit I: The Basics</a> we used a symmetric key for that purpose, but this simmetric key must be shared "out of band" with the trusted person we want to decrypt the information, otherwise a third person could sniff the key and use it. So how can we encrypt data and let other person decrypt it without sending the key that could decrypt the data? The answer is <b>Public-Key Cryptography</b>.
 
-The idea is to let both the sender and the recipient generate a key to decrypt the data by their own by means of a public key that its send throught the net. How is this possible? Thanks to a mathematical elliptic curve. And how this works? Well basically each member (the sender qho encrypts the data and the recipient who decrypts the data) is gonna create by their own a private and a public key. Then they are gonna share their own public key and use it to built a "secret" which, thanks to elliptic curve properties, will be the same for both members and its used to encrypt/decrypt the data. Let's see all this with an example:
+The idea is to let both the sender and the recipient generate a key to decrypt the data by their own by means of a public key that its send throught the net. How is this possible? Thanks to a mathematical elliptic curve. And how this works? Well basically each member (the sender who encrypts the data and the recipient who decrypts the data) is gonna create by their own a private and a public key. Then they are gonna share their own public key and use it to built a "secret" which, thanks to elliptic curve properties, will be the same for both members and its used to encrypt/decrypt the data. Let's see all this with an example:
 
 ```swift
 import Foundation
@@ -46,13 +46,13 @@ if javierSharedSecret == pepeSharedSecret {
 As we can see the Javier's Secret and Pepe's Secret are exactly the same, so that means that Javier's and Pepe's Symmetric keys are exactly the same. Now we are gonna use that symmetric key to encrypt/decrypt data.
 
 ```swift
-//Javier encrypt data
+//Javier encrypts data
 let chain = "This is a super confidential information" //Chain we want to encrypt
 let chainData = chain.data(using: .utf8)!
 let key = javierSymmetricKey //Key used to encrypt data
 let chainEncrypted = try! ChaChaPoly.seal(chainData, using: key).combined //Encrypting data
 
-//Pepe decrypt data
+//Pepe decrypts data
 let container = try! ChaChaPoly.SealedBox(combined: chainEncrypted)
 let containerDecrypted = try! ChaChaPoly.open(container, using: pepeSymmetricKey) //Pepe is using his own symmetric key (which is the same as Javier's one)
 let chainDecrypted = String(data: containerDecrypted, encoding: .utf8)

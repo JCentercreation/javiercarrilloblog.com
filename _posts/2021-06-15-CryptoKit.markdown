@@ -77,7 +77,7 @@ let chainData = chain.data(using: .utf8) //Turning the string into a Data type
 
 let key = SymmetricKey(size: .bits256) //Generating a key
 
-let encryptedChain = try! ChaChaPoly.seal(chainaData!, using: key).combined //We use the key to generate the three elements that must have the container
+let encryptedChain = try! ChaChaPoly.seal(chainData!, using: key).combined //We use the key to generate the three elements that must have the container
 
 let container = try! ChaChaPoly.SealedBox(combined: encryptedChain) //Generating the container with the three elements
 
