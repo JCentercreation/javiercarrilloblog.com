@@ -5,6 +5,7 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  background-color: gray;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -27,6 +28,7 @@
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
+  background-color: gray;
 
   .nav-trigger {
       display: none;
