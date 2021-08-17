@@ -5,8 +5,8 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 0.8; //Antes 1.865
-  color: #FDFDFD;
-  background-color: #403F3F;
+  color: #FDFDFD; //Añadido por mi
+  background-color: #403F3F; //Añadido por mi
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -20,6 +20,7 @@
   margin-bottom: 0;
   float: left;
   text-decoration: none; //Añadido por mi
+  color: #FDFDFD; //Añadido por mi
 
   &,
   &:visited {
@@ -32,6 +33,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   font-weight: 500; //Añadido por mi
   text-decoration: none; //Añadido por mi
+  color: #FDFDFD; //Añadido por mi
 
   .nav-trigger {
       display: none;
