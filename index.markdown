@@ -108,7 +108,7 @@ title:
       <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
         <body>
           <h2 style="font-size: 30px"><b>Coding Courses</b></h2>
-          <p>If you are a young student or an experienced professional, it's never too late to learnt how to code and you do not need the most powerful laptop for that. Learn Swift even with you iPad.</p>
+          <p>If you are a young student or an experienced professional, it's never too late to learn how to code and you do not need the most powerful laptop for that. Learn Swift even with you iPad.</p>
           <button class="button2" onclick="window.location.href='https://www.javiercarrilloblog.com/services';"><b>Contact Me</b></button>
         </body>
       </td>
