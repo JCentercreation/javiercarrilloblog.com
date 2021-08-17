@@ -32,8 +32,16 @@ title:
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
       <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
       <body>
-      <h2><b>CryptoKit I: The Basics</b></h2>
-      <p>Take your first steps with cryptography in Swift</p>
+      <h2><b>CryptoKit III: Sign it</b></h2>
+      <p>Ensure authenticity and integrity of your encrypted data</p>
+      </body>
+      </a>
+    </td>
+    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
+      <body>
+      <h2><b>CryptoKit II: Don`t share your secret</b></h2>
+      <p>Encrypt data and let trusted ones decrypt it</p>
       </body>
       </a>
     </td>
@@ -45,6 +53,8 @@ title:
       </body>
       </a>
     </td>
+  </tr>
+  <tr style="background-color: #FDFDFD">
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
       <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html">
       <body>
@@ -53,8 +63,6 @@ title:
       </body>
       </a>
     </td>
-  </tr>
-  <tr style="background-color: #FDFDFD">
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
       <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/03/2021/Coding_with_smartphone.html">
       <body>
@@ -70,8 +78,6 @@ title:
       <p>Managing MySQL database with Python</p>
       </body>
       </a>
-    </td>
-    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
     </td>
   </tr>
 </table>
