@@ -208,6 +208,7 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+  text-decoration: none; //Añadido por mi
 }
 
 
