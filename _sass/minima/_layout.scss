@@ -22,6 +22,8 @@
   &:visited {
     color: $grey-color-dark;
   }
+
+  &:hover {color: gray; text-decoration: none;}
 }
 
 .site-nav {
