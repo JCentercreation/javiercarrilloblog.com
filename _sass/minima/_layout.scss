@@ -17,6 +17,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  text-decoration: none; //Añadido por mi
 
   &,
   &:visited {
@@ -27,7 +28,8 @@
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
-  font-weight: 500; //Modificado (antes nada)
+  font-weight: 500; //Añadido por mi
+  text-decoration: none; //Añadido por mi
 
   .nav-trigger {
       display: none;
