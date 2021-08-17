@@ -48,6 +48,8 @@
     &:not(:last-child) {
       margin-right: 20px;
     }
+
+    &:hover {color: gray; text-decoration: none;}
   }
 
   @include media-query($on-palm) {
