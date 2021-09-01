@@ -8,7 +8,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: false
 tags: coding
 ---
-Throught your development process it is very likely that you will need to integrate third party libraries and dependencies. It is true that nowadays Swift 5 is very solid and came with many libraries to satisfy your purposes as a software developer but there are also great third party libraries and APIs that will make your coding process much more easy, like for instance <i>Firebase</i>. This cloud service currently developed by Google lets your app access to many Google API services, like databases, authentication, storage, crash reports, user analytics, etc.
+Throught your development process it is very likely that you will need to integrate third party libraries and dependencies. It is true that nowadays Swift 5 is very solid and came with many libraries to satisfy your purposes as a software developer but there are also great third party libraries and APIs that will make your coding process much more easy, like for instance <i>Firebase</i> or <i>AlamoFire</i>. This cloud service currently developed by Google lets your app access to many Google API services, like databases, authentication, storage, crash reports, user analytics, etc.
 
 Thanks for reading :)
 
