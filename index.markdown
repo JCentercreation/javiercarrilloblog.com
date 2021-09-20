@@ -93,7 +93,7 @@ title:
         </body>
       </td>
       <td style="width: 35%; border-style: hidden; text-align: right">
-        <img style="display: block; margin-left: auto; margin-right: auto; height: 250px; width: 100%; object-fit: contain" src="./img/combi.png">
+        <img style="display: block; margin-left: auto; margin-right: auto; height: 250px; width: 100%; object-fit: contain" src="./assets/img/combi.png">
       </td>
     </tr>
   </table>
@@ -103,7 +103,7 @@ title:
   <table style="width: 100%; padding: 0px; border-style: hidden; text-align: right">
     <tr>
       <td style="width: 35%; border-style: hidden; text-align: left">
-        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="./img/img2.png">
+        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="./assets/img/img2.png">
       </td>
       <td style="width: 65%; background-color: #F4F4F4; border-style: hidden">
         <body>
