@@ -14,25 +14,25 @@ Lets see the concept with an example. Imagine that we want to build a tiny progr
 
 So the first block, the closure, will take an Int type as a parameter and will return a Void, cause it just print a message through the terminal:
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/closure1.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="./assets/img/closure1.png"></h1>
 
 As you can see we have define a constant that gets an Int and returns a Void. This is a closure. Inside the closure Int type is named as "total" and is print inside a string.
 
 Now we are gonna code the second block. This function will give a value to that Int type that will be passed along to the closure. We have to define as argument of the function another function usually called "completion handler", that will be instanced once the code inside the function is done. That means that the completion handler function will be executed once the prior code has finished. As you could imagine that completion handler function will be the closure we have built prior.
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/closure2.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="./assets/img/closure2.png"></h1>
 
 Finally we instance the function passing the closure as the completion handler:
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/closure3.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="./assets/img/closure3.png"></h1>
 
 As a final comment, and if you are following this short explanation writing the code in your own computer, you probably have noticed that Swift gives you the chance to work with the input argument of the closure embedded as a completion handler when instancing the fucntion:
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/closure4.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="./assets/img/closure4.png"></h1>
 
 The result is:
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/closure5.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="./assets/img/closure5.png"></h1>
 
 Thanks for reading :)
 
@@ -47,7 +47,7 @@ Thanks for reading :)
     </tr>
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
         <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; color: gray; font-size: 20px; background-color: #FDFDFD; text-align: center; vertical-align: center; horizontal-align: center; padding: 5px">
-        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/yo2.png">
+        <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="./assets/img/yo2.png">
         </td>
         <td style="border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 2px solid #DDDDDD; background-color: #FDFDFD; text-align: left; vertical-align: center; padding: 10px">
             <p style="font-size: 26px; margin: 0px 0px"><b>Javi Carrillo</b></p>
