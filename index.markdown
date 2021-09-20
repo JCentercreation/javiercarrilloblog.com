@@ -30,7 +30,7 @@ title:
 <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/08/2021/CryptoKitIII.html">
       <body>
       <h2><b>CryptoKit III: Sign it</b></h2>
       <p>Ensure authenticity and integrity of your encrypted data</p>
@@ -38,7 +38,7 @@ title:
       </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/16/07/2021/CryptoKitII.html">
       <body>
       <h2><b>CryptoKit II: Don't share your secret</b></h2>
       <p>Encrypt data and let trusted ones decrypt it</p>
