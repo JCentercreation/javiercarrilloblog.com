@@ -20,6 +20,7 @@ permalink: /services
       <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: top; padding: 0px">
         <img style="display: block; margin-left: auto; margin-right: auto; height: 250px; width: 100%; object-fit: contain" src="../assets/img/galileo.PNG">
       </td>
+    </tr>
   </table>
 
   <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
