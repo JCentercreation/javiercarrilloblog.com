@@ -11,7 +11,7 @@ permalink: /services
     </td>
   </tr>
   </table> -->
-  <h1>Empresas que confian en mí</h1>
+  <h1 style="horizontal-align: center">Empresas que confian en mí</h1>
   <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
   <tr>
     <td style="border-style: hidden; width: 100%; vertical-align: center; horizontal-align: center">
