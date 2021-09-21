@@ -10,8 +10,6 @@ permalink: /services
     </td>
   </tr>
   </table> -->
-
-  <h3 style="text-align: center">Empresas que confian en mi</h3>
   <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
     <tr>
       <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: top; padding: 0px">
