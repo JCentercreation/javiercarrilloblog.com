@@ -12,7 +12,7 @@ permalink: /services
   </table> -->
   <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
     <tr>
-      <td style="border-style: hidden; width: 330%; text-align: left; vertical-align: top; padding: 0px">
+      <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
         <img style="display: block; margin-left: auto; margin-right: auto; height: 250px; width: 100%; object-fit: contain" src="../assets/img/galileo.PNG">
       </td>
       <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
