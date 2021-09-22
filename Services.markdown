@@ -18,6 +18,9 @@ permalink: /services
       <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: top; padding: 0px">
         <img style="display: block; margin-left: auto; margin-right: auto; height: 250px; width: 100%; object-fit: contain" src="../assets/img/granitos.PNG">
       </td>
+      <td style="border-style: hidden; width: 50%; text-align: left; vertical-align: top; padding: 0px">
+        <img style="display: block; margin-left: auto; margin-right: auto; height: 250px; width: 100%; object-fit: contain" src="../assets/img/campus.PNG">
+      </td>
     </tr>
   </table>
 
