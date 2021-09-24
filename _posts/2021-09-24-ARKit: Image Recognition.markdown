@@ -16,6 +16,7 @@ Today we are gonna build an Image Recognition App by means of AR capabilities, s
 
 The first thing we need to do is to set a new XCode project configured for Augmented Reality purposes:
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/ARproject.png"></h1>
+
 Also, we have to select the AR technology we want to use so we are going to choose `SceneKit`.
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/sceneKit.png"></h1>
 
