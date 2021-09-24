@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ARKit: Image Recognition"
-date:   2021-09-24 12:02:05 +0100
+date:   2021-09-18 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
