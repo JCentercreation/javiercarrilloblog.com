@@ -8,72 +8,11 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding
 ---
-In previous articles we saw basics how concepts about encryption using CrypyoKit for Swift and also how to create public keys to encrypt/decrypt data. If you are new in this CryptoKit series I strongly recommend heading to the firs article <a href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">CryptoKit I: The Basics"</a> so you can follow this series properly. In this article we will go throught how to create and verify signatures in order to ensure authenticity and integrity of the data we encrypt.
+The invention of computers was the first big leap in the tech industry and the world wide deployment of the internet was the second one, and now it seems that is time for the Augment Reality. Apple is very aware about this and rumours say that the bitten apple company is almost ready to launch a new sort of glasses or helmet with advanced AR capabilities. I know that rumours are just rumours but what is completely sure is that Apple has been preparing the path for AR deployment during the last five years, that´s why frameworks like ARKit or RealityKit were released.
 
-In previous articles we use P256 NIST´s algorithm to generate the encryption key, and we could use it also now for building the signature but I really would like to introduce you the Curve225519. This curve was developed by Daniel J. Berstain and became very popular since 2013, when Edward Snowden leaked that the NSA was able to introduce a back door in the curve-based random generator of the P256...that may mean that that the NSA is able to jump over P256 encryption.
+For those who do not know what Augmented Reality is, basically it is the way that 2D and 3D computer generated items are visualized into the real world thanks to a camera and a screen or visor, and ARKit is a Swift framework developed for that purpose. ARKit takes over device motion traking, camera scene capture, advanced scene processing and a bunch of different processes that take part into the AR experience. Combined with ARkit there are other frameworks really useful for AR purposes, like SceneKit or RealityKit.
 
-```swift
-import Foundation
-import CryptoKit
-
-let signatureKey = Curve25519.Signing.PrivateKey() //Creating the private key
-let signatureKeyPublic = signatureKey.publicKey //Creating the public key
-let signatureKeyPublicData = signatureKeyPublic.rawRepresentation //Data type for public key
-
-let initSignatureKeyPublic = try! Curve25519.Signing.PublicKey(rawRepresentation: signatureKeyPublicData) //Initializing the public key
-
-let info = "This is the confidential information" //Info to sign
-let infoData = info.data(using: .utf8) //Data type for info to sign
-let signature = try! signatureKey.signature(for: infoData!) //Signing the info
-
-if initSignatureKeyPublic.isValidSignature(signature, for: infoData!) {
-    print("The signature is Ok")
-} //Using the public key to check the signature
-```
-> The signature is OK
-
-We already know how to sign the info so could apply that to our encryption purposes:
-
-```swift
-import Foundation
-import CryptoKit
-
-let protocolSalt = "Javier is cool".data(using: .utf8)!
-
-let javierPrivateKey = P256.KeyAgreement.PrivateKey() 
-let javierPublicKey = javierPrivateKey.publicKey 
-
-let pepePrivateKey = P256.KeyAgreement.PrivateKey() 
-let pepePublicKey = pepePrivateKey.publicKey 
-
-let javierSharedSecret = try! javierPrivateKey.sharedSecretFromKeyAgreement(with: pepePublicKey) PepePublicKey
-let javierSymmetricKey = javierSharedSecret.hkdfDerivedSymmetricKey(using: SHA256.self, salt: protocolSalt, sharedInfo: Data(), outputByteCount: 32) 
-
-let pepeSharedSecret = try! pepePrivateKey.sharedSecretFromKeyAgreement(with: javierPublicKey) 
-let pepeSymmetricKey = pepeSharedSecret.hkdfDerivedSymmetricKey(using: SHA256.self, salt: protocolSalt, sharedInfo: Data(), outputByteCount: 32)
-
-//Javier encrypts data
-let chain = "This is a super confidential information" 
-let chainData = chain.data(using: .utf8)!
-let key = javierSymmetricKey 
-let chainEncrypted = try! ChaChaPoly.seal(chainData, using: key).combined
-
-//Javier signs the encrypted data
-let signatureKey = Curve25519.Signing.PrivateKey()
-let signatureKeyPublic = signatureKey.publicKey
-let signatureKeyPublicData = signatureKeyPublic.rawRepresentation
-let signature = try! signatureKey.signature(for: chainEncrypted)
-
-//Pepe verifies the signature
-let initSignatureKeyPublic = try! Curve25519.Signing.PublicKey(rawRepresentation: signatureKeyPublicData)
-if initSignatureKeyPublic.isValidSignature(signature, for: chainData!) {
-    //Pepe decrypts data
-        let container = try! ChaChaPoly.SealedBox(combined: chainEncrypted)
-        let containerDecrypted = try! ChaChaPoly.open(container, using: pepeSymmetricKey) //Pepe is using his own symmetric key (which is the same as Javier's one)
-        let chainDecrypted = String(data: containerDecrypted, encoding: .utf8)
-        print(chainDecrypted!)
-}
-```
+Today we are gonna build an Image Recognition App by means of AR capabilities, so when the camera of our device detects a known image the App will display a computer generated item. In this example we are gonna use a MVC arquitecture for building the App but as you may know it is possible to integrate it into SwiftUI thanks to `UIViewRepresentableContainer`.
 
 Thanks for reading :)
 
