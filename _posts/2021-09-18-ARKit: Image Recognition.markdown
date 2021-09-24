@@ -15,7 +15,7 @@ For those who do not know what Augmented Reality is, basically it is the way tha
 Today we are gonna build an Image Recognition App by means of AR capabilities, so when the camera of our device detects a known image the App will display a computer generated item. In this example we are gonna use a MVC arquitecture for building the App but as you may know it is possible to integrate it into SwiftUI thanks to `UIViewRepresentableContainer`.
 
 Let´s imagine that we are building an App for an hotel, and we want the user to have a great inmersive experience when visitng the different areas and rooms of the building by means of AR. For instance, when the user goes to the reception and point with the camera to a framed image then information will pop up in the visor. Let me show you the final result so you can get an idea about what we are talking about:
-<img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/IMG_0466.PNG">
+<img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="/assets/img/IMG_0466.PNG">
 <br>
 
 The first thing we need to do is to set a new XCode project configured for Augmented Reality purposes:
