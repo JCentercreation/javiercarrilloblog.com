@@ -157,7 +157,7 @@ func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode
         return node
     }
 ```
-
+<br>
 <h2 style="color: #403F3F">Placing AR items</h2>
 The App is able to recognize the picture and the search the information for that picture into the JSON file, so far. Now it's time to place that information into the scene as AR items. But before doing that I stringly recommend adding some extensions to the code that will be very useful in following steps.
 
