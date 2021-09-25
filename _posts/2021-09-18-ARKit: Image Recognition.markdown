@@ -96,11 +96,45 @@ func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode
 
 <video src="/assets/img/out.MOV" controls="controls" style="max-width: 730px;">
 </video>
+<br>
 
 <h2 style="color: #403F3F">Loading and parsing Pictures information</h2>
-The information we want to be displayed as AR Items when a picture is recognized by the App is stored in a JSON file
+The information we want to be displayed as AR Items when a picture is recognized by the App is stored in a JSON file.
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/picturesJSON.png"></h1>
 <br>
+We need to load the JSON file and to decode it into a data type, so first we need to create a struct that defines the data type:
+
+```swift
+import Foundation
+
+struct Pictures: Decodable {
+    let name: String
+    let artist: String
+    let date: String
+    let description: String
+}
+```
+
+And then we can decode the JSON information into our data type:
+
+```swift
+func loadData(){
+        guard let url = Bundle.main.url(forResource: "pictures", withExtension: "json") else {
+            fatalError("Unable to find JSON")
+        }
+        
+        guard let data = try? Data(contentsOf: url) else {
+            fatalError("Unable to load JSON data")
+        }
+        
+        let decoder = JSONDecoder()
+        guard let loadPictures = try? decoder.decode([String: Pictures].self, from: data) else {
+            fatalError("Unable to decode JSON data")
+        }
+        
+        pictures = loadPictures
+    }
+```
 
 Thanks for reading :)
 
