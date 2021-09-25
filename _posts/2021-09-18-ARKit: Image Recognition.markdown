@@ -97,6 +97,10 @@ func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode
 <video src="/assets/img/out.MOV" controls="controls" style="max-width: 730px;">
 </video>
 
+<h2 style="color: #403F3F">Loading and parsing Pictures information</h2>
+The information we want to be displayed as AR Items when a picture is recognized by the App is stored in a JSON file
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/picturesJSON.png"></h1>
+<br>
 
 Thanks for reading :)
 
