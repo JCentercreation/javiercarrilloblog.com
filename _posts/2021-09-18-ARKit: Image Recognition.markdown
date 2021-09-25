@@ -18,12 +18,15 @@ Let´s imagine that we are building an App for an hotel, and we want the user to
 <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="/assets/img/IMG_0466.PNG">
 <br>
 <h2 style="color: #403F3F">Project Configuration</h2>
-
 The first thing we need to do is to set a new XCode project configured for Augmented Reality purposes:
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/ARproject.png"></h1>
 <br>
 Also, we have to select the AR technology we want to use so we are going to choose `SceneKit`.
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/sceneKit.png"></h1>
+<br>
+
+Now is time to add the pictures we want the App to recognize to the project. So what we need to do is to create, inside the Assets folder, a new `AR Resource Group`. Inside this new group we are gonna drop the images of the pictures, but we also have to define the dimensions of the picture in the real world.
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/ARresources.png"></h1>
 <br>
 
 <h2 style="color: #403F3F">AR Session Configuration</h2>
