@@ -94,6 +94,9 @@ func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode
     }
 ```
 
+<video src="/assets/img/out.MOV" controls="controls" style="max-width: 730px;">
+</video>
+
 
 Thanks for reading :)
 
