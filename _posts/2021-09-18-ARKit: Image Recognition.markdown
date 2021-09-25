@@ -71,7 +71,28 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 }
 ```
 
-Bear in minf that the device is not gonna able to detect a huge amount of pictures at the same time. Apple has not given any accurate number about this but from my experience I do not recommend trying to recognize more that 20 pictures at the same time. I guess this number depends on the device capabilities so later iPhones or iPads are able to recognize more images than the older versions.
+Bear in mind that the device is not gonna able to detect a huge amount of pictures at the same time. Apple has not given any accurate number about this but from my experience I do not recommend trying to recognize more that 20 pictures at the same time. I guess this number depends on the device capabilities so later iPhones or iPads are able to recognize more images than the older versions.
+
+<h2 style="color: #403F3F">Adding AR Items</h2>
+Each time the App detects an image already stored in the AR Resources folder, internally is gonna place an anchor linked to the image. So thanks to that anchor we can also link to it a Scene node `SCNNode`, which is very useful to place the AR items. But firstly we want the App user to be aware of the App has recognized a picture, so for that we are gonna place a colored plane as an AR item. We are gonna do all this by means of a `renderer`function:
+
+```swift
+func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+        guard let imageAnchor = anchor as? ARImageAnchor else { return nil } //Define the anchor as an ARImageAnchor.
+        
+        let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height) //Define a SCNPlane with the dimensions of the detected ARImageAnchor.
+        
+        plane.firstMaterial?.diffuse.contents = UIColor.red //Define a color for the SCNPlane.
+        
+        let planeNode = SCNNode(geometry: plane) //Define a node for the plane, so the plane is fixed in this space and the user could move the device or the anchor could change its position in the room.
+        planeNode.eulerAngles.x = -.pi / 2 //We need to rotate the planeNode to be parallel to the recognized picture.
+        
+        let node = SCNNode() //Create a new node
+        node.addChildNode(planeNode) //Add the planeNode as a child of the new node so the rotation could be visualized.
+        
+        return node
+    }
+```
 
 
 Thanks for reading :)
