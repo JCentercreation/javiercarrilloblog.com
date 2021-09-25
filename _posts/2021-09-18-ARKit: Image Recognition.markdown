@@ -115,7 +115,7 @@ struct Pictures: Decodable {
 }
 ```
 
-And then we can decode the JSON information into our data type:
+And then we can decode the JSON information into our data type (function inside the `ViewController`):
 
 ```swift
 func loadData(){
@@ -133,6 +133,78 @@ func loadData(){
         }
         
         pictures = loadPictures
+    }
+```
+
+Then we can find the proper information for the recognized picture into the JSON (function inside the `ViewController`):
+
+```swift
+func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+        guard let imageAnchor = anchor as? ARImageAnchor else { return nil } //Define the anchor as an ARImageAnchor.
+        guard let name = imageAnchor.referenceImage.name else { return nil } //Storing the recognized image name into a constant.
+        guard let picture = pictures[name] else { return nil } //Accesing the recognized picture information stored in the JSON file
+        
+        let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height) //Define a SCNPlane with the dimensions of the detected ARImageAnchor.
+        
+        plane.firstMaterial?.diffuse.contents = UIColor.red //Define a color for the SCNPlane.
+        
+        let planeNode = SCNNode(geometry: plane) //Define a node for the plane, so the plane is fixed in this space and the user could move the device or the anchor could change its position in the room.
+        planeNode.eulerAngles.x = -.pi / 2 //We need to rotate the planeNode to be parallel to the recognized picture.
+        
+        let node = SCNNode() //Create a new node
+        node.addChildNode(planeNode) //Add the planeNode as a child of the new node so the rotation could be visualized.
+        
+        return node
+    }
+```
+
+<h2 style="color: #403F3F">Placing AR items</h2>
+The App is able to recognize the picture and the search the information for that picture into the JSON file, so far. Now it's time to place that information into the scene as AR items. But before doing that I stringly recommend adding some extensions to the code that will be very useful in following steps.
+
+The first extension is related to how SceneKit positions AR items. SceneKit (and SpriteKit), by default, positions the (0, 0, 0) of each item in the center of the item, which is very convinient for many purposes but not for our App, so let's make some changes in the SCNNode properties and adding also some new methods:
+
+```swift
+extension SCNNode {
+    
+    var width: Float {
+        return (boundingBox.max.x - boundingBox.min.x) * scale.x //By multiplying for scale.x we ensure the dimensions are related to measures in the real world
+    }
+    
+    var height: Float {
+        return (boundingBox.max.y - boundingBox.min.y) * scale.y
+    }
+    
+    func pivotOnTopLeft() { //Positions the center in the top left corner of the item
+        let (min, max) = boundingBox
+        
+        pivot = SCNMatrix4MakeTranslation(min.x, (max.y - min.y) + min.y, 0)
+    }
+    
+    func pivotOnTopCenter() { //Positions the center in the top center of the item
+        let (min, max) = boundingBox
+        
+        pivot = SCNMatrix4MakeTranslation((max.x - min.x) / 2 + min.x, (max.y - min.y) + min.y, 0)
+    }
+}
+```
+
+Now we have to create the ARText we want to be displayed as AR items, and for that we are gonna build another function inside the `ViewController`:
+
+```swift
+func textNode(string: String, font: UIFont, maxWidth: Int? = nil) -> SCNNode {
+        let text = SCNText(string: string, extrusionDepth: 0)
+        text.flatness = 0.1 //Corners very smooth.
+        text.font = font
+        
+        if let maxWidth = maxWidth {
+            text.containerFrame = CGRect(origin: .zero, size: CGSize(width: maxWidth, height: 500)) //Text wrapped into a maxWidth rectangle.
+            text.isWrapped = true
+        }
+        
+        let textNode = SCNNode(geometry: text)
+        textNode.scale = SCNVector3(0.002, 0.002, 0.002) //We need to reescale the textNode cause SceneKit uses meters by default so for instance a font 10 will be displayed as a 10 meters tall.
+        
+        return textNode
     }
 ```
 
