@@ -208,6 +208,38 @@ func textNode(string: String, font: UIFont, maxWidth: Int? = nil) -> SCNNode {
     }
 ```
 
+Now it's time to implement the new funtion:
+
+```swift
+func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+        guard let imageAnchor = anchor as? ARImageAnchor else { return nil } //Define the anchor as an ARImageAnchor.
+        guard let name = imageAnchor.referenceImage.name else { return nil } //Storing the recognized image name into a constant.
+        guard let picture = pictures[name] else { return nil } //Accesing the recognized picture information stored in the JSON file
+        
+        let plane = SCNPlane(width: imageAnchor.referenceImage.physicalSize.width, height: imageAnchor.referenceImage.physicalSize.height) //Define a SCNPlane with the dimensions of the detected ARImageAnchor.
+        
+        plane.firstMaterial?.diffuse.contents = UIColor.clear //Define a color for the SCNPlane.
+        
+        let planeNode = SCNNode(geometry: plane) //Define a node for the plane, so the plane is fixed in this space and the user could move the device or the anchor could change its position in the room.
+        planeNode.eulerAngles.x = -.pi / 2 //We need to rotate the planeNode to be parallel to the recognized picture.
+        
+        let node = SCNNode() //Create a new node
+        node.addChildNode(planeNode) //Add the planeNode as a child of the new node so the rotation could be visualized.
+        
+        let spacing: Float = 0.005
+        
+        let titleNode = textNode(string: picture.name, font: UIFont.boldSystemFont(ofSize: 10)) //Defining the Title Node
+        titleNode.pivotOnTopLeft() //Pivoting the zero of the titleNode
+        
+        titleNode.position.x += Float(plane.width / 2) + spacing //Replacing in x the titleNode
+        titleNode.position.y += Float(plane.height / 2) //Replacing in y the titleNode
+        
+        planeNode.addChildNode(titleNode) //Adding the titleNode as child of the planeNode
+        
+        return node
+    }
+```
+
 Thanks for reading :)
 
 <table style="width: 100%; overflow: scroll; border-right: 0px solid gray; border-left: 0px solid gray">
