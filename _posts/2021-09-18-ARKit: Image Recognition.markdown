@@ -17,6 +17,7 @@ Today we are gonna build an Image Recognition App by means of AR capabilities, s
 Let´s imagine that we are building an App for an hotel, and we want the user to have a great inmersive experience when visitng the different areas and rooms of the building by means of AR. For instance, when the user goes to the reception and point with the camera to a framed image then information will pop up in the visor. Let me show you the final result so you can get an idea about what we are talking about:
 <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="/assets/img/IMG_0466.PNG">
 <br>
+<h2 style="color: #403F3F">Project Configuration</h2>
 
 The first thing we need to do is to set a new XCode project configured for Augmented Reality purposes:
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/ARproject.png"></h1>
@@ -24,6 +25,50 @@ The first thing we need to do is to set a new XCode project configured for Augme
 Also, we have to select the AR technology we want to use so we are going to choose `SceneKit`.
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/sceneKit.png"></h1>
 <br>
+
+<h2 style="color: #403F3F">AR Session Configuration</h2>
+Once the SceneKit project is created, you may realized that a initial configuration is already loaded and it is very likely that this initial configuration does not fit to your App purpose, as happen in this case. So the first thing we are gonna do is to configure properly the AR Session we want to set in the App.
+
+```swift
+class ViewController: UIViewController, ARSCNViewDelegate {
+
+    @IBOutlet var sceneView: ARSCNView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Set the view's delegate
+        sceneView.delegate = self
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Create a session configuration. In this case we're gonna use the Image Tracking Configuration.
+        let configuration = ARImageTrackingConfiguration()
+        
+        // Define where are the images to be tracked. In this case our images are in a folder called "AR Resources"
+        guard let trackingImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else {
+            fatalError("Could not load tracking images")
+        }
+        
+        configuration.trackingImages = trackingImages
+
+        // Run the view's session
+        sceneView.session.run(configuration)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        // Pause the view's session
+        sceneView.session.pause()
+    }
+}
+```
+
+Bear in minf that the device is not gonna able to detect a huge amount of pictures at the same time. Apple has not given any accurate number about this but from my experience I do not recommend trying to recognize more that 20 pictures at the same time. I guess this number depends on the device capabilities so later iPhones or iPads are able to recognize more images than the older versions.
 
 
 Thanks for reading :)
