@@ -248,8 +248,17 @@ func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode
     }
 ```
 
-<h1><video src="/assets/img/out 2.MOV" controls="controls" style="max-width: 730px;"></video>
-</h1>
+<header>
+    <table style="width: 100%; horizontal-align: center; margin: 0px 0px">
+        <tr>
+            <td style="border-style: hidden; width: 100%; text-align: center; vertical-align: top; padding: 0px">
+                <body>
+                    <video src="/assets/img/out 2.MOV" controls="controls" style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain"></video>
+                </body>
+            </td>
+        </tr>
+    </table>
+</header>
 <br>
 
 Thanks for reading :)
