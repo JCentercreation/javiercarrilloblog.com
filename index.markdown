@@ -16,14 +16,15 @@ title:
   .button2:hover {border: 2px solid pink; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: pink}
 </style>
 <body>
-<a class="a1" href="http://www.javiercarrilloblog.com/coding/18/09/2021/ARKit-Image-Recognition.html">
-<body>
-<h1 style="font-size: 60px; margin: 0px 0px"><b>ARKit: Image Recognition</b></h1>
-<p>Take your first steps in Augmented Reality</p>
+  <a class="a1" href="http://www.javiercarrilloblog.com/coding/18/09/2021/ARKit-Image-Recognition.html">
+    <body>
+      <h1 style="font-size: 60px; margin: 0px 0px"><b>ARKit: Image Recognition</b></h1>
+      <p>Take your first steps in Augmented Reality</p>
+    </body>
+  </a>
 </body>
+<a class="a1" style="color: #75A4F2" href="http://www.javiercarrilloblog.com/coding/18/09/2021/ARKit-Image-Recognition.html"><b>Continue reading >></b>
 </a>
-</body>
-<a class="a1" style="color: #75A4F2" href="http://www.javiercarrilloblog.com/coding/18/09/2021/ARKit-Image-Recognition.html"><b>Continue reading >></b></a>
 <br>
 <br>
 <h2 style="font-size: 30px; color: gray; margin: 0px 0px"><b>Recent Articles</b></h2>
