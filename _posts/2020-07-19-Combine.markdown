@@ -20,6 +20,7 @@ In order to master Combine it is vital to understand following three basic conce
     * Reference type
 * Operators
 
+<br>
 <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain; border-radius: 10px" src="/assets/img/combineStructure.png">
 <p>Source: Apple Inc. (WWDC 2019)</p>
 <br>
