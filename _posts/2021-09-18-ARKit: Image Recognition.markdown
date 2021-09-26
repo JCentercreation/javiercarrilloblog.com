@@ -97,7 +97,9 @@ func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode
     <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
         <tr>
             <td style="border-style: hidden; width: 100%; text-align: left; vertical-align: top; padding: 0px">
-                <video src="/assets/img/out.MOV" controls="controls" style="max-width: 730px;"></video>
+                <body>
+                    <video src="/assets/img/out.MOV" controls="controls" style="max-width: 730px;"></video>
+                </body>
             </td>
         </tr>
     </table>
