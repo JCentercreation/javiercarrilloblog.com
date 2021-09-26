@@ -22,7 +22,7 @@ In order to master Combine it is vital to understand following three basic conce
 
 <br>
 <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain; border-radius: 10px" src="/assets/img/combineStructure.png">
-<p>Source: Apple Inc. (WWDC 2019)</p>
+<p style="text-align: center">Source: Apple Inc. (WWDC 2019)</p>
 <br>
 
 Basically a `Publisher` generates values that can change on which a `Subscriber` subscribes to receive all those updates. If you've been working lately with SwiftUI you may have use Property Wrappers like `ObservableObject`, `@EnvironmentObject`, `@Binding` and so on, those property wrappers use Combine framework in the background.
