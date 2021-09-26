@@ -14,12 +14,12 @@ For those who do not know what Augmented Reality is, basically it is the way tha
 
 Today we are gonna build an Image Recognition App by means of AR capabilities, so when the camera of our device detects a known image the App will display a computer generated item. In this example we are gonna use a MVC arquitecture for building the App but as you may know it is possible to integrate it into SwiftUI thanks to `UIViewRepresentableContainer`.
 
-Let´s imagine that we are building an App for an hotel, and we want the user to have a great inmersive experience when visitng the different areas and rooms of the building by means of AR. For instance, when the user goes to the reception and point with the camera to a framed image then information will pop up in the visor. Let me show you the final result so you can get an idea about what we are talking about:
+Let´s imagine that we are building an App for a museum, and we want the user to have a great inmersive experience when looking at the pictures. For instance, when the vistor points with the device to a picture the title and the name of the artist who created that picture will show up in the visor. Let me show you the final result so you can get an idea about what we are talking about:
 <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="/assets/img/IMG_0466.PNG">
 <br>
 <h2 style="color: #403F3F">Project Configuration</h2>
 The first thing we need to do is to set a new XCode project configured for Augmented Reality purposes:
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/ARproject.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/IMG_0513.PNG"></h1>
 <br>
 Also, we have to select the AR technology we want to use so we are going to choose `SceneKit`.
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/sceneKit.png"></h1>
@@ -94,7 +94,7 @@ func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode
     }
 ```
 
-<h1><video src="/assets/img/out.MOV" controls="controls" style="max-width: 730px;"></video>
+<h1><video src="/assets/img/out 2.MOV" controls="controls" style="max-width: 730px;"></video>
 </h1>
 <br>
 
@@ -239,6 +239,10 @@ func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode
         return node
     }
 ```
+
+<h1><video src="/assets/img/out.MOV" controls="controls" style="max-width: 730px;"></video>
+</h1>
+<br>
 
 Thanks for reading :)
 
