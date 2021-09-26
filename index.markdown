@@ -16,10 +16,10 @@ title:
   .button2:hover {border: 2px solid pink; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: pink}
 </style>
 <body>
-<a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
+<a class="a1" href="http://www.javiercarrilloblog.com/coding/18/09/2021/ARKit-Image-Recognition.html">
 <body>
-<h1 style="font-size: 60px; margin: 0px 0px"><b>CryptoKit I: The Basics</b></h1>
-<p>Take your first steps with cryptography in Swift</p>
+<h1 style="font-size: 60px; margin: 0px 0px"><b>ARKit: Image Recognition</b></h1>
+<p>Take your first steps in Augmented Reality</p>
 </body>
 </a>
 </body>
@@ -46,10 +46,10 @@ title:
       </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/17/05/2021/SwiftClosures.html">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2021/CryptoKit.html">
       <body>
-      <h2><b>How Swift Closure Works</b></h2>
-      <p>Understanding the closures in Swift</p>
+      <h2><b>CryptoKit I: The Basics</b></h2>
+      <p>Take your first steps with cryptography in Swift</p>
       </body>
       </a>
     </td>
@@ -64,10 +64,10 @@ title:
       </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/03/2021/Coding_with_smartphone.html">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/17/05/2021/SwiftClosures.html">
       <body>
-      <h2><b>Coding with my Smartphone</b></h2>
-      <p>It is possible to code with a smartphone</p>
+      <h2><b>How Swift Closure Works</b></h2>
+      <p>Understanding the closures in Swift</p>
       </body>
       </a>
     </td>
