@@ -28,7 +28,7 @@ In order to master Combine it is vital to understand following three basic conce
 Basically a `Publisher` generates values that can change on which a `Subscriber` subscribes to receive all those updates. If you've been working lately with SwiftUI you may have use Property Wrappers like `ObservableObject`, `@EnvironmentObject`, `@Binding` and so on, those property wrappers use Combine framework in the background.
 
 In this short tutorial we are going to explain basic concepts of Combine in a hands-on approach by building a URL JSON request, which I think is widely used in the most of the Apps. It is not necessary to configure a server end-points for this, I strongly recommend using Postman Mock Server for that. Fistly I'm going to show you how I used to build the request without Combine, the old school version, and then I will show you how to perfom it with Combine. Please, bear in mind that the magic of coding is that there are many ways to achieve the same result so this is just the way I do.
-
+<br>
 <h2 style="color: #403F3F">Old-School URL Session</h2>
 Lets imagine that we want to get a JSON with the list of users
 
