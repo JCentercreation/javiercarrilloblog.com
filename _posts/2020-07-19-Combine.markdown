@@ -20,12 +20,12 @@ In order to master Combine it is vital to understand following three basic conce
     * Reference type
 * Operators
 
-<img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="/assets/img/combineStructure.png">
+<img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain; border-radius: 10px" src="/assets/img/combineStructure.png">
 <br>
 
-Basically a `Publisher` generate values that can change on which a `Subscriber` subscribes to receive all those updates. If you've been working lately with SwiftUI you may have use Property Wrappers like `ObservableObject`, `@EnvironmentObject`, `@Binding` and so on, those property wrappers use Combine framework in the background.
+Basically a `Publisher` generates values that can change on which a `Subscriber` subscribes to receive all those updates. If you've been working lately with SwiftUI you may have use Property Wrappers like `ObservableObject`, `@EnvironmentObject`, `@Binding` and so on, those property wrappers use Combine framework in the background.
 
-In this short tutorial we are going to explain basic concepts of Combine in a hands-on approach by building a URL JSON request, which I think is commonly used in the most of the Apps. 
+In this short tutorial we are going to explain basic concepts of Combine in a hands-on approach by building a URL JSON request, which I think is widely used in the most of the Apps. 
 
 
 
