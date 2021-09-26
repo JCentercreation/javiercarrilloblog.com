@@ -11,14 +11,14 @@ tags: coding
 If you have experience developing iOS Apps you may know that the some task inside the App must wait for other tasks to be completed or that the App needs to process some task in a proper order. Handle with these sort of tasks could be tricky, but in WWDC2029 Apple released the ultimate framework for this purpose: Combine. Combine is a declarative framework for processing values over time, like network response, user interface events on a bunch of other types of asynchronous data.
 
 In order to master Combine it is vital to understand following three basic concepts:
-*Publishers:
-    *Defines how values and errors are produced
-    *Value type -> `Struct`
-    *Allows registration of a `Subscriber`
-*Subscribers:
-    *Recieves values and a completion
-    *Reference type
-*Operators
+* ublishers:
+    * Defines how values and errors are produced
+    * Value type -> `Struct`
+    * Allows registration of a `Subscriber`
+* Subscribers:
+    * Recieves values and a completion
+    * Reference type
+* Operators
 
 Basically a `Publisher` generate values that can change on which a `Sbuscriber` subscribes to receive all those updates. If you've been working lately with SwiftUI you may have use Property Wrappers like `@ObservableObject`
 
