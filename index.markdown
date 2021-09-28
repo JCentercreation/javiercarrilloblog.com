@@ -65,10 +65,10 @@ title:
       </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/17/05/2021/SwiftClosures.html">
+      <a class="a1" href="http://www.javiercarrilloblog.com/coding/19/07/2020/Combine.html">
       <body>
-      <h2><b>How Swift Closure Works</b></h2>
-      <p>Understanding the closures in Swift</p>
+      <h2><b>Combine: The Ultimate Framework</b></h2>
+      <p>URL Session comparison</p>
       </body>
       </a>
     </td>
