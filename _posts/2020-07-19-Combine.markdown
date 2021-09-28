@@ -16,12 +16,12 @@ In order to master Combine it is vital to understand following three basic conce
     * Value type -> `Struct`
     * Allows registration of a `Subscriber`
 * Subscribers:
-    * Recieves values and a completion
+    * Recieves values and a completion -> `map`, `flatMap`, `filter`, `reduce`, ...
     * Reference type
 * Operators
 
 <br>
-<img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain; border-radius: 10px" src="/assets/img/combineStructure.png">
+<img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain; border-radius: 20px" src="/assets/img/combineStructure.png">
 <p style="text-align: center">Source: Apple Inc. (WWDC 2019)</p>
 <br>
 
@@ -68,9 +68,35 @@ func fetchUsers(url: URL) {
 }
 ```
 
+<br>
+<h2 style="color: #403F3F">URL Session with Combine</h2>
+With combine is much easier and intuituve:
 
-
-
+```swift
+let request = URLRequest(url: url)
+    let publisher = URLSession.shared
+        .dataTaskPublisher(for: request)
+        .tryMap {
+            print("tryMap lanzado")
+            guard let response = $1 as? HTTPURLResponse, response.statusCode == 200 else {
+                throw NetworkErrors.BadContent
+            }
+            return $0
+        }
+        .decode(type: [User].self, decoder: JSONDecoder())
+        .sink(receiveCompletion: { completion in
+            switch completion {
+                case .failure(let failure): print("Error: \(failure)")
+                case .finished: print("Done")
+            }
+            print("Sink lanzado")
+        }, receiveValue: {
+            print("Printeando valores")
+            for user in $0 {
+                print(user.id, user.name, user.surename, user.company)
+            }
+        })
+```
 
 Thanks for reading :)
 
