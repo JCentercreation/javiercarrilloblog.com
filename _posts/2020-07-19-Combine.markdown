@@ -77,7 +77,6 @@ let request = URLRequest(url: url)
     let publisher = URLSession.shared
         .dataTaskPublisher(for: request)
         .tryMap {
-            print("tryMap lanzado")
             guard let response = $1 as? HTTPURLResponse, response.statusCode == 200 else {
                 throw NetworkErrors.BadContent
             }
@@ -89,9 +88,7 @@ let request = URLRequest(url: url)
                 case .failure(let failure): print("Error: \(failure)")
                 case .finished: print("Done")
             }
-            print("Sink lanzado")
         }, receiveValue: {
-            print("Printeando valores")
             for user in $0 {
                 print(user.id, user.name, user.surename, user.company)
             }
