@@ -70,7 +70,7 @@ func fetchUsers(url: URL) {
 
 <br>
 <h2 style="color: #403F3F">URL Session with Combine</h2>
-With combine is much easier and intuituve:
+With combine is much easier and intuitive:
 
 ```swift
 let request = URLRequest(url: url)
