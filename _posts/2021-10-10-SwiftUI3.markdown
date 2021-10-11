@@ -29,12 +29,28 @@ With `.swipeActions()` it is possible to customize actions when swiping a list r
 
 <h3 style="color: #403F3F">ListRowSeparator Tint / Hidden</h3>
 
-These are a silly ones but that allows you to save time and make your code cleaner. With `.listRowSeparatorTint()` you can modify the color of the list separator line and with `.listRowSeparator(.hidden)` you can hidde it directly.
+These are a silly ones but that allows you to save time and make your code cleaner. With `.listRowSeparatorTint()` you can modify the color of the list separator line.
 
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_listRowSeparatorTint.png"></h1>
 <br>
 
+And with `.listRowSeparator(.hidden)` you can hidde it directly.
+
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_listRowSeparatorHidden.png"></h1>
+<br>
+
+<h3 style="color: #403F3F">Searchable</h3>
+
+It is very likely that when you show a list to the user you also want to let him filter or find a specific item in the list. For that ppurpose SwwiftUI 3 brings a new method `.searchable()` that builds a searching textfield at the top of the list pointing to a binding.
+
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_searchable.png"></h1>
+<br>
+
+<h3 style="color: #403F3F">AsyncImage</h3>
+
+Useually when we need to fetch an image from the web we need to build an `URLRequest` and handle with the returned data, the response and the possibl erros. But now we could fecth an image asyncroniously just with `AsyncImage(url: URL)`.
+
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_AsyncImage.png"></h1>
 <br>
 
 
