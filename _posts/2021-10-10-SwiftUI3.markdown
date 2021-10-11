@@ -13,11 +13,11 @@ Apple has released the 2021 verison for SwiftUI, also called SwiftUI 3. As you m
 The main purpose of this article is presenting some new features that SwiftUI 3 brings this year to `List View`, and not explaining from scratch how to start making your first steps with SwiftUI (maybe that is a good topic for following articles :) ). Basically what we are gonna do is building an easy project in SwiftUI and implementing that new features into the project. Let`s get started.
 
 <br>
-<h3 style="color: #403F3F">Refreshable</h2>
+<h3 style="color: #403F3F">Refreshable</h3>
 
 With `.refreshable()` it is possible to run specific code when the user drag and drop the list. This is very handy for instance when we want to fetch again the data that List is showing.
 
-<img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain" src="/assets/img/SwiftUI3_refreshable.png">
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_refreshable.png"></h1>
 <br>
 
 
