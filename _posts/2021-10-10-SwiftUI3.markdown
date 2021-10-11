@@ -20,6 +20,13 @@ With `.refreshable()` it is possible to run specific code when the user drag and
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_refreshable.png"></h1>
 <br>
 
+<h3 style="color: #403F3F">SwipeActions</h3>
+
+With `.swipeActions()` it is possible to customize actions when swipe a list row.
+
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_swipeActions.png"></h1>
+<br>
+
 
 Thanks for reading :)
 
