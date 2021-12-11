@@ -1,57 +1,15 @@
 ---
 layout: post
-title: "SwiftUI 3: New List features"
-date:   2021-10-10 12:02:05 +0100
+title: "React Native"
+date:   2021-12-11 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding
 ---
-Apple has released the 2021 verison for SwiftUI, also called SwiftUI 3. As you may know UIKit was the main library for user interface building within Swift development, but two years ago Apple presented SwiftUI as a functional programming solution for that purpose. In order to work with the latest SwiftUI version you will need to upgrade to Xcode 13 which is the latest version that starts supporting SwiftUI3. Bear in mind that it is very likely that you will use both SwiftUI and UIkit within thorught the development of the same project, bacause SwiftUI does not provide full solutions in some cases.
-
-The main purpose of this article is presenting some new features that SwiftUI 3 brings this year to `List View`, and not explaining from scratch how to start making your first steps with SwiftUI (maybe that is a good topic for following articles :) ). Basically what we are gonna do is building an easy project in SwiftUI and implementing that new features into the project. Let`s get started.
-
-<br>
-<h3 style="color: #403F3F">Refreshable</h3>
-
-With `.refreshable()` it is possible to run specific code when the user drag and drop the list. This is very handy for instance when we want to fetch again the data that List is showing.
-
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_refreshable.png"></h1>
-<br>
-
-<h3 style="color: #403F3F">SwipeActions</h3>
-
-With `.swipeActions()` it is possible to customize actions when swiping a list row.
-
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_swipeActions.png"></h1>
-<br>
-
-<h3 style="color: #403F3F">ListRowSeparator Tint / Hidden</h3>
-
-These are a silly ones but that allows you to save time and make your code cleaner. With `.listRowSeparatorTint()` you can modify the color of the list separator line.
-
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_listRowSeparatorTint.png"></h1>
-<br>
-
-And with `.listRowSeparator(.hidden)` you can hidde it directly.
-
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_listRowSeparatorHidden.png"></h1>
-<br>
-
-<h3 style="color: #403F3F">Searchable</h3>
-
-It is very likely that when you show a list to the user you also want to let him filter or find a specific item in the list. For that ppurpose SwwiftUI 3 brings a new method `.searchable()` that builds a searching textfield at the top of the list pointing to a binding.
-
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_searchable.png"></h1>
-<br>
-
-<h3 style="color: #403F3F">AsyncImage</h3>
-
-Useually when we need to fetch an image from the web we need to build an `URLRequest` and handle with the returned data, the response and the possibl erros. But now we could fecth an image asyncroniously just with `AsyncImage(url: URL)`.
-
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 80%; border-radius: 10px; box-shadow: 0px 0px 20px grey" src="/assets/img/SwiftUI3_AsyncImage.png"></h1>
-<br>
+<div data-snack-id="@javicg/pruebasreact" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style="overflow:hidden;background:#F9F9F9;border:1px solid var(--color-border);border-radius:4px;height:505px;width:100%"></div>
+<script async src="https://snack.expo.dev/embed.js"></script>
 
 
 Thanks for reading :)
