@@ -70,8 +70,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
 ```
 
-<blockquote> 
-<p>" Esto es una nota dentro de un blockquote."</p>
+<blockquote class="blockquote"> 
+<p>"Esto es una nota dentro de un blockquote."</p>
 </blockquote>
 
 Bear in mind that the device is not gonna able to detect a huge amount of pictures at the same time. Apple has not given any accurate number about this but from my experience I do not recommend trying to recognize more that 20 pictures at the same time. I guess this number depends on the device capabilities so later iPhones or iPads are able to recognize more images than the older versions.
