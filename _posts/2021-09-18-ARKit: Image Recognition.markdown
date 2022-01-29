@@ -70,7 +70,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
 ```
 
-<blockquote class="info"> 
+<blockquote> 
 <p>" Esto es una nota dentro de un blockquote."</p>
 </blockquote>
 
