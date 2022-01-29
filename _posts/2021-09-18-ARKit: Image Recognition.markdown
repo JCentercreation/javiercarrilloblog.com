@@ -32,7 +32,7 @@ Now is time to add the pictures we want the App to recognize to the project. So 
 <h2 style="color: #403F3F">AR Session Configuration</h2>
 Once the SceneKit project is created, you may realized that a initial configuration is already loaded and it is very likely that this initial configuration does not fit to your App purpose, as happen in this case. So the first thing we are gonna do is to configure properly the AR Session we want to set in the App.
 
-<code>
+```
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
@@ -68,14 +68,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Pause the view's session
         sceneView.session.pause()
     }
-}
-</code>
-
----
-**NOTE**
-Esto es una nota
-
---- 
+```
 
 > **NOTE:_** Esto es una quote
 
