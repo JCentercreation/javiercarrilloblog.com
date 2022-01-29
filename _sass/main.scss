@@ -3,11 +3,19 @@
 }
 
 .info {
+  border-radius: 4px;
+  padding: 15px;
+  padding-top: 1px;
+  margin:22.5px 0
   border-left: 6px solid rgb(0, 132, 254);
   background-color: rgba(0, 132, 254, 0.1);
 }
 
 .info::before {
+  border-radius: 4px;
+  padding: 15px;
+  padding-top: 1px;
+  margin:22.5px 0
   background-size: 24px 24px;
   width: 24px;
   height: 24px;
