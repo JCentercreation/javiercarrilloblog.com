@@ -2,14 +2,12 @@
   color: green;
 }
 
-.blockquote {
+.info {
   border-left: 6px solid rgb(0, 132, 254);
   background-color: rgba(0, 132, 254, 0.1);
 }
 
-.info {
-  content: " ";
-  background-image: url(https://kean.blog/images/misc/info.png);
+.info::before {
   background-size: 24px 24px;
   width: 24px;
   height: 24px;
