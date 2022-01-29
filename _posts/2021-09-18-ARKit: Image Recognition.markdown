@@ -71,6 +71,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 }
 </code>
 
+---
+**NOTE**
+Esto es una nota
+
+--- 
+
 Bear in mind that the device is not gonna able to detect a huge amount of pictures at the same time. Apple has not given any accurate number about this but from my experience I do not recommend trying to recognize more that 20 pictures at the same time. I guess this number depends on the device capabilities so later iPhones or iPads are able to recognize more images than the older versions.
 
 <h2 style="color: #403F3F">Adding AR Items</h2>
