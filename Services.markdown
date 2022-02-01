@@ -3,13 +3,8 @@ layout: default
 title: Services
 permalink: /services
 ---
-<!-- <table>
-  <tr>
-    <td style="border-style: hidden">
-      <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 20px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/techOffice5.svg"></h1>
-    </td>
-  </tr>
-  </table> -->
+<h2>Sorry, during the last months I am not running this services.</h2>
+<!--
   <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
     <tr>
       <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
@@ -33,13 +28,6 @@ permalink: /services
     </td>
     </tr>
 </table>
+-->
 
-<!-- 
-<table>
-  <tr>
-    <td style="border-style: hidden">
-      <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 20px" src="https://jcentercreation.github.io/JekyllPersonalWeb/assets/img/horizontalBanner.svg"></h1>
-    </td>
-  </tr>
-</table> -->
 
