@@ -3,7 +3,7 @@ layout: default
 title: Services
 permalink: /services
 ---
-<h2>Sorry, during the last months I am not running this services. Please stay tuned for upcoming updates</h2>
+<h2 style="text-align: center">Sorry, during the last months I am not running this services. Please stay tuned for upcoming updates</h2>
 <!--
   <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
     <tr>
