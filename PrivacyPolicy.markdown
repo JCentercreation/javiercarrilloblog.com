@@ -3,8 +3,12 @@ layout: default
 title: Privacy Policy
 permalink: /privacy
 ---
-<h2 style="text-align: left">Sorry, during the last months I am not running this services. Please stay tuned for upcoming updates.</h2>
-<h3>At JCentercreation we know you care about how your personal information is gathered, used and shared, so we take your privacy seriously. We never store your personal data so we never sell or rent it to anyone. We never collect or process your personal data for any purpose. Plase read the following privacy policy</h3>
+<h1 style="text-align: center">Privacy Policy</h1>
+<h2 style="text-align: center">Updated April 15, 2022</h2>
+<h3 style="text-align: center">At JCentercreation we know you care about how your personal information is gathered, used and shared, so we take your privacy seriously. We never store your personal data so we never sell or rent it to anyone. We never collect or process your personal data for any purpose. Plase read the following privacy policy</h3>
+<hr>
+<h2 style="text-align: center">What is Personal Data?</h2>
+<p style="text-align: left">At JCentercreation, we believe strongly in fundamental privacy rights — and that those fundamental rights should not differ depending on where you live in the world. That’s why we treat any data that relates to an identified or identifiable individual or that is linked or linkable to them by JCentercreation as “personal data,” no matter where the individual lives. This means that data that directly identifies you — such as your name — is personal data, and also data that does not directly identify you, but that can reasonably be used to identify you — such as the serial number of your device — is personal data. Aggregated data is considered non‑personal data for the purposes of this Privacy Policy.</p>
 <!--
   <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
     <tr>
