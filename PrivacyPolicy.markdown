@@ -3,7 +3,8 @@ layout: default
 title: Privacy Policy
 permalink: /privacy
 ---
-<h2 style="text-align: center">Sorry, during the last months I am not running this services. Please stay tuned for upcoming updates.</h2>
+<h2 style="text-align: left">Sorry, during the last months I am not running this services. Please stay tuned for upcoming updates.</h2>
+<h3>At JCentercreation we know you care about how your personal information is gathered, used and shared, so we take your privacy seriously. We never store your personal data so we never sell or rent it to anyone. We never collect or process your personal data for any purpose. Plase read the following privacy policy</h3>
 <!--
   <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
     <tr>
