@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Services
-permalink: /services
+title: Privacy Policy
+permalink: /privacy
 ---
 <h2 style="text-align: center">Sorry, during the last months I am not running this services. Please stay tuned for upcoming updates.</h2>
 <!--
