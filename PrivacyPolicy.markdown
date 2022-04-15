@@ -12,6 +12,13 @@ permalink: /privacy
 <br>
 <h2 style="text-align: left">What is Personal Data?</h2>
 <p style="text-align: left">At JCentercreation, we believe strongly in fundamental privacy rights — and that those fundamental rights should not differ depending on where you live in the world. That’s why we treat any data that relates to an identified or identifiable individual or that is linked or linkable to them by JCentercreation as “personal data,” no matter where the individual lives. This means that data that directly identifies you — such as your name — is personal data, and also data that does not directly identify you, but that can reasonably be used to identify you — such as the serial number of your device — is personal data. Aggregated data is considered non‑personal data for the purposes of this Privacy Policy.</p>
+<br>
+<h2 style="text-align: left">JCentercreation´s Use of Personal Data</h2>
+<p style="text-align: left">As a company strongly commited to privacy, we never collect any sort of personal data. This is the best way for us to not be tempted by any mean to trade with personal data or to use it for any purpose. As we have said previously, privacy is a fundamental human right so we develope our apps always having in mind the best engineering solutions to protect any sort of data or personal information when being used.</p>
+<br>
+<h2 style="text-align: left">JCentercreation´s Sharing of Personal Data</h2>
+<p style="text-align: left">As a company strongly commited to privacy, we never collect any sort of personal data. However, and in order to download from Apple´s App Store and to use the apps we develope in any Apple´s devices, it is neccesary to have a valid Apple iCloud account.</p>
+
 <!--
   <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
     <tr>
