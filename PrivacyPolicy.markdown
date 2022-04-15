@@ -6,7 +6,7 @@ permalink: /privacy
 <h1 style="text-align: center">Privacy Policy</h1>
 <h2 style="text-align: center">Updated April 15, 2022</h2>
 <h3 style="text-align: center">At JCentercreation we know you care about how your personal information is gathered, used and shared, so we take your privacy seriously. We never store your personal data so we never sell or rent it to anyone. We never collect or process your personal data for any purpose. Plase read the following privacy policy</h3>
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 10px" src="/assets/img/PrivacyPolicyImage.svg"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 20%; border-radius: 10px" src="/assets/img/PrivacyPolicyImage.svg"></h1>
 <br>
 <hr>
 <br>
