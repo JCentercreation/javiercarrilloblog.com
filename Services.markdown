@@ -21,8 +21,7 @@ permalink: /services
 -->
 Hola
 
-<html>
-<head>
+
 <style>
 .hljs-selector-tag {
     color: #aa0d91;
@@ -134,43 +133,18 @@ Hola
     background-color: #baeeba;
 }
 </style>
-</head>
-<body>
+
 <pre>
     <code class="hljs" style="background:#FFFFFF;border-radius:8px">
         <span class="hljs-keyword">import</span>SwiftUI
-        <span class="hljs-class">
-            <span class="hljs-keyword">struct </span><span class="hljs-title">CircleImage</span>:<span class="hljs-title"> View</span>
-        </span>{            
-        <span class="hljs-keyword">var</span> body: <span class="hljs-keyword">some</span> <span class="hljs-type">View</span>{               
-        <span class="hljs-attribute"> Image</span>
-        (
-        <span class="hljs-string">"turtlerock"</span>
-        )
-                    .
-        <span class="hljs-literal">clipShape</span>
-        (
-        <span class="hljs-type">Circle</span>
-        ())
-                    .
-        <span class="hljs-literal">overlay</span>
-        (              
-        <span class="hljs-attribute"> Circle</span>
-        ().
-        <span class="hljs-attribute">stroke</span>
-        (
-        <span class="hljs-type">Color</span>
-        .
-        <span class="hljs-attribute">white</span>
-        , lineWidth: 
-        <span class="hljs-number">4</span>
-        ))                  
+        <span class="hljs-class"><span class="hljs-keyword">struct </span><span class="hljs-title">CircleImage</span>:<span class="hljs-title"> View</span></span> {            
+        <span class="hljs-keyword">var</span> body: <span class="hljs-keyword">some</span> <span class="hljs-type">View</span> {                
+        <span class="hljs-attribute"> Image</span> (<span class="hljs-string">"turtlerock"</span>)
+                    .<span class="hljs-literal">clipShape</span>(<span class="hljs-type">Circle</span>())
+                    .<span class="hljs-literal">overlay</span>(              
+        <span class="hljs-attribute"> Circle</span>().<span class="hljs-attribute">stroke</span>(<span class="hljs-type">Color</span>.<span class="hljs-attribute">white</span>, lineWidth: <span class="hljs-number">4</span>))                  
         <span class="hljs-comment">// Add shadow</span>
-                    .
-        <span class="hljs-literal">shadow</span>
-        (radius: 
-        <span class="hljs-number">10</span>
-        )
+                    .<span class="hljs-literal">shadow</span>(radius: <span class="hljs-number">10</span>)
             }
         }
         <span class="hljs-class">
@@ -192,8 +166,7 @@ Hola
         }
     </code>
 </pre>
-</body>
-</html>
+
 
 <!--
   <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
