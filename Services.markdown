@@ -19,8 +19,8 @@ permalink: /services
     </tr>
   </table>
 -->
-Hola
 
+<!--
 <style>.hljs-emphasis{font-style:italic;}.hljs{color:#E0E0E0;display:block;padding:0.5em;}.hljs-variable{color:#DABAFF;}.hljs-selector-id{color:#DABAFF;}.hljs-comment{color:#7F8C98;}.hljs-type{color:#ACF2E4;}.hljs-name{color:#DABAFF;}.hljs-meta{color:#B281EB;}.hljs-section{color:#6BDFFF;}.hljs-number{color: #D9C97C;}.hljs-bullet{color:#FF8170;}.hljs-selector-tag{color:#FF7AB2;}.hljs-literal{color: #B281EB;}.hljs-symbol{color:#FF8170;}.hljs-params{color:#ACF2E4;}.hljs-string{color:#FF8170;}.hljs-built_in{color: #B281EB;}.hljs-strong{font-weight:bold;}.hljs-deletion{color:#DABAFF;}.hljs-tag{color:#DABAFF;}.hljs-addition{color:#FF8170;}.hljs-selector-class{color:#DABAFF;}.hljs-regexp{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs-attribute{color:#DABAFF;}.hljs-quote{color:#7F8C98;}.hljs-link{color:#DABAFF;}.hljs-title{color:#6BDFFF;}.hljs-builtin-name{color: #B281EB;}.hljs-keyword{color:#FF7AB2;}.hljs-class{color:#6BDFFF;}.hljs-template-variable{color:#DABAFF;}</style>
 
 <pre style="background:#292A30;border-radius:8px"><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-keyword">import</span> SwiftUI
@@ -41,7 +41,7 @@ Hola
        <span class="hljs-attribute"> CircleImage</span>()
     }
 }</code></pre>
-
+-->
 
 
 <!--
