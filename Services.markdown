@@ -134,38 +134,38 @@ Hola
 }
 </style>
 
-<pre>
-    <code class="hljs" style="background:#FFFFFF;border-radius:8px">
-        <span class="hljs-keyword">import</span>SwiftUI
-        <span class="hljs-class"><span class="hljs-keyword">struct </span><span class="hljs-title">CircleImage</span>:<span class="hljs-title"> View</span></span> {            
-        <span class="hljs-keyword">var</span> body: <span class="hljs-keyword">some</span> <span class="hljs-type">View</span> {                
-        <span class="hljs-attribute"> Image</span> (<span class="hljs-string">"turtlerock"</span>)
-                    .<span class="hljs-literal">clipShape</span>(<span class="hljs-type">Circle</span>())
-                    .<span class="hljs-literal">overlay</span>(              
-        <span class="hljs-attribute"> Circle</span>().<span class="hljs-attribute">stroke</span>(<span class="hljs-type">Color</span>.<span class="hljs-attribute">white</span>, lineWidth: <span class="hljs-number">4</span>))                  
-        <span class="hljs-comment">// Add shadow</span>
-                    .<span class="hljs-literal">shadow</span>(radius: <span class="hljs-number">10</span>)
-            }
+
+<code class="hljs" style="background:#FFFFFF;border-radius:8px">
+    <span class="hljs-keyword">import</span>SwiftUI
+    <span class="hljs-class"><span class="hljs-keyword">struct </span><span class="hljs-title">CircleImage</span>:<span class="hljs-title"> View</span></span> {            
+    <span class="hljs-keyword">var</span> body: <span class="hljs-keyword">some</span> <span class="hljs-type">View</span> {                
+    <span class="hljs-attribute"> Image</span> (<span class="hljs-string">"turtlerock"</span>)
+                .<span class="hljs-literal">clipShape</span>(<span class="hljs-type">Circle</span>())
+                .<span class="hljs-literal">overlay</span>(              
+    <span class="hljs-attribute"> Circle</span>().<span class="hljs-attribute">stroke</span>(<span class="hljs-type">Color</span>.<span class="hljs-attribute">white</span>, lineWidth: <span class="hljs-number">4</span>))                  
+    <span class="hljs-comment">// Add shadow</span>
+                .<span class="hljs-literal">shadow</span>(radius: <span class="hljs-number">10</span>)
         }
-        <span class="hljs-class">
-            <span class="hljs-keyword">struct</span>
-            <span class="hljs-title">CircleImage_Previews</span>
-            : 
-            <span class="hljs-title">PreviewProvider</span>
-        </span>
-        {           
-        <span class="hljs-keyword">static</span>
-        <span class="hljs-keyword">var</span>
-         previews: 
-        <span class="hljs-keyword">some</span>
-        <span class="hljs-type">View</span>
-         {              
-        <span class="hljs-attribute"> CircleImage</span>
-        ()
-            }
+    }
+    <span class="hljs-class">
+        <span class="hljs-keyword">struct</span>
+        <span class="hljs-title">CircleImage_Previews</span>
+        : 
+        <span class="hljs-title">PreviewProvider</span>
+    </span>
+    {           
+    <span class="hljs-keyword">static</span>
+    <span class="hljs-keyword">var</span>
+      previews: 
+    <span class="hljs-keyword">some</span>
+    <span class="hljs-type">View</span>
+      {              
+    <span class="hljs-attribute"> CircleImage</span>
+    ()
         }
-    </code>
-</pre>
+    }
+</code>
+
 
 
 <!--
