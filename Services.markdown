@@ -19,6 +19,226 @@ permalink: /services
     </tr>
   </table>
 
+  <style>
+.hljs-selector-tag {
+    color: #aa0d91;
+}
+
+.hljs-symbol {
+    color: #057CB0;
+}
+
+.hljs-title {
+    color: #057CB0;
+}
+
+.hljs-attribute {
+    color: #000;
+}
+
+.hljs-tag {
+    color: #057CB0;
+}
+
+.hljs-built_in {
+    color: #5c2699;
+}
+
+.hljs-bullet {
+    color: #057CB0;
+}
+
+.hljs-strong {
+    font-weight: bold;
+}
+
+.hljs-selector-class {
+    color: #9b703f;
+}
+
+.hljs-subst {
+    color: #000;
+}
+
+.hljs-attr {
+    color: #057CB0;
+}
+
+.hljs-type {
+    color: #4B21B0;
+}
+
+.hljs-selector-id {
+    color: #9b703f;
+}
+
+.hljs-builtin-name {
+    color: #5c2699;
+}
+
+.hljs-params {
+    color: #5c2699;
+}
+
+.hljs-regexp {
+    color: #080;
+}
+
+.hljs-link {
+    color: #080;
+}
+
+.hljs-section {
+    color: #057CB0;
+}
+
+.hljs {
+    display: block;
+    color: black;
+    padding: 0.5em;
+    overflow-x: auto;
+}
+
+.hljs-comment {
+    color: #707F8C;
+}
+
+.hljs-formula {
+    background-color: #eee;
+    font-style: italic;
+}
+
+.hljs-emphasis {
+    font-style: italic;
+}
+
+.hljs-string {
+    color: #c41a16;
+}
+
+.hljs-template-variable {
+    color: #660;
+}
+
+.hljs-variable {
+    color: #660;
+}
+
+.hljs-meta {
+    color: #aa0d91;
+}
+
+.hljs-name {
+    color: #008;
+}
+
+.hljs-doctag {
+    font-weight: bold;
+}
+
+.hljs-number {
+    color: #057CB0;
+}
+
+.hljs-literal {
+    color: #aa0d91;
+}
+
+.hljs-quote {
+    color: #707F8C;
+}
+
+.hljs-class {
+    color: #057CB0;
+}
+
+.hljs-keyword {
+    color: #aa0d91;
+}
+
+.hljs-deletion {
+    background-color: #ffc8bd;
+}
+
+.hljs-addition {
+    background-color: #baeeba;
+}
+</style>
+<pre>
+    <code class="hljs" style="background:#FFFFFF;border-radius:8px">
+        <span class="hljs-keyword">import</span>
+         SwiftUI
+
+        <span class="hljs-class">
+            <span class="hljs-keyword">struct</span>
+            <span class="hljs-title">CircleImage</span>
+            : 
+            <span class="hljs-title">View</span>
+        </span>
+        {
+            
+        <span class="hljs-keyword">var</span>
+         body: 
+        <span class="hljs-keyword">some</span>
+        <span class="hljs-type">View</span>
+         {
+               
+        <span class="hljs-attribute"> Image</span>
+        (
+        <span class="hljs-string">"turtlerock"</span>
+        )
+                    .
+        <span class="hljs-literal">clipShape</span>
+        (
+        <span class="hljs-type">Circle</span>
+        ())
+                    .
+        <span class="hljs-literal">overlay</span>
+        (
+                       
+        <span class="hljs-attribute"> Circle</span>
+        ().
+        <span class="hljs-attribute">stroke</span>
+        (
+        <span class="hljs-type">Color</span>
+        .
+        <span class="hljs-attribute">white</span>
+        , lineWidth: 
+        <span class="hljs-number">4</span>
+        ))
+                    
+        <span class="hljs-comment">// Add shadow</span>
+
+                    .
+        <span class="hljs-literal">shadow</span>
+        (radius: 
+        <span class="hljs-number">10</span>
+        )
+            }
+        }
+
+        <span class="hljs-class">
+            <span class="hljs-keyword">struct</span>
+            <span class="hljs-title">CircleImage_Previews</span>
+            : 
+            <span class="hljs-title">PreviewProvider</span>
+        </span>
+        {
+            
+        <span class="hljs-keyword">static</span>
+        <span class="hljs-keyword">var</span>
+         previews: 
+        <span class="hljs-keyword">some</span>
+        <span class="hljs-type">View</span>
+         {
+               
+        <span class="hljs-attribute"> CircleImage</span>
+        ()
+            }
+        }
+    </code>
+</pre>
+
   <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
   <tr>
     <td style="border-style: hidden; width: 100%; vertical-align: center; horizontal-align: center">
