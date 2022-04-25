@@ -138,20 +138,11 @@ Hola
 <body>
 <pre>
     <code class="hljs" style="background:#FFFFFF;border-radius:8px">
-        <span class="hljs-keyword">import</span>
-         SwiftUI
+        <span class="hljs-keyword">import</span>SwiftUI
         <span class="hljs-class">
-            <span class="hljs-keyword">struct</span>
-            <span class="hljs-title">CircleImage</span>
-            : 
-            <span class="hljs-title">View</span>
-        </span>
-        {            
-        <span class="hljs-keyword">var</span>
-         body: 
-        <span class="hljs-keyword">some</span>
-        <span class="hljs-type">View</span>
-         {               
+            <span class="hljs-keyword">struct </span><span class="hljs-title">CircleImage</span>:<span class="hljs-title"> View</span>
+        </span>{            
+        <span class="hljs-keyword">var</span> body: <span class="hljs-keyword">some</span> <span class="hljs-type">View</span>{               
         <span class="hljs-attribute"> Image</span>
         (
         <span class="hljs-string">"turtlerock"</span>
@@ -204,7 +195,7 @@ Hola
 </body>
 </html>
 
-
+<!--
   <table style="width: 100%; horizontal-align: center; margin-left: auto; margin-right: auto">
   <tr>
     <td style="border-style: hidden; width: 100%; vertical-align: center; horizontal-align: center">
