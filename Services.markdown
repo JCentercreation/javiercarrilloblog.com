@@ -41,7 +41,7 @@ Hola
     <span class="hljs-keyword">static</span> <span class="hljs-keyword">var</span> previews: <span class="hljs-keyword">some</span> <span class="hljs-type">View</span> {
        <span class="hljs-attribute"> CircleImage</span>()
     }
-}</code></pre>
+}</code>
 
 
 
