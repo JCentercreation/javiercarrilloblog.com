@@ -11,6 +11,8 @@ tags: coding
 # Testing Markdown
 This is a short text using only markdown (no html/css/js) language to write my posts for my personal webpage deployed in github pages.
 
+# Testing Markdown
+
 ## Using Lists and Enumerations
 This is a list:
 - Item 1
@@ -22,6 +24,7 @@ This is a enumeration:
 2. Item 2
     1. Item 2.1  
 <hr>
+<br>
 
 > This is a quote.  
 The quote continues.
