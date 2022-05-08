@@ -11,6 +11,28 @@ tags: coding
 # Testing Markdown
 This is a short text using only markdown (no html/css/js) language to write my posts for my personal webpage deployed in github pages.
 
+## Using Lists and Enumerations
+This is a list:
+    - Item 1
+    - Item 2
+        - Item 2.1
+
+This is a enumeration:
+    1. Item 1
+    2. Item 2
+        2.1 Item 2.1
+
+> This is a quote
+
+## Inserting code in a markdonw file
+
+~~~Swift
+private func fecthData(parameter) {
+    let data: Data
+    return moreComplexFunct(data, parameter)
+}
+~~~
+
 
 Thanks for reading :)
 
