@@ -13,16 +13,18 @@ This is a short text using only markdown (no html/css/js) language to write my p
 
 ## Using Lists and Enumerations
 This is a list:
-    - Item 1
-    - Item 2
-        - Item 2.1
+- Item 1
+- Item 2
+    - Item 2.1
 
 This is a enumeration:
-    1. Item 1
-    2. Item 2
-        2.1 Item 2.1
+1. Item 1
+2. Item 2
+    1. Item 2.1  
+<hr>
 
-> This is a quote
+> This is a quote.  
+The quote continues.
 
 ## Inserting code in a markdonw file
 
