@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "?"
-permalink: /"?"
+title: Great
+permalink: /great
 ---
 Something great is coming...
 <!--
