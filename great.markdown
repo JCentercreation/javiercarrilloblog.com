@@ -5,7 +5,7 @@ permalink: /somethingGreat
 ---
 Something great is coming...
 
-<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 20%; border-radius: 10px" src="/assets/img/somethingGreat.png"></h1>
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 60%; border-radius: 20px" src="/assets/img/somethingGreat.png"></h1>
 
 <!--
   <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
