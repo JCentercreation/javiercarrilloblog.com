@@ -16,7 +16,7 @@ You might be wondering what is the software product about and which sort of feat
 
 Another thing that I want to share with all you guys is that it is very likely that you will be able to follow the behind scenes development process and details about the product. I am thinking about making specific Youtube videos about how I develope and take some decisions for the business. I strongly believe that this sort of videos could help and inspire many people that currently have great ideas running in their heads but are doubting about taking action (which is what happens to me many times). At the same time I thing it is also a great idea in order to get feedback from other developers and customers, making me improve the product and sticking to the right line.
 
-Well, that's all guys. More info in following post, staty tunned for upcoming updates.
+Well, that's all guys. More info in following post, stay tunned for upcoming updates.
 
 Thanks for reading :)
 
