@@ -8,7 +8,9 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding
 ---
+Hi guys, it's been a while since my last post. You may be thinking is something bad had happen to me, or that maybe I had lose the passion for coding. Luckily none of this things occured, indeed today I have a great announcement for all you. As a second thought it is not an announcement, is a little spoiler about what is going on during the next months in my side hustle adventure.
 
+Ok, I stop beating around the bushes. The thing is that my first software product for MacOS 
 
 
 Thanks for reading :)
