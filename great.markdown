@@ -3,7 +3,9 @@ layout: default
 title: "?"
 permalink: /somethingGreat
 ---
-Something great is coming...
+<br>
+<br>
+<br>
 
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 60%; border-radius: 20px" src="/assets/img/somethingGreat.png"></h1>
 
