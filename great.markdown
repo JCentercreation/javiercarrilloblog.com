@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Great
-permalink: /great
+title: "?"
+permalink: /"?"
 ---
 Something great is coming...
+
 <!--
   <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
     <tr>
