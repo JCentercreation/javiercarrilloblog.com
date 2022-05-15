@@ -6,7 +6,7 @@ layout: home
 title: 
 ---
 <style>
-  .topBanner:link {color: #403F3F; text-decoration: none; background-color: black;}
+  .topBanner:link {color: white; text-decoration: none; background-color: black;}
   .topBanner:visited {color: #403F3F; text-decoration: none; background-color: black;}
   .topBanner:hover {color: white; text-decoration: none; background-color: gray;}
   .topBanner:active {color: #403F3F; text-decoration: none; background-color: black;}
