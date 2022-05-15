@@ -6,10 +6,10 @@ layout: home
 title: 
 ---
 <style>
-  .topBanner:link {color: white; text-decoration: none; background-color: black;}
-  .topBanner:visited {color: #403F3F; text-decoration: none; background-color: black;}
-  .topBanner:hover {color: white; text-decoration: none; background-color: gray;}
-  .topBanner:active {color: #403F3F; text-decoration: none; background-color: black;}
+  .topBanner:link {color: black; text-decoration: none; background-color: red; text-align: center;}
+  .topBanner:visited {color: white; text-decoration: none; background-color: gray; text-align: center;}
+  .topBanner:hover {color: white; text-decoration: none; background-color: gray; text-align: center;}
+  .topBanner:active {color: white; text-decoration: none; background-color: black; text-align: center;}
   .a1:link {color: #403F3F; text-decoration: none;}
   .a1:visited {color: #403F3F; text-decoration: none;}
   .a1:hover {color: gray; text-decoration: none;}
@@ -21,13 +21,10 @@ title:
 </style>
 <body>
   <a class="topBanner" href="https://www.javiercarrilloblog.com/coding/13/05/2022/SomethingGreat.html">
-    <body>
-      <h2 style="font-size: 30px; margin: 0px 0p; text-align: center"><b>Something great is coming</b></h2>
-      <p style="text-align: center">Side Hustle business</p>
-    </body>
-  </a>
-  <a class="topBanner" style="color: #75A4F2; text-align: center" href="https://www.javiercarrilloblog.com/coding/13/05/2022/SomethingGreat.html"><p><b><< Know more >></b></p>
-  </a>
+  <h2 class="topBanner">
+    Great things coming soon
+  </h2>
+</a>
 </body>
 <br>
 <br>
