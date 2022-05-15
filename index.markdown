@@ -24,6 +24,17 @@ title:
   </a>
 </body>
 <a class="a1" style="color: #75A4F2" href="http://www.javiercarrilloblog.com/coding/18/09/2021/ARKit-Image-Recognition.html"><b>Continue reading >></b>
+<br>
+</a>
+<body>
+  <a class="a1" href="https://www.javiercarrilloblog.com/coding/13/05/2022/SomethingGreat.html">
+    <body>
+      <h2 style="font-size: 60px; margin: 0px 0px"><b>Something great is coming</b></h2>
+      <p>Side Hustle business</p>
+    </body>
+  </a>
+</body>
+<a class="a1" style="color: #75A4F2" href="https://www.javiercarrilloblog.com/coding/13/05/2022/SomethingGreat.html"><b>Know more >></b>
 </a>
 <br>
 <br>
@@ -55,7 +66,7 @@ title:
       </a>
     </td>
   </tr>
-  <tr style="background-color: #FDFDFD">
+  <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
       <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html">
       <body>
