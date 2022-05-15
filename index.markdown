@@ -6,8 +6,8 @@ layout: home
 title: 
 ---
 <style>
-  .header {color: white; background-color: black; border-radius: 10px; width: 100%; text-align: center; padding: 5px}
-  .header:hover {color: white; background-color: gray; border-radius: 10px; text-align: center; padding: 5px}
+  .header {color: white; background-color: black; border-radius: 10px; width: 100%; text-align: center; padding: 5px; cursor: pointer;}
+  .header:hover {color: white; background-color: gray; border-radius: 10px; text-align: center; padding: 5px; curson: pointer;}
   .a1:link {color: #403F3F; text-decoration: none;}
   .a1:visited {color: #403F3F; text-decoration: none;}
   .a1:hover {color: gray; text-decoration: none;}
@@ -17,7 +17,7 @@ title:
   .button2 { border: 2px solid pink; color: pink; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #F4F4F4}
   .button2:hover {border: 2px solid pink; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: pink}
 </style>
-<header class="header" onclick="window.location.href='https://www.javiercarrilloblog.com/services';">
+<header class="header" onclick="window.location.href='https://www.javiercarrilloblog.com/coding/13/05/2022/SomethingGreat.html';">
   <p><b>Great things are coming soon</b></p>
   <p style="color: #75A4F2"><b> << Know more >> </b></p>
 </header>
