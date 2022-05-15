@@ -29,7 +29,7 @@ title:
 <body>
   <a class="a1" href="https://www.javiercarrilloblog.com/coding/13/05/2022/SomethingGreat.html">
     <body>
-      <h2 style="font-size: 40px; margin: 0px 0px"><b>Something great is coming</b></h2>
+      <h2 style="font-size: 30px; margin: 0px 0px; color: gray"><b>Something great is coming</b></h2>
       <p>Side Hustle business</p>
     </body>
   </a>
