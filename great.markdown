@@ -7,7 +7,7 @@ permalink: /somethingGreat
 <br>
 <br>
 <a href="https://www.javiercarrilloblog.com/coding/13/05/2022/SomethingGreat.html">
-  <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 60%; border-radius: 20px" src="/assets/img/somethingGreat.png"></h1>
+  <img style="display: block; margin-left: auto; margin-right: auto; width: 60%; border-radius: 20px" src="/assets/img/somethingGreat.png">
 </a>
 
 <!--
