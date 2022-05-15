@@ -7,9 +7,9 @@ title:
 ---
 <style>
   .topBanner:link {color: #403F3F; text-decoration: none; background-color: black;}
-  .topBanner:visited {color: #403F3F; text-decoration: none;}
-  .topBanner:hover {color: gray; text-decoration: none; background-color: gray;}
-  .topBanner:active {color: #403F3F; text-decoration: none;}
+  .topBanner:visited {color: #403F3F; text-decoration: none; background-color: black;}
+  .topBanner:hover {color: white; text-decoration: none; background-color: gray;}
+  .topBanner:active {color: #403F3F; text-decoration: none; background-color: black;}
   .a1:link {color: #403F3F; text-decoration: none;}
   .a1:visited {color: #403F3F; text-decoration: none;}
   .a1:hover {color: gray; text-decoration: none;}
