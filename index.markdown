@@ -66,7 +66,7 @@ title:
       </a>
     </td>
   </tr>
-  <tr>
+  <tr style="backgorund-color: #F4F4F4">
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
       <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html">
       <body>
