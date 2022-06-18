@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swift Concurrency II: structured Task"
-date:   2022-05-17 12:02:05 +0100
+date:   2022-06-17 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
