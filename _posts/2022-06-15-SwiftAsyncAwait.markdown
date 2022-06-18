@@ -63,7 +63,7 @@ The main example of an asynchronous function is a closure one (callback). These 
 
 </code></pre>
 
-In this example there are up to five `completion` executions...not very handy. So we need to figure out a new way to structure the code without lossing any functionality in terms of asynchrony and error handling. And here it is when we came across with new async/await functions.
+In this example there are up to five `completion` executions...not very handy. So we need to figure out a new way to structure the code without lossing any functionality in terms of asynchrony and error throwing. And here it is when we came across with new async/await functions.
 
 <style>.hljs-selector-id{color:#DABAFF;}.hljs-strong{font-weight:bold;}.hljs-symbol{color:#FF8170;}.hljs-quote{color:#7F8C98;}.hljs-keyword{color:#FF7AB2;}.hljs-deletion{color:#DABAFF;}.hljs-variable{color:#DABAFF;}.hljs-number{color: #D9C97C;}.hljs-title{color:#6BDFFF;}.hljs-section{color:#6BDFFF;}.hljs-tag{color:#DABAFF;}.hljs-meta{color:#B281EB;}.hljs-builtin-name{color: #B281EB;}.hljs-string{color:#FF8170;}.hljs{display:block;padding:0.5em;color:#E0E0E0;}.hljs-class{color:#6BDFFF;}.hljs-built_in{color: #B281EB;}.hljs-type{color:#ACF2E4;}.hljs-comment{color:#7F8C98;}.hljs-regexp{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-addition{color:#FF8170;}.hljs-selector-tag{color:#FF7AB2;}.hljs-link{color:#DABAFF;}.hljs-emphasis{font-style:italic;}.hljs-params{color:#ACF2E4;}.hljs-function{color:#6BDFFF;}.hljs-template-variable{color:#DABAFF;}.hljs-bullet{color:#FF8170;}.hljs-name{color:#DABAFF;}.hljs-attribute{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}</style>
 
@@ -82,6 +82,9 @@ In this example there are up to five `completion` executions...not very handy. S
     <span class="hljs-keyword">guard</span> <span class="hljs-keyword">let</span> image = <span class="hljs-keyword">await</span> maybeImage?.<span class="hljs-attribute">prepareImageAsyncAwait</span>() <span class="hljs-keyword">else</span> { <span class="hljs-keyword">throw</span> <span class="hljs-type">FetchImageError</span>.<span class="hljs-attribute">badImage</span> }
     <span class="hljs-keyword">return</span> image
 }</code></pre>
+
+The first thing you could realize about code above is how simple it is, just a few lines of code. As you may noticed, when defining an asynchronous functions are followed by `async`, and when instantiated are after an `await`. With this simple code it is easy to follow the action without losing any feature, both asynchrony and throwing errors.
+
 
 Thanks for reading :)
 
