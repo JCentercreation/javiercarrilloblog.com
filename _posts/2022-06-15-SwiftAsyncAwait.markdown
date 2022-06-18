@@ -13,6 +13,7 @@ As you may know, concurrency is a very interesting tool when it comes, for insta
 
 When it comes to Concurrency in Swift we are in reallity talking about asynchronous and parallel tasks. Asynchronous tasks are those that can be suspended and resumed when needed in order to let other tasks with a higher level of priority to be runned, and parallel tasks are those that are able to be executed ate the same time in through a multicore processor.
 
+<br>
 <h3 style="color: #403F3F">Quick approach to Async/await</h3>
 The main example of an asynchronous function is a closure one (callback). These sort of functions are really useful, but sometimes, when we use a closure inside another closure inside another closure inside... it turns out that it is very difficult to follow the code and to figure out what the heck is the real sequence of the process. Let's see a quick example of this:
 
@@ -87,6 +88,8 @@ In this example there are up to five `completion` executions...not very handy. S
 
 The first thing you could realize about code above is how simple it is, just a few lines of code. As you may noticed, when defining an asynchronous functions are followed by `async`, and when instantiated are after an `await`. With this simple code it is easy to follow the action without losing any feature, both asynchrony and throwing errors.
 
+<br>
+<h3 style="color: #403F3F">Going deeper</h3>
 
 Thanks for reading :)
 
