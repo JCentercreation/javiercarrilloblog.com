@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Swift Concurrency I: async-await"
-date:   2022-06-19 12:02:05 +0100
+title: "Swift Concurrency: async/await"
+date:   2022-05-13 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
