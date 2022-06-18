@@ -14,7 +14,7 @@ When it comes to Concurrency in Swift we are in reallity talking about asynchron
 
 The main example of an asynchronous function is a closure one (callback), and these sort of functions are really useful. But sometimes, when we use a closure inside another closure inside another closure it turns out that it is very difficult to follow the code and to figure out what is the real sequence of the process. Let's see a quick example of this:
 
-<style>
+<!-- <style>
 .hljs-name {
     color: #DABAFF;
 }
@@ -343,7 +343,7 @@ The main example of an asynchronous function is a closure one (callback), and th
         ()
         }
     </code>
-</pre>
+</pre> -->
 
 
 
