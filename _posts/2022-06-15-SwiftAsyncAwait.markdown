@@ -14,7 +14,7 @@ When it comes to Concurrency in Swift we are in reallity talking about asynchron
 
 The main example of an asynchronous function is a closure one (callback). These sort of functions are really useful, but sometimes, when we use a closure inside another closure inside another closure inside... it turns out that it is very difficult to follow the code and to figure out what the heck is the real sequence of the process. Let's see a quick example of this:
 
-<style>.hljs-name{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}.hljs-comment{color:#7F8C98;}.hljs-keyword{color:#FF7AB2;}.hljs-meta{color:#B281EB;}.hljs-title{color:#6BDFFF;}.hljs{color:#E0E0E0;padding:0.5em;display:block;}.hljs-emphasis{font-style:italic;}.hljs-quote{color:#7F8C98;}.hljs-attribute{color:#DABAFF;}.hljs-class{color:#6BDFFF;}.hljs-tag{color:#DABAFF;}.hljs-symbol{color:#FF8170;}.hljs-deletion{color:#DABAFF;}.hljs-params{color:#ACF2E4;}.hljs-type{color:#ACF2E4;}.hljs-regexp{color:#DABAFF;}.hljs-bullet{color:#FF8170;}.hljs-function{color:#6BDFFF;}.hljs-addition{color:#FF8170;}.hljs-builtin-name{color: #B281EB;}.hljs-number{color: #D9C97C;}.hljs-literal{color: #B281EB;}.hljs-string{color:#FF8170;}.hljs-selector-id{color:#DABAFF;}.hljs-variable{color:#DABAFF;}.hljs-section{color:#6BDFFF;}.hljs-selector-tag{color:#FF7AB2;}.hljs-template-variable{color:#DABAFF;}.hljs-strong{font-weight:bold;}.hljs-built_in{color: #B281EB;}.hljs-link{color:#DABAFF;}</style>
+<style>.hljs-link{color:#DABAFF;}.hljs-name{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}.hljs{display:block;padding:0.5em;color:#E0E0E0;}.hljs-selector-tag{color:#FF7AB2;}.hljs-meta{color:#B281EB;}.hljs-string{color:#FF8170;}.hljs-attribute{color:#DABAFF;}.hljs-symbol{color:#FF8170;}.hljs-emphasis{font-style:italic;}.hljs-class{color:#6BDFFF;}.hljs-addition{color:#FF8170;}.hljs-regexp{color:#DABAFF;}.hljs-params{color:#ACF2E4;}.hljs-built_in{color: #B281EB;}.hljs-deletion{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs-template-variable{color:#DABAFF;}.hljs-builtin-name{color: #B281EB;}.hljs-number{color: #D9C97C;}.hljs-section{color:#6BDFFF;}.hljs-variable{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-type{color:#ACF2E4;}.hljs-bullet{color:#FF8170;}.hljs-keyword{color:#FF7AB2;}.hljs-comment{color:#7F8C98;}.hljs-tag{color:#DABAFF;}.hljs-strong{font-weight:bold;}.hljs-selector-id{color:#DABAFF;}.hljs-quote{color:#7F8C98;}.hljs-title{color:#6BDFFF;}</style>
 
 <pre style="background-color: #FDFDFD; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid #DDDDDD"><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-keyword">import</span> UIKit
 
@@ -61,8 +61,6 @@ The main example of an asynchronous function is a closure one (callback). These 
     task.<span class="hljs-attribute">resume</span>()
 }
 </code></pre>
-
-
 
 
 Thanks for reading :)
