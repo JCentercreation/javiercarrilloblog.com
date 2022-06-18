@@ -14,7 +14,7 @@ When it comes to Concurrency in Swift we are in reallity talking about asynchron
 
 The main example of an asynchronous function is a closure one (callback). These sort of functions are really useful, but sometimes, when we use a closure inside another closure inside another closure inside... it turns out that it is very difficult to follow the code and to figure out what the heck is the real sequence of the process. Let's see a quick example of this:
 
-<style>.hljs-link{color:#DABAFF;}.hljs-name{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}.hljs{display:block;padding:0.5em;color:#E0E0E0;}.hljs-selector-tag{color:#FF7AB2;}.hljs-meta{color:#B281EB;}.hljs-string{color:#FF8170;}.hljs-attribute{color:#DABAFF;}.hljs-symbol{color:#FF8170;}.hljs-emphasis{font-style:italic;}.hljs-class{color:#6BDFFF;}.hljs-addition{color:#FF8170;}.hljs-regexp{color:#DABAFF;}.hljs-params{color:#ACF2E4;}.hljs-built_in{color: #B281EB;}.hljs-deletion{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs-template-variable{color:#DABAFF;}.hljs-builtin-name{color: #B281EB;}.hljs-number{color: #D9C97C;}.hljs-section{color:#6BDFFF;}.hljs-variable{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-type{color:#ACF2E4;}.hljs-bullet{color:#FF8170;}.hljs-keyword{color:#FF7AB2;}.hljs-comment{color:#7F8C98;}.hljs-tag{color:#DABAFF;}.hljs-strong{font-weight:bold;}.hljs-selector-id{color:#DABAFF;}.hljs-quote{color:#7F8C98;}.hljs-title{color:#6BDFFF;}</style>
+<style>.hljs-variable{color:#DABAFF;}.hljs-params{color:#ACF2E4;}.hljs-emphasis{font-style:italic;}.hljs-title{color:#6BDFFF;}.hljs-deletion{color:#DABAFF;}.hljs-meta{color:#B281EB;}.hljs-name{color:#DABAFF;}.hljs-type{color:#ACF2E4;}.hljs-symbol{color:#FF8170;}.hljs-regexp{color:#DABAFF;}.hljs-built_in{color: #B281EB;}.hljs-template-variable{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-section{color:#6BDFFF;}.hljs-strong{font-weight:bold;}.hljs-string{color:#FF8170;}.hljs-comment{color:#7F8C98;}.hljs-link{color:#DABAFF;}.hljs-attribute{color:#DABAFF;}.hljs-quote{color:#7F8C98;}.hljs-selector-id{color:#DABAFF;}.hljs-number{color: #D9C97C;}.hljs-tag{color:#DABAFF;}.hljs-addition{color:#FF8170;}.hljs-selector-class{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs{color:#E0E0E0;padding:0.5em;display:block;}.hljs-class{color:#6BDFFF;}.hljs-keyword{color:#FF7AB2;}.hljs-builtin-name{color: #B281EB;}.hljs-selector-tag{color:#FF7AB2;}.hljs-bullet{color:#FF8170;}</style>
 
 <pre style="background-color: #FDFDFD; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid #DDDDDD"><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-keyword">import</span> UIKit
 
@@ -36,32 +36,34 @@ The main example of an asynchronous function is a closure one (callback). These 
     <span class="hljs-keyword">case</span> badImage
 }
 
-<span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">fetchImage</span><span class="hljs-params">(<span class="hljs-keyword">for</span> id: String, completion: @escaping <span class="hljs-params">(UIImage?, Error?)</span></span></span> -&gt; <span class="hljs-type">Void</span>) {
+<span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">fetchImage</span><span class="hljs-params">(<span class="hljs-keyword">for</span> id: String, completion: @escaping <span class="hljs-params">(Result&lt;UIImage, FetchImageError&gt;)</span></span></span> -&gt; <span class="hljs-type">Void</span>) {
     <span class="hljs-keyword">let</span> request =<span class="hljs-attribute"> imageURLRequest</span>(<span class="hljs-keyword">for</span>: id)
     <span class="hljs-keyword">let</span> task = <span class="hljs-type">URLSession</span>.<span class="hljs-attribute">shared</span>.<span class="hljs-attribute">dataTask</span>(with: request) { data, response, error <span class="hljs-keyword">in</span>
         <span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> error = error {
-           <span class="hljs-attribute"> completion</span>(<span class="hljs-literal">nil</span>, error)
+           <span class="hljs-attribute"> completion</span>(.<span class="hljs-attribute">failure</span>(.<span class="hljs-attribute">badID</span>))
         } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (response <span class="hljs-keyword">as</span>? <span class="hljs-type">HTTPURLResponse</span>)?.<span class="hljs-attribute">statusCode</span> != <span class="hljs-number">200</span> {
-           <span class="hljs-attribute"> completion</span>(<span class="hljs-literal">nil</span>, <span class="hljs-type">FetchImageError</span>.<span class="hljs-attribute">badID</span>)
+           <span class="hljs-attribute"> completion</span>(.<span class="hljs-attribute">failure</span>(.<span class="hljs-attribute">badID</span>))
             <span class="hljs-keyword">return</span>
         } <span class="hljs-keyword">else</span> {
             <span class="hljs-keyword">guard</span> <span class="hljs-keyword">let</span> image =<span class="hljs-attribute"> UIImage</span>(data: data!) <span class="hljs-keyword">else</span> {
-               <span class="hljs-attribute"> completion</span>(<span class="hljs-literal">nil</span>, <span class="hljs-type">FetchImageError</span>.<span class="hljs-attribute">badImage</span>)
+               <span class="hljs-attribute"> completion</span>(.<span class="hljs-attribute">failure</span>(.<span class="hljs-attribute">badImage</span>))
                 <span class="hljs-keyword">return</span>
             }
             image.<span class="hljs-attribute">prepareImage</span>(of:<span class="hljs-attribute"> CGSize</span>(width: <span class="hljs-number">100</span>, height: <span class="hljs-number">100</span>)) { image <span class="hljs-keyword">in</span>
                 <span class="hljs-keyword">guard</span> <span class="hljs-keyword">let</span> image = image <span class="hljs-keyword">else</span> {
-                   <span class="hljs-attribute"> completion</span>(<span class="hljs-literal">nil</span>, <span class="hljs-type">FetchImageError</span>.<span class="hljs-attribute">badImage</span>)
+                   <span class="hljs-attribute"> completion</span>(.<span class="hljs-attribute">failure</span>(.<span class="hljs-attribute">badImage</span>))
                     <span class="hljs-keyword">return</span>
                 }
-               <span class="hljs-attribute"> completion</span>(image, <span class="hljs-literal">nil</span>)
+               <span class="hljs-attribute"> completion</span>(.<span class="hljs-attribute">success</span>(image))
             }
         }
     }
     task.<span class="hljs-attribute">resume</span>()
 }
+
 </code></pre>
 
+In this example there are up to five `completion` executions...not very handy.
 
 Thanks for reading :)
 
