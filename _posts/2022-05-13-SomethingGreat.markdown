@@ -18,7 +18,7 @@ Another thing that I want to share with all you guys is that it is very likely t
 
 Well, that's all guys. More info in following post, stay tunned for upcoming updates.
 
-Thanks for reading :)
+Thanks for reading :)..
 
 <table style="width: 100%; overflow: scroll; border-right: 0px solid gray; border-left: 0px solid gray">
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
