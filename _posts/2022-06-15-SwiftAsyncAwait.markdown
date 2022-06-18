@@ -63,7 +63,25 @@ The main example of an asynchronous function is a closure one (callback). These 
 
 </code></pre>
 
-In this example there are up to five `completion` executions...not very handy.
+In this example there are up to five `completion` executions...not very handy. So we need to figure out a new way to structure the code without lossing any functionality in terms of asynchrony and error handling. And here it is when we came across with new async/await functions.
+
+<style>.hljs-selector-id{color:#DABAFF;}.hljs-strong{font-weight:bold;}.hljs-symbol{color:#FF8170;}.hljs-quote{color:#7F8C98;}.hljs-keyword{color:#FF7AB2;}.hljs-deletion{color:#DABAFF;}.hljs-variable{color:#DABAFF;}.hljs-number{color: #D9C97C;}.hljs-title{color:#6BDFFF;}.hljs-section{color:#6BDFFF;}.hljs-tag{color:#DABAFF;}.hljs-meta{color:#B281EB;}.hljs-builtin-name{color: #B281EB;}.hljs-string{color:#FF8170;}.hljs{display:block;padding:0.5em;color:#E0E0E0;}.hljs-class{color:#6BDFFF;}.hljs-built_in{color: #B281EB;}.hljs-type{color:#ACF2E4;}.hljs-comment{color:#7F8C98;}.hljs-regexp{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-addition{color:#FF8170;}.hljs-selector-tag{color:#FF7AB2;}.hljs-link{color:#DABAFF;}.hljs-emphasis{font-style:italic;}.hljs-params{color:#ACF2E4;}.hljs-function{color:#6BDFFF;}.hljs-template-variable{color:#DABAFF;}.hljs-bullet{color:#FF8170;}.hljs-name{color:#DABAFF;}.hljs-attribute{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}</style>
+
+<pre style="background-color: #FDFDFD; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid #DDDDDD"><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-class"><span class="hljs-keyword">extension</span> <span class="hljs-title">UIImage</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">prepareImageAsyncAwait</span><span class="hljs-params">()</span></span> <span class="hljs-keyword">async</span> -&gt; <span class="hljs-type">UIImage</span> {
+        <span class="hljs-comment">//Whatever</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-type">UIImage</span>.<span class="hljs-attribute">init</span>()
+    }
+}
+
+<span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">fetchImageAsyncAwait</span><span class="hljs-params">(<span class="hljs-keyword">for</span> id: String)</span></span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">throws</span> -&gt; <span class="hljs-type">UIImage</span> {
+    <span class="hljs-keyword">let</span> request =<span class="hljs-attribute"> imageURLRequest</span>(<span class="hljs-keyword">for</span>: id)
+    <span class="hljs-keyword">let</span> (data, response) = <span class="hljs-keyword">try</span> <span class="hljs-keyword">await</span> <span class="hljs-type">URLSession</span>.<span class="hljs-attribute">shared</span>.<span class="hljs-attribute">data</span>(<span class="hljs-keyword">for</span>: request)
+    <span class="hljs-keyword">guard</span> (response <span class="hljs-keyword">as</span>? <span class="hljs-type">HTTPURLResponse</span>)?.<span class="hljs-attribute">statusCode</span> == <span class="hljs-number">200</span> <span class="hljs-keyword">else</span> { <span class="hljs-keyword">throw</span> <span class="hljs-type">FetchImageError</span>.<span class="hljs-attribute">badID</span> }
+    <span class="hljs-keyword">let</span> maybeImage =<span class="hljs-attribute"> UIImage</span>(data: data)
+    <span class="hljs-keyword">guard</span> <span class="hljs-keyword">let</span> image = <span class="hljs-keyword">await</span> maybeImage?.<span class="hljs-attribute">prepareImageAsyncAwait</span>() <span class="hljs-keyword">else</span> { <span class="hljs-keyword">throw</span> <span class="hljs-type">FetchImageError</span>.<span class="hljs-attribute">badImage</span> }
+    <span class="hljs-keyword">return</span> image
+}</code></pre>
 
 Thanks for reading :)
 
