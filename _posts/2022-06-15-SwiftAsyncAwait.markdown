@@ -91,7 +91,7 @@ The first thing you could realize about code above is how simple it is, just a f
 - Let our code to throw error properly.
 
 <br>
-<h3 style="color: #403F3F">Going deeper</h3>
+<h3 style="color: #403F3F">Properties and Sequences</h3>
 
 As you may notice, the asynchronous function called `prepareImageAsyncAwait` is an extended method for UIImage class, and as I coded it...it does really nothing. That was just an example to show you how asynchronous functions must be defined and instantiated, but lets do that properly.
 
@@ -108,6 +108,24 @@ We are going to define `prepareImageAsyncAwait` as an extended property of UIIma
     }
 }</code></pre>
 
+When it comes to define asynchronous properties we have to bear in mind that only-read (get) ones are able to be asinchronous. `byPreparingThumbnail`method is an SDK built-in one and is asynchronous, that's why must be instantiated after `await`. In case the asynchronous property is able to throw any error we should define it as `get async throws`.
+
+But what about if we want to use an asynchronous function in a sequence? Well, in this case we need to use also `await`. Lets take a look to one of the most commonly used sequences: a for loop.
+
+<style>.hljs-literal{color: #B281EB;}.hljs-type{color:#ACF2E4;}.hljs-params{color:#ACF2E4;}.hljs-variable{color:#DABAFF;}.hljs-quote{color:#7F8C98;}.hljs-meta{color:#B281EB;}.hljs-attribute{color:#DABAFF;}.hljs-section{color:#6BDFFF;}.hljs-number{color: #D9C97C;}.hljs-class{color:#6BDFFF;}.hljs-selector-tag{color:#FF7AB2;}.hljs-tag{color:#DABAFF;}.hljs-title{color:#6BDFFF;}.hljs{padding:0.5em;display:block;color:#E0E0E0;}.hljs-builtin-name{color: #B281EB;}.hljs-string{color:#FF8170;}.hljs-link{color:#DABAFF;}.hljs-regexp{color:#DABAFF;}.hljs-addition{color:#FF8170;}.hljs-built_in{color: #B281EB;}.hljs-selector-class{color:#DABAFF;}.hljs-symbol{color:#FF8170;}.hljs-emphasis{font-style:italic;}.hljs-keyword{color:#FF7AB2;}.hljs-deletion{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs-name{color:#DABAFF;}.hljs-bullet{color:#FF8170;}.hljs-comment{color:#7F8C98;}.hljs-template-variable{color:#DABAFF;}.hljs-selector-id{color:#DABAFF;}.hljs-strong{font-weight:bold;}</style>
+
+<pre style="background-color: #FDFDFD; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid #DDDDDD"><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-keyword">for</span> <span class="hljs-keyword">await</span> id <span class="hljs-keyword">in</span> staticImageIDs.<span class="hljs-attribute">lines</span> {
+    <span class="hljs-keyword">let</span> image = <span class="hljs-keyword">await</span><span class="hljs-attribute"> fetchImageAsyncAwait</span>(<span class="hljs-keyword">for</span>: id)
+    imageArray.<span class="hljs-attribute">append</span>(image)
+}</code></pre>
+
+<br>
+<h3 style="color: #403F3F">Summing Up</h3>
+
+Lets point out a very important concepts we have to understand prior to start working with asyn/await executions:
+- `async` enables a function to be suspended. **When a function suspends itself it suspends its callers too. That's why its callers must be `async` too.**
+- `await` marks when the asynchronous function may be suspended. When the asynchronous function is completed, the executen resumes after the `await`.
+- When an asynchronous execution is suspended the thread where it was running is not blocked, which means that other executions can be runned now, so the state of the app could change a lot since an asynchronous execution is suspended, and this situation could lead to a **data race issue**.
 
 Thanks for reading :)
 
