@@ -122,7 +122,7 @@ But what about if we want to use an asynchronous function in a sequence? Well, i
 <br>
 <h3 style="color: #403F3F">Summing Up</h3>
 
-Lets point out a very important concepts we have to understand prior to start working with asyn/await executions:
+Lets point out a very important concepts we have to understand prior to start working with async/await executions:
 - `async` enables a function to be suspended. **When a function suspends itself it suspends its callers too. That's why its callers must be `async` too.**
 - `await` marks when the asynchronous function may be suspended. When the asynchronous function is completed, the executen resumes after the `await`.
 - When an asynchronous execution is suspended the thread where it was running is not blocked, which means that other executions can be runned now, so the state of the app could change a lot since an asynchronous execution is suspended, and this situation could lead to a **data race issue**.
