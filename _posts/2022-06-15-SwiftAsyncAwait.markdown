@@ -86,10 +86,28 @@ In this example there are up to five `completion` executions...not very handy. S
     <span class="hljs-keyword">return</span> image
 }</code></pre>
 
-The first thing you could realize about code above is how simple it is, just a few lines of code. As you may noticed, when defining an asynchronous functions are followed by `async`, and when instantiated are after an `await`. With this simple code it is easy to follow the action without losing any feature, both asynchrony and throwing errors.
+The first thing you could realize about code above is how simple it is, just a few lines of code. As you may noticed, when defining an asynchronous functions are followed by `async`, and when instantiated are after an `await`. So with async/await we can bring two great advantages to our code:
+- It is simple and easier to follow.
+- Let our code to throw error properly.
 
 <br>
 <h3 style="color: #403F3F">Going deeper</h3>
+
+As you may notice, the asynchronous function called `prepareImageAsyncAwait` is an extended method for UIImage class, and as I coded it...it does really nothing. That was just an example to show you how asynchronous functions must be defined and instantiated, but lets do that properly.
+
+We are going to define `prepareImageAsyncAwait` as an extended property of UIImage class rather than a method. Is it possible ti define asynchronous properties? The answer is: defenetly, and async/await is very handy for this purpose.
+
+<style>.hljs-quote{color:#7F8C98;}.hljs-string{color:#FF8170;}.hljs-link{color:#DABAFF;}.hljs-comment{color:#7F8C98;}.hljs-params{color:#ACF2E4;}.hljs-builtin-name{color: #B281EB;}.hljs-built_in{color: #B281EB;}.hljs-emphasis{font-style:italic;}.hljs-selector-tag{color:#FF7AB2;}.hljs-bullet{color:#FF8170;}.hljs-number{color: #D9C97C;}.hljs-attribute{color:#DABAFF;}.hljs-addition{color:#FF8170;}.hljs-meta{color:#B281EB;}.hljs-tag{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs-section{color:#6BDFFF;}.hljs{padding:0.5em;display:block;color:#E0E0E0;}.hljs-title{color:#6BDFFF;}.hljs-selector-class{color:#DABAFF;}.hljs-strong{font-weight:bold;}.hljs-symbol{color:#FF8170;}.hljs-template-variable{color:#DABAFF;}.hljs-class{color:#6BDFFF;}.hljs-selector-id{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-deletion{color:#DABAFF;}.hljs-type{color:#ACF2E4;}.hljs-keyword{color:#FF7AB2;}.hljs-name{color:#DABAFF;}.hljs-regexp{color:#DABAFF;}.hljs-variable{color:#DABAFF;}</style>
+
+<pre style="background-color: #FDFDFD; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid #DDDDDD"><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-class"><span class="hljs-keyword">extension</span> <span class="hljs-title">UIImage</span> </span>{
+    <span class="hljs-keyword">var</span> prepareImageAsyncAwait: <span class="hljs-type">UIImage?</span> {
+        <span class="hljs-keyword">get</span> <span class="hljs-keyword">async</span> {
+            <span class="hljs-keyword">let</span> size =<span class="hljs-attribute"> CGSize</span>(width: <span class="hljs-number">50</span>, height: <span class="hljs-number">50</span>)
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">await</span> <span class="hljs-keyword">self</span>.<span class="hljs-attribute">byPreparingThumbnail</span>(ofSize: size)
+        }
+    }
+}</code></pre>
+
 
 Thanks for reading :)
 
