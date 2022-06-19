@@ -38,6 +38,32 @@ title:
 <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/04/2022/SwiftAsyncAwait.html">
+      <body>
+      <h2><b>Swift Concurrency I: async/await</b></h2>
+      <p>A better approach to swift concurrency</p>
+      </body>
+      </a>
+    </td>
+    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/13/05/2022/SomethingGreat.html">
+      <body>
+      <h2><b>Something great is coming</b></h2>
+      <p>Indie development</p>
+      </body>
+      </a>
+    </td>
+    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/10/10/2021/SwiftUI3.html">
+      <body>
+      <h2><b>SwiftUI 3: New List Features</b></h2>
+      <p>SwiftUI 3 brings new features when it comes to building lists</p>
+      </body>
+      </a>
+    </td>
+  </tr>
+  <tr style="background-color: #FDFDFD">
+    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
       <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/08/2021/CryptoKitIII.html">
       <body>
       <h2><b>CryptoKit III: Sign it</b></h2>
@@ -58,32 +84,6 @@ title:
       <body>
       <h2><b>CryptoKit I: The Basics</b></h2>
       <p>Take your first steps with cryptography in Swift</p>
-      </body>
-      </a>
-    </td>
-  </tr>
-  <tr style="background-color: #FDFDFD">
-    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/04/2021/Formula1WebScraping.html">
-      <body>
-      <h2><b>Formula 1 and Web Scrapping with Python</b></h2>
-      <p>How to build client-side applications</p>
-      </body>
-      </a>
-    </td>
-    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="http://www.javiercarrilloblog.com/coding/19/07/2020/Combine.html">
-      <body>
-      <h2><b>Combine: The Ultimate Framework</b></h2>
-      <p>URL Session comparison</p>
-      </body>
-      </a>
-    </td>
-    <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/02/2021/MySQLPython.html">
-      <body>
-      <h2><b>MySQL and Python</b></h2>
-      <p>Managing MySQL database with Python</p>
       </body>
       </a>
     </td>
