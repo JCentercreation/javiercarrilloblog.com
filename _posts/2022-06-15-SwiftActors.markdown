@@ -78,7 +78,7 @@ Actors are much easier to implement that primitives tools, having the following 
     - All access to the state goes through the actor.
     - The actor ensures mutually-exclusive access to its state. This means that no other execution can access the actor state.
 
-But what really is an Actor? Well is another type in swift, and brings all the capabilities as all of the named types, having methods, properties, initializers, the can conform to protocols and can be augmented with extensions. **Actors are reference types**, like classes. What an actor does is first yo isolate the data from the rest of the program and then ensure synchronized access to that data. Lets see how to implement actors in our example:
+But what really is an Actor? Well is another type in swift, and brings all the capabilities as all of the named types, having methods, properties, initializers, the can conform to protocols and can be augmented with extensions. **Actors are reference types**, like classes. What an actor does is first to isolate the data from the rest of the program and then ensure synchronized access to that data. Lets see how to implement actors in our example:
 
 <style>.hljs-built_in{color: #B281EB;}.hljs-tag{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}.hljs-variable{color:#DABAFF;}.hljs-builtin-name{color: #B281EB;}.hljs-function{color:#6BDFFF;}.hljs-emphasis{font-style:italic;}.hljs-literal{color: #B281EB;}.hljs-class{color:#6BDFFF;}.hljs-title{color:#6BDFFF;}.hljs-deletion{color:#DABAFF;}.hljs-number{color: #D9C97C;}.hljs-selector-id{color:#DABAFF;}.hljs-selector-tag{color:#FF7AB2;}.hljs-type{color:#ACF2E4;}.hljs-template-variable{color:#DABAFF;}.hljs-quote{color:#7F8C98;}.hljs-meta{color:#B281EB;}.hljs-params{color:#ACF2E4;}.hljs-strong{font-weight:bold;}.hljs-symbol{color:#FF8170;}.hljs-attribute{color:#DABAFF;}.hljs-regexp{color:#DABAFF;}.hljs{padding:0.5em;display:block;color:#E0E0E0;}.hljs-addition{color:#FF8170;}.hljs-comment{color:#7F8C98;}.hljs-name{color:#DABAFF;}.hljs-bullet{color:#FF8170;}.hljs-link{color:#DABAFF;}.hljs-keyword{color:#FF7AB2;}.hljs-string{color:#FF8170;}.hljs-section{color:#6BDFFF;}</style>
 
@@ -101,8 +101,7 @@ But what really is an Actor? Well is another type in swift, and brings all the c
    <span class="hljs-attribute"> print</span>(<span class="hljs-keyword">await</span> counter.<span class="hljs-attribute">increment</span>())
 }</code></pre>
 
-The `await` keyword indicates that the asynchronous call to the actor might involve a suspension.
-
+The `await` keyword indicates that the asynchronous call to the actor might involve a suspension. This is really important to bear in mind, because despite the fact that by using actors our code will not be involving a data race, it could potentially have behaviour bugs if we do not take care about what is after the `await`.
 
 Thanks for reading :)
 

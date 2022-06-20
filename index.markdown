@@ -38,10 +38,10 @@ title:
 <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/04/2022/SwiftAsyncAwait.html">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/10/10/2021/SwiftUI3.html">
       <body>
-      <h2><b>Swift Concurrency I: async/await</b></h2>
-      <p>A better approach to swift concurrency</p>
+      <h2><b>Swift Concurrency II: Actors</b></h2>
+      <p>A great way to protect your code from a data race.</p>
       </body>
       </a>
     </td>
@@ -54,10 +54,10 @@ title:
       </a>
     </td>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/10/10/2021/SwiftUI3.html">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/04/2022/SwiftAsyncAwait.html">
       <body>
-      <h2><b>SwiftUI 3: New List Features</b></h2>
-      <p>SwiftUI 3 brings new features when it comes to building lists</p>
+      <h2><b>Swift Concurrency I: async/await</b></h2>
+      <p>A better approach to swift concurrency</p>
       </body>
       </a>
     </td>
