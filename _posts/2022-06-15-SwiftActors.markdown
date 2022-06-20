@@ -101,7 +101,7 @@ But what really is an Actor? Well is another type in swift, and brings all the c
    <span class="hljs-attribute"> print</span>(<span class="hljs-keyword">await</span> counter.<span class="hljs-attribute">increment</span>())
 }</code></pre>
 
-The `await` keyword indicates that the asynchronous call to the actor might involve a suspension. This is really important to bear in mind, because despite the fact that by using actors our code will not be involving a data race, it could potentially have behaviour bug if we do not take care about what is after the `await`.
+The `await` keyword indicates that the asynchronous call to the actor might involve a suspension. This is really important to bear in mind, because despite the fact that by using actors our code will not be involving a data race, it could potentially have a behaviour bug if we do not take care about what is after the `await`.
 
 Thanks for reading :)
 
