@@ -38,7 +38,7 @@ title:
 <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/10/10/2021/SwiftUI3.html">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2022/SwiftActors.html">
       <body>
       <h2><b>Swift Concurrency II: Actors</b></h2>
       <p>A great way to protect your code from a data race.</p>
