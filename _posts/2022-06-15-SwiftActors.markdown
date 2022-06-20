@@ -66,11 +66,17 @@ The first way to solve the data race issue we could come up with is the use of v
 }
 </code></pre>
 
-The code above solves our problem, but what if we need to share the mutable state between different executions? Definitly we need a tool that allows us to synchronize those mutable states. This is when I really would like to introduce the Actors to you.
+The code above solves our problem, but what if we need to share the mutable state between different executions? Definitely we need a tool that allows us to synchronize those mutable states. This is when I really would like to introduce the Actors to you.
 
 <br>
 <h3 style="color: #403F3F">Actors</h3>
+Before Actores show up in Swift, there were primitive tools for sharing mutable states, like Atomics, Locks and Serial Dispatch Queues, but they all have the same problem: they hard to implement without not making any syntax mistake that leads to a data race.
 
+Actors are much easier to implement that primitives tools, having the following main characteristis:
+- Actors provide synchronization for shared mutable states.
+- Actors isolate their state from the rest of the program:
+    - All access to the state goes through the actor.
+    - Tha actor ensures mutually-exclusive access to its state.
 
 Thanks for reading :)
 
