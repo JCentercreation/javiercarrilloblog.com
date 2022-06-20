@@ -37,6 +37,40 @@ Well a data race occurs when at least two executions (two separate threads) trie
 }
 </code></pre>
 
+You might thing that Task1 will return and 1 and Task2 will return a 2, but it really depends on the execution timing, which we are not able to figure it out because the scheduler change the order of concurrent tasks each time we run the program. It is likely that Task1 would return a 2 and Task would return a 1, or even both task returns a 1 or a 2. This is a data race.
+
+<br>
+<h3 style="color: #403F3F">How to avoid data races</h3>
+The first way to solve the data race issue we could come up with is the use of value semantics. We know that classes are reference types while structs are value types, so lets take advantages of value types.
+
+<style>.hljs-built_in{color: #B281EB;}.hljs-tag{color:#DABAFF;}.hljs-params{color:#ACF2E4;}.hljs-emphasis{font-style:italic;}.hljs-deletion{color:#DABAFF;}.hljs-variable{color:#DABAFF;}.hljs-number{color: #D9C97C;}.hljs-literal{color: #B281EB;}.hljs-bullet{color:#FF8170;}.hljs-regexp{color:#DABAFF;}.hljs-symbol{color:#FF8170;}.hljs-addition{color:#FF8170;}.hljs{padding:0.5em;color:#E0E0E0;display:block;}.hljs-title{color:#6BDFFF;}.hljs-section{color:#6BDFFF;}.hljs-selector-class{color:#DABAFF;}.hljs-name{color:#DABAFF;}.hljs-selector-tag{color:#FF7AB2;}.hljs-selector-id{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs-strong{font-weight:bold;}.hljs-type{color:#ACF2E4;}.hljs-template-variable{color:#DABAFF;}.hljs-quote{color:#7F8C98;}.hljs-class{color:#6BDFFF;}.hljs-meta{color:#B281EB;}.hljs-attribute{color:#DABAFF;}.hljs-comment{color:#7F8C98;}.hljs-link{color:#DABAFF;}.hljs-keyword{color:#FF7AB2;}.hljs-string{color:#FF8170;}.hljs-builtin-name{color: #B281EB;}</style>
+
+<pre style="background-color: #FDFDFD; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid #DDDDDD"><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Counter2</span> </span>{
+    <span class="hljs-keyword">var</span> value: <span class="hljs-type">Int</span> = <span class="hljs-number">0</span>
+    
+    <span class="hljs-keyword">mutating</span> <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">increment</span><span class="hljs-params">()</span></span> -&gt; <span class="hljs-type">Int</span> {
+        value = value + <span class="hljs-number">1</span>
+        <span class="hljs-keyword">return</span> value
+    }
+}
+
+<span class="hljs-keyword">let</span> counter2 =<span class="hljs-attribute"> Counter2</span>()
+<span class="hljs-type">Task</span>.<span class="hljs-attribute">detached</span> { <span class="hljs-comment">// Task 1</span>
+    <span class="hljs-keyword">var</span> counter = counter2
+   <span class="hljs-attribute"> print</span>(counter.<span class="hljs-attribute">increment</span>())
+}
+
+<span class="hljs-type">Task</span>.<span class="hljs-attribute">detached</span> { <span class="hljs-comment">// Task 2</span>
+    <span class="hljs-keyword">var</span> counter = counter2
+   <span class="hljs-attribute"> print</span>(counter.<span class="hljs-attribute">increment</span>())
+}
+</code></pre>
+
+The code above solves our problem, but what if we need to share the mutable state between different executions? Definitly we need a tool that allows us to synchronize those mutable states. This is when I really would like to introduce the Actors to you.
+
+<br>
+<h3 style="color: #403F3F">Actors</h3>
+
 
 Thanks for reading :)
 

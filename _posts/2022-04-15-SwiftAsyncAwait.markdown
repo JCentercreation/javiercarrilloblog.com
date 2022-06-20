@@ -9,9 +9,9 @@ published: true
 tags: coding
 ---
 <h3 style="color: #403F3F">What's concurrency?</h3>
-As you may know, concurrency is a very interesting tool when it comes, for instante, to network calls. In that case we do not want to pause all the tasks that our app is running just because networks functions are running, mainly because that behaviour would freeze the user interface tasks that are updating the views and letting the user to keep flowing throught the app. So thats why it is better to perform all network functions as an asynchronous ones.
+As you may know, concurrency is a very interesting tool when it comes, for instante, to network calls. In that case we do not want to pause all the tasks that our app is running just because networks functions are running, mainly because that behaviour could freeze the user interface tasks that are updating the views and letting the user to keep flowing throught the app. So thats why it is better to perform all network functions as an asynchronous ones.
 
-When it comes to Concurrency in Swift we are in reallity talking about asynchronous and parallel tasks. Asynchronous tasks are those that can be suspended and resumed when needed in order to let other tasks with a higher level of priority to be runned, and parallel tasks are those that are able to be executed ate the same time in through a multicore processor.
+When it comes to Concurrency in Swift we are in reallity talking about asynchronous and parallel tasks. Asynchronous tasks are those that can be suspended and resumed when needed in order to let other tasks with a higher level of priority to be runned, and parallel tasks are those that are able to be executed at the same time through a multicore processor.
 
 <br>
 <h3 style="color: #403F3F">Quick approach to Async/await</h3>
@@ -66,7 +66,7 @@ The main example of an asynchronous function is a closure one (callback). These 
 
 </code></pre>
 
-In this example there are up to five `completion` executions...not very handy. So we need to figure out a new way to structure the code without lossing any functionality in terms of asynchrony and error throwing. And here it is when we came across with new async/await functions.
+In this example there are up to five `completion` executions...not very handy. So we need to figure out a new way to structure the code without lossing any functionality in terms of asynchrony and error handling. And here it is when we came across with new async/await functions.
 
 <style>.hljs-selector-id{color:#DABAFF;}.hljs-strong{font-weight:bold;}.hljs-symbol{color:#FF8170;}.hljs-quote{color:#7F8C98;}.hljs-keyword{color:#FF7AB2;}.hljs-deletion{color:#DABAFF;}.hljs-variable{color:#DABAFF;}.hljs-number{color: #D9C97C;}.hljs-title{color:#6BDFFF;}.hljs-section{color:#6BDFFF;}.hljs-tag{color:#DABAFF;}.hljs-meta{color:#B281EB;}.hljs-builtin-name{color: #B281EB;}.hljs-string{color:#FF8170;}.hljs{display:block;padding:0.5em;color:#E0E0E0;}.hljs-class{color:#6BDFFF;}.hljs-built_in{color: #B281EB;}.hljs-type{color:#ACF2E4;}.hljs-comment{color:#7F8C98;}.hljs-regexp{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-addition{color:#FF8170;}.hljs-selector-tag{color:#FF7AB2;}.hljs-link{color:#DABAFF;}.hljs-emphasis{font-style:italic;}.hljs-params{color:#ACF2E4;}.hljs-function{color:#6BDFFF;}.hljs-template-variable{color:#DABAFF;}.hljs-bullet{color:#FF8170;}.hljs-name{color:#DABAFF;}.hljs-attribute{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}</style>
 
@@ -86,16 +86,16 @@ In this example there are up to five `completion` executions...not very handy. S
     <span class="hljs-keyword">return</span> image
 }</code></pre>
 
-The first thing you could realize about code above is how simple it is, just a few lines of code. As you may noticed, when defining an asynchronous functions are followed by `async`, and when instantiated are after an `await`. So with async/await we can bring two great advantages to our code:
+The first thing you could realize about is how simple it is, just a few lines of code. As you may noticed, when defining an asynchronous functions these are followed by `async`, and when instantiated them they are after an `await`. So with async/await we can bring two great advantages to our code:
 - It is simple and easier to follow.
-- Let our code to throw error properly.
+- Proper errors handling.
 
 <br>
 <h3 style="color: #403F3F">Properties and Sequences</h3>
 
 As you may notice, the asynchronous function called `prepareImageAsyncAwait` is an extended method for UIImage class, and as I coded it...it does really nothing. That was just an example to show you how asynchronous functions must be defined and instantiated, but lets do that properly.
 
-We are going to define `prepareImageAsyncAwait` as an extended property of UIImage class rather than a method. Is it possible ti define asynchronous properties? The answer is: defenetly, and async/await is very handy for this purpose.
+We are going to define `prepareImageAsyncAwait` as an extended property of UIImage class rather than a method. Is it possible to define asynchronous properties? The answer is: defenetly yes, and async/await is very handy for this purpose.
 
 <style>.hljs-quote{color:#7F8C98;}.hljs-string{color:#FF8170;}.hljs-link{color:#DABAFF;}.hljs-comment{color:#7F8C98;}.hljs-params{color:#ACF2E4;}.hljs-builtin-name{color: #B281EB;}.hljs-built_in{color: #B281EB;}.hljs-emphasis{font-style:italic;}.hljs-selector-tag{color:#FF7AB2;}.hljs-bullet{color:#FF8170;}.hljs-number{color: #D9C97C;}.hljs-attribute{color:#DABAFF;}.hljs-addition{color:#FF8170;}.hljs-meta{color:#B281EB;}.hljs-tag{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs-section{color:#6BDFFF;}.hljs{padding:0.5em;display:block;color:#E0E0E0;}.hljs-title{color:#6BDFFF;}.hljs-selector-class{color:#DABAFF;}.hljs-strong{font-weight:bold;}.hljs-symbol{color:#FF8170;}.hljs-template-variable{color:#DABAFF;}.hljs-class{color:#6BDFFF;}.hljs-selector-id{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-deletion{color:#DABAFF;}.hljs-type{color:#ACF2E4;}.hljs-keyword{color:#FF7AB2;}.hljs-name{color:#DABAFF;}.hljs-regexp{color:#DABAFF;}.hljs-variable{color:#DABAFF;}</style>
 
@@ -108,9 +108,9 @@ We are going to define `prepareImageAsyncAwait` as an extended property of UIIma
     }
 }</code></pre>
 
-When it comes to define asynchronous properties we have to bear in mind that only-read (get) ones are able to be asinchronous. `byPreparingThumbnail`method is an SDK built-in one and is asynchronous, that's why must be instantiated after `await`. In case the asynchronous property is able to throw any error we should define it as `get async throws`.
+When it comes to define asynchronous properties we have to bear in mind that only-read (get) ones are able to be asinchronous. `byPreparingThumbnail` method is an SDK built-in one and is asynchronous, that's why must be instantiated after `await`. In case the asynchronous property is able to throw any error we should define it as `get async throws`.
 
-But what about if we want to use an asynchronous function in a sequence? Well, in this case we need to use also `await`. Lets take a look to one of the most commonly used sequences: a for loop.
+But what if we want to use an asynchronous function in a sequence? Well, in this case we need to use also `await`. Lets take a look to one of the most commonly used sequences: a for loop.
 
 <style>.hljs-literal{color: #B281EB;}.hljs-type{color:#ACF2E4;}.hljs-params{color:#ACF2E4;}.hljs-variable{color:#DABAFF;}.hljs-quote{color:#7F8C98;}.hljs-meta{color:#B281EB;}.hljs-attribute{color:#DABAFF;}.hljs-section{color:#6BDFFF;}.hljs-number{color: #D9C97C;}.hljs-class{color:#6BDFFF;}.hljs-selector-tag{color:#FF7AB2;}.hljs-tag{color:#DABAFF;}.hljs-title{color:#6BDFFF;}.hljs{padding:0.5em;display:block;color:#E0E0E0;}.hljs-builtin-name{color: #B281EB;}.hljs-string{color:#FF8170;}.hljs-link{color:#DABAFF;}.hljs-regexp{color:#DABAFF;}.hljs-addition{color:#FF8170;}.hljs-built_in{color: #B281EB;}.hljs-selector-class{color:#DABAFF;}.hljs-symbol{color:#FF8170;}.hljs-emphasis{font-style:italic;}.hljs-keyword{color:#FF7AB2;}.hljs-deletion{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs-name{color:#DABAFF;}.hljs-bullet{color:#FF8170;}.hljs-comment{color:#7F8C98;}.hljs-template-variable{color:#DABAFF;}.hljs-selector-id{color:#DABAFF;}.hljs-strong{font-weight:bold;}</style>
 
