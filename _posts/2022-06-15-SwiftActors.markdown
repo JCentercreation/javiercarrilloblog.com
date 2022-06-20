@@ -66,7 +66,7 @@ The first way to solve the data race issue we could come up with is the use of v
 }
 </code></pre>
 
-The code above solves our problem, but what if we need to share the mutable state between different executions? Definitely we need a tool that allows us to synchronize those mutable states. This is when I really would like to introduce the Actors to you.
+The code above solves our problem, but what if we need to share the mutable state between different executions? Definitely we need a tool that allows us to synchronize those mutable states. This is when I really would like to introduce Swift Actors to you.
 
 <br>
 <h3 style="color: #403F3F">Actors</h3>
