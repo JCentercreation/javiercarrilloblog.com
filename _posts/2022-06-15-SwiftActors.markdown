@@ -76,7 +76,33 @@ Actors are much easier to implement that primitives tools, having the following 
 - Actors provide synchronization for shared mutable states.
 - Actors isolate their state from the rest of the program:
     - All access to the state goes through the actor.
-    - Tha actor ensures mutually-exclusive access to its state.
+    - The actor ensures mutually-exclusive access to its state. This means that no other execution can access the actor state.
+
+But what really is an Actor? Well is another type in swift, and brings all the capabilities as all of the named types, having methods, properties, initializers, the can conform to protocols and can be augmented with extensions. **Actors are reference types**, like classes. What an actor does is first yo isolate the data from the rest of the program and then ensure synchronized access to that data. Lets see how to implement actors in our example:
+
+<style>.hljs-built_in{color: #B281EB;}.hljs-tag{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}.hljs-variable{color:#DABAFF;}.hljs-builtin-name{color: #B281EB;}.hljs-function{color:#6BDFFF;}.hljs-emphasis{font-style:italic;}.hljs-literal{color: #B281EB;}.hljs-class{color:#6BDFFF;}.hljs-title{color:#6BDFFF;}.hljs-deletion{color:#DABAFF;}.hljs-number{color: #D9C97C;}.hljs-selector-id{color:#DABAFF;}.hljs-selector-tag{color:#FF7AB2;}.hljs-type{color:#ACF2E4;}.hljs-template-variable{color:#DABAFF;}.hljs-quote{color:#7F8C98;}.hljs-meta{color:#B281EB;}.hljs-params{color:#ACF2E4;}.hljs-strong{font-weight:bold;}.hljs-symbol{color:#FF8170;}.hljs-attribute{color:#DABAFF;}.hljs-regexp{color:#DABAFF;}.hljs{padding:0.5em;display:block;color:#E0E0E0;}.hljs-addition{color:#FF8170;}.hljs-comment{color:#7F8C98;}.hljs-name{color:#DABAFF;}.hljs-bullet{color:#FF8170;}.hljs-link{color:#DABAFF;}.hljs-keyword{color:#FF7AB2;}.hljs-string{color:#FF8170;}.hljs-section{color:#6BDFFF;}</style>
+
+<pre style="background-color: #292A30; border-radius:8px; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid #DDDDDD"><code class="hljs" style="background:#292A30;border-radius:8px">actor <span class="hljs-type">Counter</span> {
+    <span class="hljs-keyword">var</span> value = <span class="hljs-number">0</span>
+    
+    <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">increment</span><span class="hljs-params">()</span></span> -&gt; <span class="hljs-type">Int</span> {
+        value = value + <span class="hljs-number">1</span>
+        <span class="hljs-keyword">return</span> value
+    }
+    
+}
+
+<span class="hljs-keyword">let</span> counter =<span class="hljs-attribute"> Counter</span>()
+<span class="hljs-type">Task</span>.<span class="hljs-attribute">detached</span> { <span class="hljs-comment">// Task 1</span>
+   <span class="hljs-attribute"> print</span>(<span class="hljs-keyword">await</span> counter.<span class="hljs-attribute">increment</span>())
+}
+
+<span class="hljs-type">Task</span>.<span class="hljs-attribute">detached</span> { <span class="hljs-comment">// Task 2</span>
+   <span class="hljs-attribute"> print</span>(<span class="hljs-keyword">await</span> counter.<span class="hljs-attribute">increment</span>())
+}</code></pre>
+
+The `await` keyword indicates that the asynchronous call to the actor might involve a suspension.
+
 
 Thanks for reading :)
 
