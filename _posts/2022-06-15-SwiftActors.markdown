@@ -103,7 +103,7 @@ But what really is an Actor? Well is another type in swift, and brings all the c
 
 The `await` keyword indicates that the asynchronous call to the actor might involve a suspension. This is really important to bear in mind, because despite the fact that by using actors our code will not be involving a data race, it could potentially have a behaviour bug if we do not take care about what is after the `await`.
 
-Thanks for reading :) Esto es una prueba
+Thanks for reading :)
 
 <table style="width: 100%; overflow: scroll; border-right: 0px solid gray; border-left: 0px solid gray">
     <tr style="border-right: 0px solid gray; border-left: 0px solid gray">
