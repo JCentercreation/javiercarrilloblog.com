@@ -11,7 +11,8 @@ tags: coding
 In previous posts we have gone throught basics concepts about asynchrony and concurrency using Async/Await. If you are new with this topic please head up to <a href="https://www.javiercarrilloblog.com/coding/15/04/2022/SwiftAsyncAwait.html">**Swift Concurrency I: Async/Await**</a> and <a href="https://www.javiercarrilloblog.com/coding/15/06/2022/SwiftActors.html">**Swift Concurrency II: Actors**</a> so you can have the basic knowledge prior to reading this article.
 
 <br>
-<h3 style="color: #403F3F">Calling `Async` methods from a function that does not support concurrency</h3>
+<h3 style="color: #403F3F">Calling Async methods from a function that does not support concurrency</h3>
+As we saw an saynchronous function that is supended it also suspends its caller too, that is why the callen must be asynchronous also. We could solve this issue by making the caller an asynchronous one, but probably we can not keep doing this forever along our code so at the end of the day we will need to call an asynchronous function from a non asynchronous one. Here is where `Tasks` appear.
 
 
 
