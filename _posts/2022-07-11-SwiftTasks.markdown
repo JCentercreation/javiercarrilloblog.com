@@ -18,6 +18,31 @@ As we saw an saynchronous function that is supended it also suspends its caller 
 
 We could solve this issue by making the caller an asynchronous one, but probably we can not keep doing this forever along our code so at the end of the day we will need to call an asynchronous function from a non asynchronous one. Here is where `Tasks` appear.
 
+Basically a `Task` is a piece of code that can be run asynchronously. It can start running inmediatly without starting or scheduling it. Nevertheless you can use its reference to pause or cancel it, in case you want to refernece it.
+
+Let's see how we can take advantages of task in oreder to run an asynchronous code inside a non asynchronous function:
+
+<style>.hljs-class{color:#6BDFFF;}.hljs-link{color:#DABAFF;}.hljs-keyword{color:#FF7AB2;}.hljs{display:block;color:#E0E0E0;padding:0.5em;}.hljs-number{color: #D9C97C;}.hljs-attribute{color:#DABAFF;}.hljs-emphasis{font-style:italic;}.hljs-name{color:#DABAFF;}.hljs-selector-id{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-comment{color:#7F8C98;}.hljs-selector-tag{color:#FF7AB2;}.hljs-variable{color:#DABAFF;}.hljs-template-variable{color:#DABAFF;}.hljs-builtin-name{color: #B281EB;}.hljs-string{color:#FF8170;}.hljs-addition{color:#FF8170;}.hljs-function{color:#6BDFFF;}.hljs-section{color:#6BDFFF;}.hljs-quote{color:#7F8C98;}.hljs-regexp{color:#DABAFF;}.hljs-params{color:#ACF2E4;}.hljs-tag{color:#DABAFF;}.hljs-deletion{color:#DABAFF;}.hljs-title{color:#6BDFFF;}.hljs-symbol{color:#FF8170;}.hljs-type{color:#ACF2E4;}.hljs-bullet{color:#FF8170;}.hljs-built_in{color: #B281EB;}.hljs-meta{color:#B281EB;}.hljs-strong{font-weight:bold;}</style>
+
+<pre style="background-color: #292A30; border-radius:8px; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid #DDDDDD"><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">fetchImageAsyncAwait</span><span class="hljs-params">(<span class="hljs-keyword">for</span> id: String)</span></span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">throws</span> -&gt; <span class="hljs-type">UIImage</span> {
+    <span class="hljs-keyword">let</span> request =<span class="hljs-attribute"> imageURLRequest</span>(<span class="hljs-keyword">for</span>: id)
+    <span class="hljs-keyword">let</span> (data, response) = <span class="hljs-keyword">try</span> <span class="hljs-keyword">await</span> <span class="hljs-type">URLSession</span>.<span class="hljs-attribute">shared</span>.<span class="hljs-attribute">data</span>(<span class="hljs-keyword">for</span>: request)
+    <span class="hljs-keyword">guard</span> (response <span class="hljs-keyword">as</span>? <span class="hljs-type">HTTPURLResponse</span>)?.<span class="hljs-attribute">statusCode</span> == <span class="hljs-number">200</span> <span class="hljs-keyword">else</span> { <span class="hljs-keyword">throw</span> <span class="hljs-type">FetchImageError</span>.<span class="hljs-attribute">badID</span> }
+    <span class="hljs-keyword">let</span> maybeImage =<span class="hljs-attribute"> UIImage</span>(data: data)
+    <span class="hljs-keyword">guard</span> <span class="hljs-keyword">let</span> image = <span class="hljs-keyword">await</span> maybeImage?.<span class="hljs-attribute">prepareImageAsyncAwait</span>() <span class="hljs-keyword">else</span> { <span class="hljs-keyword">throw</span> <span class="hljs-type">FetchImageError</span>.<span class="hljs-attribute">badImage</span> }
+    <span class="hljs-keyword">return</span> image
+}
+
+<span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">fetchImages</span><span class="hljs-params">()</span></span> {
+    <span class="hljs-type">Task</span>.<span class="hljs-attribute">init</span> {
+        <span class="hljs-keyword">do</span> {
+            <span class="hljs-keyword">try</span> <span class="hljs-keyword">await</span><span class="hljs-attribute"> fetchImageAsyncAwait</span>(<span class="hljs-keyword">for</span>: <span class="hljs-string">"test"</span>)
+        } <span class="hljs-keyword">catch</span> {
+           <span class="hljs-attribute"> print</span>(<span class="hljs-string">"Error: \(error)"</span>)
+        }
+    }
+}</code></pre>
+
 
 
 Thanks for reading :)
