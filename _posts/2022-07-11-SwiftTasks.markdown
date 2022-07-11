@@ -10,6 +10,8 @@ tags: coding
 ---
 In previous posts we have gone throught basics concepts about asynchrony and concurrency using Async/Await. If you are new with this topic please head up to <a href="https://www.javiercarrilloblog.com/coding/15/04/2022/SwiftAsyncAwait.html">**Swift Concurrency I: Async/Await**</a> and <a href="https://www.javiercarrilloblog.com/coding/15/06/2022/SwiftActors.html">**Swift Concurrency II: Actors**</a> so you can have the basic knowledge prior to reading this article.
 
+<br>
+<h3 style="color: #403F3F">Calling `Async` methods from a function that does not support concurrency</h3>
 
 
 
