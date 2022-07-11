@@ -17,10 +17,10 @@ title:
   .button2 { border: 2px solid pink; color: pink; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: #F4F4F4}
   .button2:hover {border: 2px solid pink; color: white; padding: 16px 16px; text-align: center; text-decoration: none; display: inline-block;font-size: 16px; transition-duration: 0.4s; cursor: pointer; border-radius:25%/30px; background-color: pink}
 </style>
-<header class="header" onclick="window.location.href='https://www.javiercarrilloblog.com/coding/13/05/2022/SomethingGreat.html';">
+<!-- <header class="header" onclick="window.location.href='https://www.javiercarrilloblog.com/coding/13/05/2022/SomethingGreat.html';">
   <p><b>Great things are coming soon</b></p>
   <p style="color: #75A4F2"><b> << Know more >> </b></p>
-</header>
+</header> -->
 <br>
 <body>
   <a class="a1" href="http://www.javiercarrilloblog.com/coding/18/09/2021/ARKit-Image-Recognition.html">
