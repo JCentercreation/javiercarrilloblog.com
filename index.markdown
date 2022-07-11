@@ -38,7 +38,7 @@ title:
 <table style="width: 100%; horizontal-align: left; margin: 0px 0px">
   <tr>
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
-      <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/06/2022/SwiftTasks.html">
+      <a class="a1" href="https://www.javiercarrilloblog.com/coding/11/07/2022/SwiftTasks.html">
       <body>
       <h2><b>Swift Concurrency III: Tasks</b></h2>
       <p>Asynchronus code everywhere</p>
