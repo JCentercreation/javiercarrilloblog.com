@@ -8,7 +8,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding
 ---
-If you are new with Swift concurrency I strongly recommend you reading <a href="https://www.javiercarrilloblog.com/coding/15/04/2022/SwiftAsyncAwait.html">Swift Concurrency I: async/await</a> prior to this post. There you will find the basic concepts of swift concurrency and how to implement `async/await` so it will be much easier for you to understand more complex stuff like swift actors.
+If you are new with Swift concurrency I strongly recommend you reading <a href="https://www.javiercarrilloblog.com/coding/15/04/2022/SwiftAsyncAwait.html">**Swift Concurrency I: Async/Await**</a> prior to this post. There you will find the basic concepts of swift concurrency and how to implement `async/await` so it will be much easier for you to understand more complex stuff like swift actors.
 
 <br>
 <h3 style="color: #403F3F">What's a Data Race?</h3>

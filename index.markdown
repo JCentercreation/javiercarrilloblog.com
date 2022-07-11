@@ -56,7 +56,7 @@ title:
     <td style="border-style: hidden; width: 33%; text-align: left; vertical-align: top; padding: 0px">
       <a class="a1" href="https://www.javiercarrilloblog.com/coding/15/04/2022/SwiftAsyncAwait.html">
       <body>
-      <h2><b>Swift Concurrency I: async/await</b></h2>
+      <h2><b>Swift Concurrency I: Async/Await</b></h2>
       <p>A better approach to swift concurrency</p>
       </body>
       </a>

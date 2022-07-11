@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift Concurrency I: async/await"
+title: "Swift Concurrency I: Async/Await"
 date:   2022-04-15 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
@@ -14,7 +14,7 @@ As you may know, concurrency is a very interesting tool when it comes, for insta
 When it comes to Concurrency in Swift we are in reallity talking about asynchronous and parallel tasks. Asynchronous tasks are those that can be suspended and resumed when needed in order to let other tasks with a higher level of priority to be runned, and parallel tasks are those that are able to be executed at the same time through a multicore processor.
 
 <br>
-<h3 style="color: #403F3F">Quick approach to Async/await</h3>
+<h3 style="color: #403F3F">Quick approach to Async/Await</h3>
 The main example of an asynchronous function is a closure one (callback). These sort of functions are really useful, but sometimes, when we use a closure inside another closure inside another closure inside... it turns out that it is very difficult to follow the code and to figure out what the heck is the real sequence of the process. Let's see a quick example of this:
 
 <style>.hljs-variable{color:#DABAFF;}.hljs-params{color:#ACF2E4;}.hljs-emphasis{font-style:italic;}.hljs-title{color:#6BDFFF;}.hljs-deletion{color:#DABAFF;}.hljs-meta{color:#B281EB;}.hljs-name{color:#DABAFF;}.hljs-type{color:#ACF2E4;}.hljs-symbol{color:#FF8170;}.hljs-regexp{color:#DABAFF;}.hljs-built_in{color: #B281EB;}.hljs-template-variable{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-section{color:#6BDFFF;}.hljs-strong{font-weight:bold;}.hljs-string{color:#FF8170;}.hljs-comment{color:#7F8C98;}.hljs-link{color:#DABAFF;}.hljs-attribute{color:#DABAFF;}.hljs-quote{color:#7F8C98;}.hljs-selector-id{color:#DABAFF;}.hljs-number{color: #D9C97C;}.hljs-tag{color:#DABAFF;}.hljs-addition{color:#FF8170;}.hljs-selector-class{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs{color:#E0E0E0;padding:0.5em;display:block;}.hljs-class{color:#6BDFFF;}.hljs-keyword{color:#FF7AB2;}.hljs-builtin-name{color: #B281EB;}.hljs-selector-tag{color:#FF7AB2;}.hljs-bullet{color:#FF8170;}</style>
