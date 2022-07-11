@@ -18,7 +18,7 @@ As we saw an saynchronous function that is supended it also suspends its caller 
 
 We could solve this issue by making the caller an asynchronous one, but probably we can not keep doing this forever along our code so at the end of the day we will need to call an asynchronous function from a non asynchronous one. Here is where `Tasks` appear.
 
-Basically a `Task` is a piece of code that can be run asynchronously. It can start running inmediatly without starting or scheduling it. Nevertheless you can use its reference to pause or cancel it, in case you want to refernece it.
+Basically a `Task` is a piece of code that can be run asynchronously. It can start running inmediatly without starting or scheduling it. Nevertheless you can use its reference to pause or cancel it, in case you want to reference it.
 
 Let's see how we can take advantages of task in oreder to run an asynchronous code inside a non asynchronous function:
 
@@ -43,7 +43,7 @@ Let's see how we can take advantages of task in oreder to run an asynchronous co
     }
 }</code></pre>
 
-
+`Tasks` are a really powerful tool that you can manage in different ways, you can cancel it, put it to sleep during nanoseconds, accessing the result value, set a priority for it, etc.
 
 Thanks for reading :)
 
