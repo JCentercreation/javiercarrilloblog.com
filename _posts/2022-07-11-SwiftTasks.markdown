@@ -12,7 +12,9 @@ In previous posts we have gone throught basics concepts about asynchrony and con
 
 <br>
 <h3 style="color: #403F3F">Calling Async methods from a function that does not support concurrency</h3>
-As we saw an saynchronous function that is supended it also suspends its caller too, that is why the callen must be asynchronous also. We could solve this issue by making the caller an asynchronous one, but probably we can not keep doing this forever along our code so at the end of the day we will need to call an asynchronous function from a non asynchronous one. Here is where `Tasks` appear.
+As we saw an saynchronous function that is supended it also suspends its caller too, that is why the callen must be asynchronous also. 
+
+We could solve this issue by making the caller an asynchronous one, but probably we can not keep doing this forever along our code so at the end of the day we will need to call an asynchronous function from a non asynchronous one. Here is where `Tasks` appear.
 
 
 
