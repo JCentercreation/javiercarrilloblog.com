@@ -8,7 +8,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding
 ---
-When our code instantiates an entitie that entitie is saved into a memory space until all the references inside the code to that entitie are removed. But sometimes the references to the entitie are destroyed prior the Swift's memory manager (ARC) is able to remove the entitie from memory. So at the end of the day, **a memory leak is memory that was allocated at some point but never released, and since there is no reference to it there is no way to free it so it can be used in the future.**
+When our code instantiates an entity that entitie is saved into a memory space until all the references inside the code to that entitie are removed. But sometimes the references to the entitie are destroyed prior the Swift's memory manager (ARC) is able to remove the entitie from memory. So at the end of the day, **a memory leak is memory that was allocated at some point but never released, and since there is no reference to it there is no way to free it so it can be used in the future.**
 
 Memory leaks not only increase our app memory footprint, something that our app and the device is running on could cope with despite the fact is not optimum, but they also could lead to crashes, which is critical. And, despite the fact that our code could lead into a memory leakage thanks to third party framework which has not been optimized, it is very likely that the memory leaks appear thank to the programmer and the implementation of retain cycles. In order to understand what a retain cycle is and how to avoid them, is mandatory to know how the Swift's memory manager works.
 
