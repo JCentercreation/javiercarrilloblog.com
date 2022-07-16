@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Swift Concurrency III: Prueba"
-date:   2022-07-11 12:02:05 +0100
+date:   2022-07-12 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
