@@ -12,7 +12,7 @@ In previous posts we have gone throught basics concepts about asynchrony and con
 
 <br>
 <h3 style="color: #403F3F">Calling Async methods from a function that does not support concurrency</h3>
-As we saw an saynchronous function that is supended it also suspends its caller too, that is why the callen must be asynchronous also.
+As we saw an saynchronous function that is supended it also suspends its caller too, that is why the callen must be asynchronous as well.
 
 <img style="display: block; margin-left: auto; margin-right: auto; width: 100%; object-fit: contain; border-radius: 8px" src="/assets/img/asyncError.png">
 
