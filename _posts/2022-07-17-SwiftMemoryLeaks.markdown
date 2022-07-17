@@ -208,7 +208,7 @@ print</span>(class1!.<span class="hljs-attribute">formated</span>())
 class1 = <span class="hljs-literal">nil</span>
 </code></pre>
 
-We could expect that when we set "class1" as nil, the class is deinitialized, but... there's a `self` strong reference inside the closure! So ARC will not deinitilize the class:
+We could expect that when we set "class1" as nil, the class is deinitialized, but... there is a `self` strong reference inside the closure! So ARC will not deinitilize the class:
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 8px" src="/assets/img/TextOutput.png"></h1>
 
 
