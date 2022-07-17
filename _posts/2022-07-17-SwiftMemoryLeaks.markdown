@@ -9,13 +9,13 @@ published: true
 tags: coding
 ---
 # Throught this post you will learn:
-> **What a memory leak is**
+## **What a memory leak is**
 
-> **How Swift's memory manager works**
+## **How Swift's memory manager works**
 
-> **How to avoid memory leaks throught your code**
+## **How to avoid memory leaks throught your code**
 
-> **Common memory leak case within closures**
+## **Common memory leak case within closures**
 
 <br>
 <h3 style="color: #403F3F">What's a memory leak?</h3>
