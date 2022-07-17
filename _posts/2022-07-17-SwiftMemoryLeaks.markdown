@@ -8,11 +8,12 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding
 ---
-# Throught this post you will learn:
-1. **What a memory leak is**
-2. **How Swift's memory manager works**
-3. **How to avoid memory leaks throught your code**
-4. **Common memory leak case within closures**
+> # Throught this post you will learn:
+>
+> - **What a memory leak is**
+> - **How Swift's memory manager works**
+> - **How to avoid memory leaks throught your code**
+> - **Common memory leak case within closures**
 
 <br>
 <h3 style="color: #403F3F">What's a memory leak?</h3>
