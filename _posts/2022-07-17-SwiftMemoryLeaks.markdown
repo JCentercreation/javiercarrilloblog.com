@@ -248,6 +248,8 @@ class1!.<span class="hljs-attribute">content</span> = <span class="hljs-literal"
 print</span>(class1!.<span class="hljs-attribute">formated</span>())
 class1 = <span class="hljs-literal">nil</span></code></pre>
 
+<h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 8px" src="/assets/img/TextWeakOutput.png"></h1>
+
 <br>
 <h3 style="color: #403F3F">Summing Up</h3>
 
