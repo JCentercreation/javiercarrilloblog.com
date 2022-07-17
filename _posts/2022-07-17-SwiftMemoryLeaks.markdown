@@ -211,6 +211,42 @@ class1 = <span class="hljs-literal">nil</span>
 We could expect that when we set "class1" as nil, the class is deinitialized, but... there is a `self` strong reference inside the closure! So ARC will not deinitilize the class:
 <h1><img style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 8px" src="/assets/img/TextOutput.png"></h1>
 
+So we should define `self` as a `weak` or `unowned` reference. Bear in mind that `weak` will make it optional.
+
+<style>.hljs-comment{color:#7F8C98;}.hljs-number{color: #D9C97C;}.hljs-class{color:#6BDFFF;}.hljs-bullet{color:#FF8170;}.hljs-title{color:#6BDFFF;}.hljs{display:block;color:#E0E0E0;padding:0.5em;}.hljs-literal{color: #B281EB;}.hljs-tag{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}.hljs-variable{color:#DABAFF;}.hljs-link{color:#DABAFF;}.hljs-keyword{color:#FF7AB2;}.hljs-deletion{color:#DABAFF;}.hljs-section{color:#6BDFFF;}.hljs-builtin-name{color: #B281EB;}.hljs-addition{color:#FF8170;}.hljs-template-variable{color:#DABAFF;}.hljs-symbol{color:#FF8170;}.hljs-name{color:#DABAFF;}.hljs-strong{font-weight:bold;}.hljs-string{color:#FF8170;}.hljs-selector-id{color:#DABAFF;}.hljs-emphasis{font-style:italic;}.hljs-meta{color:#B281EB;}.hljs-quote{color:#7F8C98;}.hljs-regexp{color:#DABAFF;}.hljs-attribute{color:#DABAFF;}.hljs-function{color:#6BDFFF;}.hljs-type{color:#ACF2E4;}.hljs-params{color:#ACF2E4;}.hljs-selector-tag{color:#FF7AB2;}.hljs-built_in{color: #B281EB;}</style>
+
+<pre style="background-color: #292A30; border-radius:8px; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid #DDDDDD"><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Text</span> </span>{
+    
+    <span class="hljs-keyword">var</span> title: <span class="hljs-type">String</span>
+    <span class="hljs-keyword">var</span> content: <span class="hljs-type">String?</span>
+    
+    <span class="hljs-built_in">lazy</span> <span class="hljs-keyword">var</span> formated: () -&gt; <span class="hljs-type">String</span> = { [<span class="hljs-keyword">weak</span> <span class="hljs-keyword">self</span>] <span class="hljs-keyword">in</span>
+        <span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> content = <span class="hljs-keyword">self</span>?.<span class="hljs-attribute">content</span> {
+            <span class="hljs-keyword">return</span> <span class="hljs-string">"Title: \(self?.title), Content: \(content)"</span>
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">return</span> <span class="hljs-string">"Title: \(self?.title)"</span>
+        }
+    }
+    
+   <span class="hljs-attribute"> init</span>(title: <span class="hljs-type">String</span>, content: <span class="hljs-type">String?</span> = <span class="hljs-literal">nil</span>){
+        <span class="hljs-keyword">self</span>.<span class="hljs-attribute">title</span> = title
+        <span class="hljs-keyword">self</span>.<span class="hljs-attribute">content</span> = content
+       <span class="hljs-attribute"> print</span>(<span class="hljs-string">"Text class initialized"</span>)
+    }
+    
+    <span class="hljs-keyword">deinit</span> {
+       <span class="hljs-attribute"> print</span>(<span class="hljs-string">"Text class deinitialized"</span>)
+    }
+    
+}
+
+
+<span class="hljs-keyword">var</span> class1: <span class="hljs-type">Text?</span> =<span class="hljs-attribute"> Text</span>(title: <span class="hljs-string">"Chapter 1"</span>)
+class1!.<span class="hljs-attribute">content</span> = <span class="hljs-string">"Alexander Hamilton: The founding father"</span><span class="hljs-attribute">
+print</span>(class1!.<span class="hljs-attribute">formated</span>())
+class1!.<span class="hljs-attribute">content</span> = <span class="hljs-literal">nil</span><span class="hljs-attribute">
+print</span>(class1!.<span class="hljs-attribute">formated</span>())
+class1 = <span class="hljs-literal">nil</span></code></pre>
 
 <br>
 <h3 style="color: #403F3F">Summing Up</h3>
