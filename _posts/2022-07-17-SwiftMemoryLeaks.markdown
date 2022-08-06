@@ -8,7 +8,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding
 ---
-> # Throught this post you will learn:
+> # Throughout this post you will learn:
 >
 > - **What a memory leak is**
 > - **How Swift's memory manager works**
