@@ -8,7 +8,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding
 ---
-> # Throught this post you will learn:
+> # Throughout this post you will learn:
 >
 > - The generic code potential
 > - Generic types
