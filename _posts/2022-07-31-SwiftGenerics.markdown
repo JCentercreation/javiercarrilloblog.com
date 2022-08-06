@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swift generics"
+title: "Decoding Swift generics power"
 date:   2022-07-31 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
