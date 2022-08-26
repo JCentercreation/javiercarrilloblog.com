@@ -9,7 +9,7 @@ published: true
 tags: coding
 ---
 <h3 style="color: #403F3F">What's concurrency?</h3>
-As you may know, concurrency is a very interesting tool when it comes, for instante, to network calls. In that case we do not want to pause all the tasks that our app is running just because networks functions are running, mainly because that behaviour could freeze the user interface tasks that are updating the views and letting the user to keep flowing throught the app. So thats why it is better to perform all network functions as an asynchronous ones.
+As you may know, concurrency is a very interesting tool when it comes, for instance, to build network calls. In that case we do not want to pause all the tasks that our app is running just because networks functions are running, mainly because that behaviour could freeze the user interface tasks that are updating the views and letting the user to keep flowing throught the app. So that's why it is better to perform all network functions as asynchronous ones.
 
 When it comes to Concurrency in Swift we are in reallity talking about asynchronous and parallel tasks. Asynchronous tasks are those that can be suspended and resumed when needed in order to let other tasks with a higher level of priority to be runned, and parallel tasks are those that are able to be executed at the same time through a multicore processor.
 
@@ -66,7 +66,7 @@ The main example of an asynchronous function is a closure one (callback). These 
 
 </code></pre>
 
-In this example there are up to five `completion` executions...not very handy. So we need to figure out a new way to structure the code without lossing any functionality in terms of asynchrony and error handling. And here it is when we came across with new async/await functions.
+In this example there are up to five `completion` executions...not very handy. So we need to figure out a new way to structure the code without losing any functionality in terms of asynchrony and error handling. And here it is when we came across with new `async/await` functions.
 
 <style>.hljs-selector-id{color:#DABAFF;}.hljs-strong{font-weight:bold;}.hljs-symbol{color:#FF8170;}.hljs-quote{color:#7F8C98;}.hljs-keyword{color:#FF7AB2;}.hljs-deletion{color:#DABAFF;}.hljs-variable{color:#DABAFF;}.hljs-number{color: #D9C97C;}.hljs-title{color:#6BDFFF;}.hljs-section{color:#6BDFFF;}.hljs-tag{color:#DABAFF;}.hljs-meta{color:#B281EB;}.hljs-builtin-name{color: #B281EB;}.hljs-string{color:#FF8170;}.hljs{display:block;padding:0.5em;color:#E0E0E0;}.hljs-class{color:#6BDFFF;}.hljs-built_in{color: #B281EB;}.hljs-type{color:#ACF2E4;}.hljs-comment{color:#7F8C98;}.hljs-regexp{color:#DABAFF;}.hljs-literal{color: #B281EB;}.hljs-addition{color:#FF8170;}.hljs-selector-tag{color:#FF7AB2;}.hljs-link{color:#DABAFF;}.hljs-emphasis{font-style:italic;}.hljs-params{color:#ACF2E4;}.hljs-function{color:#6BDFFF;}.hljs-template-variable{color:#DABAFF;}.hljs-bullet{color:#FF8170;}.hljs-name{color:#DABAFF;}.hljs-attribute{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}</style>
 

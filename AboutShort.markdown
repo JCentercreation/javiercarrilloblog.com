@@ -16,7 +16,7 @@ permalink: /about
 <body>
 <h1 style="font-size: 60px; color: #403F3F"><b>About</b></h1>
 <p>Hi, I'm Javi (short for Javier). I'm a mechanical and industrial engineer who has been working the most of my life as a software developer, so I like to consider myself a software engineer.</p>
-<p>Few years ago I developed powertrain control software for companies like Nissan-Renault or SEAT, and now I work as a freelancer using my coding skills for helping small business to reduce cost, save time and enhance customer and employees experience.</p>
+<p>Few years ago I worked developing powertrain control software for companies like Nissan or SEAT, and now I work as an iOS Software Engineer using my coding skills for helping small business to reduce cost, save time and enhance customer and employees experience.</p>
 <p>I like to write software, to write about it and to teach it. That's why I started this blog. I hope it is useful for you in someway :)</p>
 </body>
 
