@@ -8,11 +8,11 @@ permalink: /:categories/:day/:month/:year/:title.html
 published: true
 tags: coding
 ---
-If you are new with Swift concurrency I strongly recommend you reading <a href="https://www.javiercarrilloblog.com/coding/15/04/2022/SwiftAsyncAwait.html">**Swift Concurrency I: Async/Await**</a> prior to this post. There you will find the basic concepts of swift concurrency and how to implement `async/await` so it will be much easier for you to understand more complex stuff like swift actors.
+If you are new with Swift concurrency I strongly recommend you reading <a href="https://www.javiercarrilloblog.com/coding/15/04/2022/SwiftAsyncAwait.html">**Swift Concurrency I: Async/Await**</a> prior to this post. There you will find the basic concepts of swift concurrency and how to implement `async/await` so it will be much easier for you to understand more complex stuff like Swift actors.
 
 <br>
 <h3 style="color: #403F3F">What's a Data Race?</h3>
-Well a data race occurs when at least two executions (two separate threads) tries to access to the same data an at letas one of those executions is a "write" one. Let's see a quick example about how a data race could happen.
+Well a data race occurs when at least two executions (two separate threads) try to access to the same data an at least one of those executions is a "write" one. Let's see a quick example about how a data race could happen.
 
 <style>.hljs-tag{color:#DABAFF;}.hljs-keyword{color:#FF7AB2;}.hljs-template-variable{color:#DABAFF;}.hljs-meta{color:#B281EB;}.hljs-link{color:#DABAFF;}.hljs-selector-class{color:#DABAFF;}.hljs-attribute{color:#DABAFF;}.hljs-regexp{color:#DABAFF;}.hljs-emphasis{font-style:italic;}.hljs-literal{color: #B281EB;}.hljs{padding:0.5em;display:block;color:#E0E0E0;}.hljs-variable{color:#DABAFF;}.hljs-string{color:#FF8170;}.hljs-selector-tag{color:#FF7AB2;}.hljs-symbol{color:#FF8170;}.hljs-name{color:#DABAFF;}.hljs-deletion{color:#DABAFF;}.hljs-built_in{color: #B281EB;}.hljs-class{color:#6BDFFF;}.hljs-title{color:#6BDFFF;}.hljs-number{color: #D9C97C;}.hljs-section{color:#6BDFFF;}.hljs-bullet{color:#FF8170;}.hljs-type{color:#ACF2E4;}.hljs-addition{color:#FF8170;}.hljs-builtin-name{color: #B281EB;}.hljs-quote{color:#7F8C98;}.hljs-strong{font-weight:bold;}.hljs-params{color:#ACF2E4;}.hljs-selector-id{color:#DABAFF;}.hljs-comment{color:#7F8C98;}.hljs-function{color:#6BDFFF;}</style>
 
@@ -37,7 +37,7 @@ Well a data race occurs when at least two executions (two separate threads) trie
 }
 </code></pre>
 
-You might thing that Task1 will return and 1 and Task2 will return a 2, but it really depends on the execution timing, which we are not able to figure it out because the scheduler change the order of concurrent tasks each time we run the program. It is likely that Task1 would return a 2 and Task would return a 1, or even both task returns a 1 or a 2. This is a data race.
+You might think that Task1 will return and 1 and Task2 will return a 2, but it really depends on the execution timing, which we are not able to figure it out because the scheduler change the order of concurrent tasks each time we run the program. It is likely that Task1 would return a 2 and Task2 would return a 1, or even both tasks return a 1 or a 2. This is a data race.
 
 <br>
 <h3 style="color: #403F3F">How to avoid data races</h3>
