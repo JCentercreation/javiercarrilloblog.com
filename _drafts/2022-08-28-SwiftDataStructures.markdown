@@ -67,14 +67,58 @@ event.<span class="hljs-attribute">removeAttendee</span>(attendee:<span class="h
 In this example the array only contains two elements, but what if the array contains hundreds or thousands of elements? In that case geting the index of the element we want to remove will take time.
 
 <br>
-<h3 style="color: #403F3F">Sets</h3>
+<h3 style="color: #403F3F">Set</h3>
 
+A better approach to the problem we stumble across with the previous example would be using a `Set` rather than an `Array`. A Set is like an Array where the elements are stored by a hash value instead of an index, so the elements are directly accesed and there's no need in going throught all the structure to find the element we are searching. Let's see how to substitute the Array by a Set in our example:
 
+<style>.hljs-bullet{color:#FF8170;}.hljs-tag{color:#DABAFF;}.hljs-name{color:#DABAFF;}.hljs-number{color: #D9C97C;}.hljs-link{color:#DABAFF;}.hljs-variable{color:#DABAFF;}.hljs-keyword{color:#FF7AB2;}.hljs-built_in{color: #B281EB;}.hljs-selector-class{color:#DABAFF;}.hljs-attribute{color:#DABAFF;}.hljs-string{color:#FF8170;}.hljs-strong{font-weight:bold;}.hljs-selector-tag{color:#FF7AB2;}.hljs-comment{color:#7F8C98;}.hljs-literal{color: #B281EB;}.hljs-function{color:#6BDFFF;}.hljs-addition{color:#FF8170;}.hljs-params{color:#ACF2E4;}.hljs-type{color:#ACF2E4;}.hljs-symbol{color:#FF8170;}.hljs-selector-id{color:#DABAFF;}.hljs-emphasis{font-style:italic;}.hljs-class{color:#6BDFFF;}.hljs-template-variable{color:#DABAFF;}.hljs{display:block;padding:0.5em;color:#E0E0E0;}.hljs-meta{color:#B281EB;}.hljs-quote{color:#7F8C98;}.hljs-regexp{color:#DABAFF;}.hljs-deletion{color:#DABAFF;}.hljs-builtin-name{color: #B281EB;}.hljs-title{color:#6BDFFF;}.hljs-section{color:#6BDFFF;}</style>
+
+<pre style="background-color: #292A30; border-radius:8px; border-top: 0px solid gray; border-left: 0px solid gray; border-right: 0px solid gray; border-bottom: 0px solid #DDDDDD"><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Person</span>: <span class="hljs-title">Equatable</span>, <span class="hljs-title">Hashable</span> </span>{
+    <span class="hljs-keyword">var</span> name: <span class="hljs-type">String</span>
+    <span class="hljs-keyword">var</span> email: <span class="hljs-type">String</span>
+    
+   <span class="hljs-attribute"> init</span>(name: <span class="hljs-type">String</span>, email: <span class="hljs-type">String</span>) {
+        <span class="hljs-keyword">self</span>.<span class="hljs-attribute">name</span> = name
+        <span class="hljs-keyword">self</span>.<span class="hljs-attribute">email</span> = email
+    }
+}
+
+<span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">Event</span> </span>{
+    <span class="hljs-keyword">var</span> attendees: <span class="hljs-type">Set</span>&lt;<span class="hljs-type">Person</span>&gt;
+    
+    <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">printAttendees</span><span class="hljs-params">()</span></span> {
+        attendees.<span class="hljs-attribute">forEach</span> { attendee <span class="hljs-keyword">in</span>
+           <span class="hljs-attribute"> print</span>(attendee)
+        }
+    }
+}
+
+<span class="hljs-keyword">var</span> person1 =<span class="hljs-attribute"> Person</span>(name: <span class="hljs-string">"Javier"</span>, email: <span class="hljs-string">"javier@email.com"</span>)
+<span class="hljs-keyword">var</span> person2 =<span class="hljs-attribute"> Person</span>(name: <span class="hljs-string">"Maria"</span>, email: <span class="hljs-string">"maria@email.com"</span>)
+
+<span class="hljs-keyword">var</span> event =<span class="hljs-attribute"> Event</span>(attendees: [person1, person2])
+event.<span class="hljs-attribute">printAttendees</span>()
+
+<span class="hljs-class"><span class="hljs-keyword">extension</span> <span class="hljs-title">Event</span> </span>{
+    
+    <span class="hljs-keyword">mutating</span> <span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">removeAttendee</span><span class="hljs-params">(attendee: Person)</span></span> {
+        attendees.<span class="hljs-attribute">remove</span>(attendee)
+    }
+}</code></pre>
+
+As you can see the `removeAttendee` is much easier by using a Set rather than an Array, but on the other hand, we have lost the stable print order because now the `printAttendees` function will print the elements of the Set in a random order.
+
+<br>
+<h3 style="color: #403F3F">List</h3>
+
+We have learnt that `Arrays` are very suitable for accesing the elements in order and that `Sets` let us access the element without the need of going throught all the structure to find it...but is there any solution that gathers the best of both worlds?
 
 <br>
 <h3 style="color: #403F3F">Summing Up</h3>
 
 - A Data Structure is a way to store and organize the data so it is easier and more efficient to manage it.
+- `Array` is very useful when ther's the need of accesing the elements in order, if that's not the case by using a `Set` we will get more efficient results.
+- 
 
 
 <br>
