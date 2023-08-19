@@ -26,11 +26,11 @@ title:
   <a class="a1" href="https://www.javiercarrilloblog.com/coding/19/08/2023/SwiftDataIntroduction.html">
     <body>
       <h1 style="font-size: 60px; margin: 0px 0px"><b>SwiftData: Introduction</b></h1>
-      <p>Introducing the new persistence framework</p>
+      <p>Introducing the new persistence framework.</p>
     </body>
   </a>
 </body>
-<a class="a1" style="color: #75A4F2" href="http://www.javiercarrilloblog.com/coding/18/09/2021/ARKit-Image-Recognition.html"><b>Continue reading >></b>
+<a class="a1" style="color: #75A4F2" href="https://www.javiercarrilloblog.com/coding/19/08/2023/SwiftDataIntroduction.html"><b>Continue reading >></b>
 </a>
 <br>
 <br>
