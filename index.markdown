@@ -23,10 +23,10 @@ title:
 </header> -->
 <br>
 <body>
-  <a class="a1" href="http://www.javiercarrilloblog.com/coding/18/09/2021/ARKit-Image-Recognition.html">
+  <a class="a1" href="https://www.javiercarrilloblog.com/coding/19/08/2023/SwiftDataIntroduction.html">
     <body>
-      <h1 style="font-size: 60px; margin: 0px 0px"><b>ARKit: Image Recognition</b></h1>
-      <p>Take your first steps in Augmented Reality</p>
+      <h1 style="font-size: 60px; margin: 0px 0px"><b>SwiftData: Introduction</b></h1>
+      <p>Introducing the new persistence framework</p>
     </body>
   </a>
 </body>
