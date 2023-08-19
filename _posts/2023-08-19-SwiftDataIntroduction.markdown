@@ -191,7 +191,7 @@ Now we need a NotesListView to list all the saved Notes:
         .<span class="hljs-literal">modelContainer</span>(<span class="hljs-keyword">for</span>: <span class="hljs-type">NoteModel</span>.<span class="hljs-attribute">self</span>)
 }
 </code></pre>
-The List needs to query the notes stored in the model container with ` @Query(sort: , order: )`, and the modal container must be implemented with `modalContainer(for: )` in order to be accesible:
+The List needs to query the notes stored in the model container with `@Query(sort: , order: )` , and the modal container must be implemented with `modalContainer(for: )` in order to be accesible:
 <pre><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-keyword">import</span> SwiftUI
 
 @main
