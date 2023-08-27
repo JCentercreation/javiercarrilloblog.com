@@ -136,7 +136,7 @@ But oftentimes or apps view hierarchy is much more complicated that a single vie
 
 <h3 style="color: #403F3F">Bonus</h3>
 
-Setting an environment property by instancing it directly in the view is very straightforward but maybe is not the smartest way to do it. You may have already used some `EnvironmentKey` objects like `\.dismiss` or `\.colorScheme` so... why not create a customized one for our user environment object?
+Setting an environment property by instancing it directly in the view is very straightforward but maybe is not the smartest way to do it. You may have already used some `EnvironmentKey` objects like `\.dismiss` or `\.colorScheme` so... why not creating a customized one for our user environment object?
 <pre><code class="hljs" style="background:#292A30;border-radius:8px"><span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">CustomUserKey</span>: <span class="hljs-title">EnvironmentKey</span> </span>{
     <span class="hljs-keyword">static</span> <span class="hljs-keyword">var</span> defaultValue =<span class="hljs-attribute"> User</span>(name: <span class="hljs-string">""</span>, age: <span class="hljs-number">0</span>)
 }
