@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "@ViewBuilder"
-date:   2023-09-03 12:02:05 +0100
+date:   2023-08-28 12:02:05 +0100
 categories: coding
 author: Javier Carrillo
 permalink: /:categories/:day/:month/:year/:title.html
